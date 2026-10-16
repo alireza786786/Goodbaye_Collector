@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.png.jpeg" alt="Goodbaye Collector Banner" width="100%" style="border-radius: 16px;">
+  <img src="banner.png" alt="Goodbaye Collector Banner" width="100%" style="border-radius: 16px;">
 </div>
 <div align="center">
 
