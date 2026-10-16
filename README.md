@@ -1,17 +1,13 @@
 <div align="center">
-  <img src="banner.png" alt="Goodbaye Collector Banner" width="100%" style="border-radius: 16px;">
-</div>
-<div align="center">
+  <img src="banner.png.jpg" alt="Goodbaye Collector Banner" width="100%" style="border-radius: 16px;">
 
-# 🛡️ Goodbaye Collector
-### ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray
+  <br><br>
 
-[![Update](https://img.shields.io/badge/بروزرسانی-هر_۲_ساعت-brightgreen)](#)
-[![Status](https://img.shields.io/badge/تست_سلامت-TCP_Liveness_Passed-blue)](#)
-[![Web Panel](https://img.shields.io/badge/وب_پنل_آنلاین-GitHub_Pages-orange)](https://alireza786786.github.io/Goodbaye_Collector/)
-[![Channel](https://img.shields.io/badge/تلگرام-Goodbaye__filtering-blueviolet?logo=telegram)](https://t.me/Goodbaye_filtering)
-[![VIP Channel](https://img.shields.io/badge/کانال_VIP-CONFIG__V2RAY__VIP-gold?logo=telegram)](https://t.me/CONFIG_V2RAY_VIP)
-
+  [![Update](https://img.shields.io/badge/بروزرسانی-هر_۲_ساعت-brightgreen)](#)
+  [![Status](https://img.shields.io/badge/تست_سلامت-TCP_Liveness_Passed-blue)](#)
+  [![Web Panel](https://img.shields.io/badge/وب_پنل_آنلاین-GitHub_Pages-orange)](https://alireza786786.github.io/Goodbaye_Collector/)
+  [![Channel](https://img.shields.io/badge/تلگرام-Goodbaye__filtering-blueviolet?logo=telegram)](https://t.me/Goodbaye_filtering)
+  [![VIP Channel](https://img.shields.io/badge/کانال_VIP-CONFIG__V2RAY__VIP-gold?logo=telegram)](https://t.me/CONFIG_V2RAY_VIP)
 </div>
 
 ---
