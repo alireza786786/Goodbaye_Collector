@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="banner.png" alt="Goodbaye Collector Banner" width="100%" style="border-radius: 16px;">
+</div>
+<div align="center">
 
 # 🛡️ Goodbaye Collector
 ### ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray
