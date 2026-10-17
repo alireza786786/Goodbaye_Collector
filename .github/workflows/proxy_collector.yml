@@ -1,0 +1,44 @@
+name: Goodbaye Proxy Collector
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-proxy-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Requirements
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Proxy Engine
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TARGET_CHAT_ID: ${{ secrets.TARGET_CHAT_ID }}
+          SOCKS5_SOURCES: ${{ secrets.SOCKS5_SOURCES }}
+          HTTPS_SOURCES: ${{ secrets.HTTPS_SOURCES }}
+          TELEGRAM_SOURCES: ${{ secrets.TELEGRAM_SOURCES }}
+          MIXED_SOURCES: ${{ secrets.MIXED_SOURCES }}
+        run: |
+          python proxy_collector.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "Goodbaye-Bot"
+          git config --global user.email "bot@goodbaye.local"
+          git add proxies/ sub/
+          git commit -m "Auto Update: Sharded Proxies & Subscriptions [skip ci]" || exit 0
+          git push
