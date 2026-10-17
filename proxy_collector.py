@@ -51,9 +51,35 @@ def download_urls_from_secret(secret_text):
 
 def parse_proxy_line(line, default_proto="socks5"):
     line = line.strip()
+    if not line:
+        return None
+
+    # ۱. شناسایی هوشمند لینک‌های اختصاصی تلگرام
+    if any(k in line for k in ["t.me/socks", "tg://socks", "t.me/proxy", "tg://proxy", "?server="]):
+        try:
+            parsed_url = urllib.parse.urlparse(line)
+            qs = urllib.parse.parse_qs(parsed_url.query)
+            srv = qs.get("server", [None])[0]
+            prt = qs.get("port", [None])[0]
+            sec = qs.get("secret", [None])[0]
+            usr = qs.get("user", [None])[0]
+            pwd = qs.get("pass", [None])[0]
+            if srv and prt:
+                return {
+                    "proto": "telegram",
+                    "ip": srv.strip().replace("[", "").replace("]", ""),
+                    "port": int(prt.strip()),
+                    "user": usr,
+                    "pwd": pwd,
+                    "secret": sec
+                }
+        except Exception:
+            pass
+
     proto = default_proto
     user, pwd = None, None
 
+    # ۲. شناسایی لینک‌های استاندارد socks5 و https
     if "://" in line:
         parts = line.split("://", 1)
         p = parts[0].lower()
@@ -61,8 +87,6 @@ def parse_proxy_line(line, default_proto="socks5"):
             proto = "socks5"
         elif p in ["https", "http"]:
             proto = "https"
-        elif "tg" in p:
-            proto = "telegram"
         rest = parts[1].split("#")[0]
     else:
         rest = line
@@ -80,7 +104,7 @@ def parse_proxy_line(line, default_proto="socks5"):
             port = int(parts[1].strip())
             if len(parts) == 4 and not user:
                 user, pwd = parts[2].strip(), parts[3].strip()
-            return {"proto": proto, "ip": ip, "port": port, "user": user, "pwd": pwd}
+            return {"proto": proto, "ip": ip, "port": port, "user": user, "pwd": pwd, "secret": None}
         except ValueError:
             return None
     return None
@@ -174,6 +198,7 @@ def generate_link(item):
     proto = item["proto"]
     ip, port, ping = item["ip"], item["port"], item["ping"]
     user, pwd = item.get("user"), item.get("pwd")
+    secret = item.get("secret")
     country = item.get("country", "Germany")
     city = item.get("city", "Frankfurt")
     flag = item.get("flag", "🇩🇪")
@@ -184,14 +209,16 @@ def generate_link(item):
     enc = urllib.parse.quote(remark)
     f_ip = f"[{ip}]" if ":" in ip else ip
 
-    if proto == "socks5":
-        if user and pwd:
-            return f"socks5://{user}:{pwd}@{f_ip}:{port}#{enc}"
-        return f"socks5://{f_ip}:{port}#{enc}"
+    if proto == "telegram":
+        if secret:
+            return f"https://t.me/proxy?server={f_ip}&port={port}&secret={secret}"
+        return f"https://t.me/socks?server={f_ip}&port={port}"
     elif proto == "https":
         return f"https://{f_ip}:{port}#{enc}"
     else:
-        return f"tg://proxy?server={f_ip}&port={port}"
+        if user and pwd:
+            return f"socks5://{user}:{pwd}@{f_ip}:{port}#{enc}"
+        return f"socks5://{f_ip}:{port}#{enc}"
 
 def save_shards(alive_items):
     os.makedirs("proxies/all", exist_ok=True)
@@ -212,6 +239,7 @@ def save_shards(alive_items):
         by_proto.setdefault(p, []).append(item)
         by_country.setdefault(c, []).append(item)
 
+    # ذخیره پروتکل‌ها به تفکیک
     for p, items in by_proto.items():
         os.makedirs(f"proxies/protocols/{p}", exist_ok=True)
         links = [generate_link(x) for x in items]
@@ -220,12 +248,18 @@ def save_shards(alive_items):
         with open(f"sub/{p}.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(links) + "\n")
 
-    # ساخت فایل اختصاصی telegramProxys.txt
-    tg_items = by_proto.get("telegram", []) + by_proto.get("socks5", [])
-    if tg_items:
-        tg_links = [generate_link(x) for x in tg_items]
-        with open("sub/telegramProxys.txt", "w", encoding="utf-8") as f:
-            f.write("\n".join(tg_links) + "\n")
+    # ساخت فایل مستقیم telegramProxys.txt شامل کل پروکسی‌های سازگار با تلگرام
+    tg_all = []
+    for x in alive_items:
+        if x["proto"] in ["telegram", "socks5"]:
+            f_ip = f"[{x['ip']}]" if ":" in x['ip'] else x['ip']
+            if x.get("secret"):
+                tg_all.append(f"https://t.me/proxy?server={f_ip}&port={x['port']}&secret={x['secret']}")
+            else:
+                tg_all.append(f"https://t.me/socks?server={f_ip}&port={x['port']}")
+
+    with open("sub/telegramProxys.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(tg_all) + "\n")
 
     for c, items in by_country.items():
         os.makedirs(f"proxies/countries/{c}", exist_ok=True)
@@ -260,12 +294,13 @@ def send_telegram_documents(alive_count):
     }
 
     files_to_send = [
-        ("sub/socks5.txt", "Goodbaye_Socks5.txt", "SOCKS5 Proxies"),
-        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies")
+        ("sub/socks5.txt", "Goodbaye_Socks5.txt", "SOCKS5 V2Ray/NekoRay"),
+        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies"),
+        ("sub/https.txt", "Goodbaye_HTTPS.txt", "HTTPS via TLS")
     ]
 
     for f_path, doc_name, title in files_to_send:
-        if not os.path.exists(f_path):
+        if not os.path.exists(f_path) or os.path.getsize(f_path) == 0:
             continue
 
         caption = (
