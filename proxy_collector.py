@@ -15,7 +15,6 @@ FIXED_TAG_LINE1 = "👉🆔@Goodbaye_filtering"
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
 
-# تنظیمات سخت‌گیرانه VIP: تایم‌اوت ۱.۴ ثانیه و حداکثر پینگ ۶۵۰ میلی‌ثانیه
 MAX_WORKERS = 200
 STRICT_TIMEOUT = 1.4
 MAX_PING_CUTOFF = 650
@@ -269,10 +268,13 @@ def save_shards(alive_items):
         with open(f"proxies/countries/{c}/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
             f.write("\r\n".join(links) + "\r\n")
 
+    # کپی هر ۳ فایل به ریشه مخزن برای دسترسی مستقیم
     if os.path.exists("sub/socks5.txt"):
         shutil.copy("sub/socks5.txt", "socks5.txt")
     if os.path.exists("sub/telegramProxys.txt"):
         shutil.copy("sub/telegramProxys.txt", "telegramProxys.txt")
+    if os.path.exists("sub/https.txt"):
+        shutil.copy("sub/https.txt", "https.txt")
 
     tehran_tz = pytz.timezone("Asia/Tehran")
     now_tehran = datetime.now(tehran_tz)
@@ -295,17 +297,21 @@ def send_telegram_documents():
     shamsi_date = jdatetime.datetime.fromgregorian(datetime=now_tehran).strftime("%Y/%m/%d")
     tehran_time = now_tehran.strftime("%H:%M:%S")
 
+    # ۴ دکمه شیشه‌ای رسمی شامل وب‌پنل آنلاین
     reply_markup = {
         "inline_keyboard": [
             [{"text": "📢 کانال اصلی Goodbaye Filtering", "url": "https://t.me/Goodbaye_filtering"}],
             [{"text": "⚡ کانال اختصاصی VIP", "url": "https://t.me/CONFIG_V2RAY_VIP"}],
+            [{"text": "🌐 وب‌پنل آنلاین سابسکریپشن", "url": "https://alireza786786.github.io/Goodbaye_Collector/"}],
             [{"text": "🔄 اشتراک‌گذاری با دوستان", "url": "https://t.me/share/url?url=https://t.me/Goodbaye_filtering"}]
         ]
     }
 
+    # ارسال کامل هر ۳ فایل
     files_to_send = [
         ("sub/socks5.txt", "Goodbaye_Socks5.txt", "SOCKS5 V2Ray/NekoRay"),
-        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies")
+        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies"),
+        ("sub/https.txt", "Goodbaye_HTTPS.txt", "HTTPS via TLS")
     ]
 
     for f_path, doc_name, title in files_to_send:
@@ -322,7 +328,7 @@ def send_telegram_documents():
             f"⏰ ساعت تهران: `{tehran_time}`\n"
             f"📊 شاخص کیفیت: `VIP Strict (Ping < 650ms)`\n"
             f"🔢 تعداد کانفیگ سالم این فایل: `{lines_count}`\n\n"
-            f"🌐 لینک مستقیم گیت‌هاب پیجز:\n"
+            f"🌐 لینک مستقیم دانلود / سابسکریپشن:\n"
             f"`https://alireza786786.github.io/Goodbaye_Collector/{os.path.basename(f_path)}`"
         )
 
@@ -389,6 +395,13 @@ def main():
 
     save_shards(alive)
     send_telegram_documents()
+
+    # آپدیت خودکار صفحه وب با فراخوانی سازنده وب
+    try:
+        import web_generator
+        web_generator.generate_web_page()
+    except Exception:
+        pass
 
 if __name__ == "__main__":
     main()
