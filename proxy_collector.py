@@ -3,6 +3,7 @@ import json
 import socket
 import ssl
 import time
+import shutil
 import urllib.parse
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -54,7 +55,6 @@ def parse_proxy_line(line, default_proto="socks5"):
     if not line:
         return None
 
-    # ۱. شناسایی هوشمند لینک‌های اختصاصی تلگرام
     if any(k in line for k in ["t.me/socks", "tg://socks", "t.me/proxy", "tg://proxy", "?server="]):
         try:
             parsed_url = urllib.parse.urlparse(line)
@@ -79,7 +79,6 @@ def parse_proxy_line(line, default_proto="socks5"):
     proto = default_proto
     user, pwd = None, None
 
-    # ۲. شناسایی لینک‌های استاندارد socks5 و https
     if "://" in line:
         parts = line.split("://", 1)
         p = parts[0].lower()
@@ -205,6 +204,7 @@ def generate_link(item):
     cap = get_capability(ping)
     ptag = get_proto_tag(proto, ip)
 
+    # تگ ۵ خطی استاندارد
     remark = f"{FIXED_TAG_LINE1}\n📡{flag} {country}\n®️{city}\n🅿️ping:{ping}ms\n{cap} | {ptag}"
     enc = urllib.parse.quote(remark)
     f_ip = f"[{ip}]" if ":" in ip else ip
@@ -225,8 +225,8 @@ def save_shards(alive_items):
     os.makedirs("sub", exist_ok=True)
 
     all_links = [generate_link(x) for x in alive_items]
-    with open("proxies/all/data.txt", "w", encoding="utf-8") as f:
-        f.write("\n".join(all_links) + "\n")
+    with open("proxies/all/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
+        f.write("\r\n".join(all_links) + "\r\n")
     with open("proxies/all/data.json", "w", encoding="utf-8") as f:
         json.dump(alive_items, f, ensure_ascii=False, indent=2)
 
@@ -239,16 +239,14 @@ def save_shards(alive_items):
         by_proto.setdefault(p, []).append(item)
         by_country.setdefault(c, []).append(item)
 
-    # ذخیره پروتکل‌ها به تفکیک
     for p, items in by_proto.items():
         os.makedirs(f"proxies/protocols/{p}", exist_ok=True)
         links = [generate_link(x) for x in items]
-        with open(f"proxies/protocols/{p}/data.txt", "w", encoding="utf-8") as f:
-            f.write("\n".join(links) + "\n")
-        with open(f"sub/{p}.txt", "w", encoding="utf-8") as f:
-            f.write("\n".join(links) + "\n")
+        with open(f"proxies/protocols/{p}/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
+            f.write("\r\n".join(links) + "\r\n")
+        with open(f"sub/{p}.txt", "w", encoding="utf-8", newline="\r\n") as f:
+            f.write("\r\n".join(links) + "\r\n")
 
-    # ساخت فایل مستقیم telegramProxys.txt شامل کل پروکسی‌های سازگار با تلگرام
     tg_all = []
     for x in alive_items:
         if x["proto"] in ["telegram", "socks5"]:
@@ -258,14 +256,20 @@ def save_shards(alive_items):
             else:
                 tg_all.append(f"https://t.me/socks?server={f_ip}&port={x['port']}")
 
-    with open("sub/telegramProxys.txt", "w", encoding="utf-8") as f:
-        f.write("\n".join(tg_all) + "\n")
+    with open("sub/telegramProxys.txt", "w", encoding="utf-8", newline="\r\n") as f:
+        f.write("\r\n".join(tg_all) + "\r\n")
 
     for c, items in by_country.items():
         os.makedirs(f"proxies/countries/{c}", exist_ok=True)
         links = [generate_link(x) for x in items]
-        with open(f"proxies/countries/{c}/data.txt", "w", encoding="utf-8") as f:
-            f.write("\n".join(links) + "\n")
+        with open(f"proxies/countries/{c}/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
+            f.write("\r\n".join(links) + "\r\n")
+
+    # کپی کردن مستقیم در ریشه مخزن برای باز شدن روی آدرس اصلی سایت گیت‌هاب پیجز
+    if os.path.exists("sub/socks5.txt"):
+        shutil.copy("sub/socks5.txt", "socks5.txt")
+    if os.path.exists("sub/telegramProxys.txt"):
+        shutil.copy("sub/telegramProxys.txt", "telegramProxys.txt")
 
     stats = {
         "total_active": len(alive_items),
@@ -276,7 +280,7 @@ def save_shards(alive_items):
     with open("proxies/stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2)
 
-def send_telegram_documents(alive_count):
+def send_telegram_documents():
     if not BOT_TOKEN or not TARGET_CHAT_ID:
         return
 
@@ -303,15 +307,18 @@ def send_telegram_documents(alive_count):
         if not os.path.exists(f_path) or os.path.getsize(f_path) == 0:
             continue
 
+        with open(f_path, "r", encoding="utf-8") as f:
+            lines_count = len([l for l in f if l.strip()])
+
         caption = (
             f"🚀 **مجموعه کانفیگ‌های تست‌شده و زنده ({title})**\n"
             f"📡 مناسب دوران اختلال، فیلترینگ و شبکه ملی\n\n"
             f"📅 تاریخ شمسی: `{shamsi_date}`\n"
             f"⏰ ساعت تهران: `{tehran_time}`\n"
             f"📊 شاخص کیفیت: `Ultra Clean & Auto-Tested`\n"
-            f"🔢 تعداد کانفیگ سالم: `{alive_count}`\n\n"
-            f"🌐 سابسکریپشن گیت‌هاب پیجز:\n"
-            f"`https://alireza786786.github.io/Goodbaye_Collector/sub/{os.path.basename(f_path)}`"
+            f"🔢 تعداد کانفیگ سالم این فایل: `{lines_count}`\n\n"
+            f"🌐 لینک مستقیم گیت‌هاب پیجز:\n"
+            f"`https://alireza786786.github.io/Goodbaye_Collector/{os.path.basename(f_path)}`"
         )
 
         url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument"
@@ -376,7 +383,7 @@ def main():
         item["flag"] = get_flag(item["countryCode"])
 
     save_shards(alive)
-    send_telegram_documents(len(alive))
+    send_telegram_documents()
 
 if __name__ == "__main__":
     main()
