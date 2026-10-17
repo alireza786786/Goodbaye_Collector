@@ -14,12 +14,19 @@ FIXED_TAG_LINE1 = "👉🆔@Goodbaye_filtering"
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
 
+# تنظیمات سخت‌گیرانه و فوق‌سریع
+MAX_WORKERS = 250
+STRICT_TIMEOUT = 1.8  # ثانیه - هر سروری بالای این پینگ باشد درجا حذف می‌شود
+MAX_PING_CUTOFF = 1500  # میلی‌ثانیه
+
 SECRET_SOURCES = {
     "socks5": os.getenv("SOCKS5_SOURCES", ""),
     "https": os.getenv("HTTPS_SOURCES", ""),
     "telegram": os.getenv("TELEGRAM_SOURCES", ""),
     "mixed": os.getenv("MIXED_SOURCES", "")
 }
+
+socket.setdefaulttimeout(STRICT_TIMEOUT)
 
 def get_flag(country_code):
     if not country_code or len(country_code) != 2:
@@ -33,7 +40,7 @@ def download_urls_from_secret(secret_text):
     proxies = []
     for url in urls:
         try:
-            r = requests.get(url, timeout=8)
+            r = requests.get(url, timeout=6)
             if r.status_code == 200:
                 for line in r.text.splitlines():
                     l = line.strip()
@@ -79,27 +86,28 @@ def parse_proxy_line(line, default_proto="socks5"):
             return None
     return None
 
-def test_socks5_alive(ip, port, timeout=3.5):
+def test_socks5_alive(ip, port):
     start = time.time()
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(timeout)
+    s.settimeout(STRICT_TIMEOUT)
     try:
         s.connect((ip, int(port)))
         s.sendall(b"\x05\x01\x00")
         resp = s.recv(2)
         if len(resp) == 2 and resp[0] == 5 and resp[1] == 0:
             latency = int((time.time() - start) * 1000)
-            return latency
+            if latency <= MAX_PING_CUTOFF:
+                return latency
     except Exception:
         pass
     finally:
         s.close()
     return None
 
-def test_https_tls_alive(ip, port, timeout=3.5):
+def test_https_tls_alive(ip, port):
     start = time.time()
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(timeout)
+    s.settimeout(STRICT_TIMEOUT)
     try:
         s.connect((ip, int(port)))
         context = ssl.create_default_context()
@@ -107,7 +115,8 @@ def test_https_tls_alive(ip, port, timeout=3.5):
         context.verify_mode = ssl.CERT_NONE
         with context.wrap_socket(s, server_hostname=ip):
             latency = int((time.time() - start) * 1000)
-            return latency
+            if latency <= MAX_PING_CUTOFF:
+                return latency
     except Exception:
         pass
     finally:
@@ -121,20 +130,20 @@ def batch_geoip(ip_list):
         chunk = ip_list[i:i + chunk_size]
         payload = [{"query": ip, "fields": "country,countryCode,city,status"} for ip in chunk]
         try:
-            r = requests.post("http://ip-api.com/batch?lang=en", json=payload, timeout=8)
+            r = requests.post("http://ip-api.com/batch?lang=en", json=payload, timeout=5)
             if r.status_code == 200:
                 for item in r.json():
                     if item.get("status") == "success":
                         geo_data[item.get("query")] = item
         except Exception:
             pass
-        time.sleep(0.5)
+        time.sleep(0.3)
     return geo_data
 
 def get_capability(ping):
-    if ping < 150:
+    if ping < 200:
         return "⚡Full Speed & Low Ping"
-    elif ping < 280:
+    elif ping < 400:
         return "⚡Bypass Filtering"
     else:
         return "⚡Anti-Sanction & National Net"
@@ -245,7 +254,7 @@ def send_telegram_notification(total_count):
         "reply_markup": reply_markup
     }
     try:
-        requests.post(url, json=payload, timeout=10)
+        requests.post(url, json=payload, timeout=8)
     except Exception:
         pass
 
@@ -264,7 +273,7 @@ def main():
     unique_proxies = list(dedup.values())
 
     alive = []
-    with ThreadPoolExecutor(max_workers=80) as executor:
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_proxy = {}
         for item in unique_proxies:
             ip, port, proto = item["ip"], item["port"], item["proto"]
