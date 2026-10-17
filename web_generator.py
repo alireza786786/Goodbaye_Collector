@@ -4,8 +4,16 @@ import datetime
 def generate_web_page():
     output_html = "index.html"
     repo_raw_url = "https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main"
+    pages_base_url = "https://alireza786786.github.io/Goodbaye_Collector"
     
-    # فایل‌های اصلی و فرمت‌ها
+    # ۳ پروتکل اختصاصی و اضطراری جدید
+    emergency_proxies = [
+        {"name": "socks5.txt", "title": "⚡ ساکس ۵ (SOCKS5 Ultra Clean)", "icon": "fa-bolt", "desc": "مخصوص v2rayNG و Nekoray با پینگ تاییدشده", "badge": "SOCKS5"},
+        {"name": "telegramProxys.txt", "title": "✈️ پروکسی مستقیم تلگرام (Direct TG)", "icon": "fa-paper-plane", "desc": "اتصال مستقیم تلگرام بدون نیاز به فیلترشکن", "badge": "TELEGRAM"},
+        {"name": "https.txt", "title": "🔒 پروکسی امن HTTPS via TLS", "icon": "fa-lock", "desc": "ارتباط رمزنگاری‌شده و مقاوم در برابر اینترنت ملی", "badge": "HTTPS"}
+    ]
+
+    # فایل‌های اصلی و فرمت‌های V2Ray (دست‌نخورده و کامل)
     core_files = [
         {"name": "Goodbaye_Sub.txt", "title": "⭐ سابسکرایب اصلی (تست‌شده و زنده)", "icon": "fa-bolt-lightning", "type": "txt"},
         {"name": "Goodbaye_Light.txt", "title": "⚡ سابسکرایب لایت (۲ ساعت اخیر)", "icon": "fa-clock", "type": "txt"},
@@ -32,7 +40,7 @@ def generate_web_page():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goodbaye Collector | پنل اشتراک هوشمند</title>
+    <title>Goodbaye Collector | پنل جامع سابسکریپشن و پروکسی</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
@@ -71,10 +79,48 @@ def generate_web_page():
     <div class="max-w-6xl mx-auto">
         <header class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 mb-3">Goodbaye Collector</h1>
-            <p class="text-slate-400 text-sm">موتور هوشمند استخراج، پالایش و سابسکریپشن زنده V2Ray | بروزرسانی: {now_tehran}</p>
+            <p class="text-slate-400 text-sm">ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray و پروکسی اضطراری | بروزرسانی: {now_tehran}</p>
         </header>
 
-        <!-- بخش پروکسی‌های زنده تلگرام -->
+        <!-- بخش ویژه جدید: پروکسی‌های اضطراری ۳ گانه (Socks5, Telegram, HTTPS) -->
+        <section class="mb-12 glass p-6 rounded-3xl border-t-4 border-emerald-500 shadow-2xl">
+            <div class="flex justify-between items-center mb-6">
+                <div>
+                    <h2 class="text-2xl font-black flex items-center text-emerald-400">
+                        <i class="fa-solid fa-shield-virus ml-3 text-3xl"></i> پروکسی‌های اضطراری ضد فیلتر (SOCKS5 | تلگرام | HTTPS)
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">کانفیگ‌های تست‌شده با پینگ زیر ۶۵۰ms و سازگار با دوران اختلال و شبکه ملی</p>
+                </div>
+                <span class="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full font-bold">تست زنده VIP</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    """
+
+    for ep in emergency_proxies:
+        ep_url = f"{pages_base_url}/{ep['name']}"
+        html_content += f"""
+                <div class="file-card flex flex-col justify-between gap-3 border border-emerald-500/20 bg-emerald-950/20">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">{ep['badge']}</span>
+                            <i class="fa-solid {ep['icon']} text-emerald-400"></i>
+                        </div>
+                        <h3 class="text-sm font-bold text-slate-100">{ep['title']}</h3>
+                        <p class="text-[11px] text-slate-400 mt-1">{ep['desc']}</p>
+                    </div>
+                    <div class="flex gap-2 pt-2 border-t border-white/5">
+                        <button onclick="copyText('{ep_url}')" class="flex-1 bg-emerald-600/30 text-emerald-300 py-2 rounded-lg btn-action hover:bg-emerald-600 hover:text-white transition">کپی لینک</button>
+                        <button onclick="copyContent('{ep_url}')" class="flex-1 bg-purple-600/20 text-purple-300 py-2 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition">کپی متن</button>
+                        <button onclick="downloadFile('{ep_url}', '{ep['name']}')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
+                    </div>
+                </div>"""
+
+    html_content += f"""
+            </div>
+        </section>
+
+        <!-- بخش پروکسی‌های زنده تلگرام MTProto -->
         <section class="mb-12 glass p-6 rounded-3xl border-t-4 border-sky-500 shadow-2xl">
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-black flex items-center text-sky-400">
@@ -93,9 +139,9 @@ def generate_web_page():
             </button>
         </section>
 
-        <!-- بخش سابسکریپشن‌های اصلی -->
+        <!-- بخش سابسکریپشن‌های اصلی V2Ray (دست‌نخورده) -->
         <h2 class="text-2xl font-black mb-6 flex items-center text-blue-400">
-            <i class="fa-solid fa-server ml-3"></i> لینک‌های سابسکریپشن اصلی
+            <i class="fa-solid fa-server ml-3"></i> لینک‌های سابسکریپشن اصلی V2Ray
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
     """
@@ -123,7 +169,7 @@ def generate_web_page():
         </div>
     """
 
-    # بخش سابسکریپشن به تفکیک کشورها
+    # بخش سابسکریپشن به تفکیک کشورها (دست‌نخورده)
     if regional_files:
         html_content += """
         <h2 class="text-2xl font-black mb-6 flex items-center text-indigo-400">
@@ -146,7 +192,7 @@ def generate_web_page():
             </div>"""
         html_content += """</div>"""
 
-    # فوتر اختصاصی و کانال‌های تلگرام
+    # فوتر با هر دو کانال رسمی
     html_content += f"""
         <footer class="mt-16 mb-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -203,7 +249,8 @@ def generate_web_page():
                 tgData.mixed = m.trim() || a.trim() || w.trim() || 'در حال حاضر پروکسی جدیدی موجود نیست.';
                 switchTG('mixed');
             }} catch(e) {{ 
-                document.getElementById('proxy-display').innerText = 'خطا در بارگذاری پروکسی‌ها.';
+                const disp = document.getElementById('proxy-display');
+                if(disp) disp.innerText = 'خطا در بارگذاری پروکسی‌ها.';
             }}
         }}
 
