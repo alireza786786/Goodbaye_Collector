@@ -35,7 +35,7 @@ def get_flag(country_code):
 def download_urls_from_secret(secret_text):
     if not secret_text:
         return []
-    urls = [line.strip() for line in secret_text.replace(",", "\n").splitlines() if line.strip() and not line.strip().startswith("#")]
+    urls = [l.strip() for l in secret_text.replace(",", "\n").splitlines() if l.strip() and not l.strip().startswith("#")]
     proxies = []
     for url in urls:
         try:
@@ -57,29 +57,29 @@ def parse_proxy_line(line, default_proto="socks5"):
     if "://" in line:
         parts = line.split("://", 1)
         p = parts[0].lower()
-        if p in ["socks5", "socks", "https", "http", "tg"]:
-            proto = "socks5" if p in ["socks5", "socks"] else p
+        if p in ["socks5", "socks"]:
+            proto = "socks5"
+        elif p in ["https", "http"]:
+            proto = "https"
+        elif "tg" in p:
+            proto = "telegram"
         rest = parts[1].split("#")[0]
     else:
         rest = line
 
     if "@" in rest:
         auth, host_port = rest.split("@", 1)
-        if ":" in auth:
-            user, pwd = auth.split(":", 1)
-        else:
-            user = auth
+        user, pwd = auth.split(":", 1) if ":" in auth else (auth, None)
         parts = host_port.split(":")
     else:
         parts = rest.split(":")
 
     if len(parts) >= 2:
-        ip = parts[0].strip()
+        ip = parts[0].strip().replace("[", "").replace("]", "")
         try:
             port = int(parts[1].strip())
             if len(parts) == 4 and not user:
-                user = parts[2].strip()
-                pwd = parts[3].strip()
+                user, pwd = parts[2].strip(), parts[3].strip()
             return {"proto": proto, "ip": ip, "port": port, "user": user, "pwd": pwd}
         except ValueError:
             return None
@@ -87,16 +87,17 @@ def parse_proxy_line(line, default_proto="socks5"):
 
 def test_socks5_alive(ip, port):
     start = time.time()
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    family = socket.AF_INET6 if ":" in ip else socket.AF_INET
+    s = socket.socket(family, socket.SOCK_STREAM)
     s.settimeout(STRICT_TIMEOUT)
     try:
         s.connect((ip, int(port)))
         s.sendall(b"\x05\x01\x00")
         resp = s.recv(2)
         if len(resp) == 2 and resp[0] == 5 and resp[1] == 0:
-            latency = int((time.time() - start) * 1000)
-            if latency <= MAX_PING_CUTOFF:
-                return latency
+            lat = int((time.time() - start) * 1000)
+            if lat <= MAX_PING_CUTOFF:
+                return lat
     except Exception:
         pass
     finally:
@@ -105,48 +106,41 @@ def test_socks5_alive(ip, port):
 
 def test_https_tls_alive(ip, port):
     start = time.time()
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    family = socket.AF_INET6 if ":" in ip else socket.AF_INET
+    s = socket.socket(family, socket.SOCK_STREAM)
     s.settimeout(STRICT_TIMEOUT)
     try:
         s.connect((ip, int(port)))
-        context = ssl.create_default_context()
-        context.check_hostname = False
-        context.verify_mode = ssl.CERT_NONE
-        with context.wrap_socket(s, server_hostname=ip):
-            latency = int((time.time() - start) * 1000)
-            if latency <= MAX_PING_CUTOFF:
-                return latency
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        with ctx.wrap_socket(s, server_hostname=ip):
+            lat = int((time.time() - start) * 1000)
+            if lat <= MAX_PING_CUTOFF:
+                return lat
     except Exception:
         pass
     finally:
         s.close()
     return None
 
-# سیستم موقعیت‌یابی مقاوم و چند لایه
 def fetch_single_geo(ip):
-    # منبع اول: freeipapi
     try:
         r = requests.get(f"https://freeipapi.com/api/json/{ip}", timeout=3)
         if r.status_code == 200:
             d = r.json()
-            c_name = d.get("countryName")
-            c_code = d.get("countryCode")
-            city = d.get("cityName")
-            if c_name and c_code:
-                return ip, {"country": c_name, "countryCode": c_code, "city": city or "Cloud"}
+            if d.get("countryName") and d.get("countryCode"):
+                return ip, {"country": d["countryName"], "countryCode": d["countryCode"], "city": d.get("cityName") or "Cloud"}
     except Exception:
         pass
-
-    # منبع دوم فال‌بک: ipwho.is
     try:
         r = requests.get(f"https://ipwho.is/{ip}", timeout=3)
         if r.status_code == 200:
             d = r.json()
             if d.get("success"):
-                return ip, {"country": d.get("country"), "countryCode": d.get("country_code"), "city": d.get("city") or "Cloud"}
+                return ip, {"country": d["country"], "countryCode": d["country_code"], "city": d.get("city") or "Cloud"}
     except Exception:
         pass
-
     return ip, {"country": "Germany", "countryCode": "DE", "city": "Frankfurt"}
 
 def resolve_all_geo(unique_ips):
@@ -161,37 +155,43 @@ def resolve_all_geo(unique_ips):
                 pass
     return geo_data
 
+def get_proto_tag(proto, ip):
+    ver = "IPv6" if ":" in ip else "IPv4"
+    if proto == "https":
+        return f"HTTPS via TLS ({ver})"
+    elif proto == "telegram":
+        return f"Telegram Proxy ({ver})"
+    return f"SOCKS5 ({ver})"
+
 def get_capability(ping):
     if ping < 200:
         return "⚡Full Speed & Low Ping"
     elif ping < 400:
         return "⚡Bypass Filtering"
-    else:
-        return "⚡Anti-Sanction & National Net"
+    return "⚡Anti-Sanction & National Net"
 
 def generate_link(item):
     proto = item["proto"]
-    ip = item["ip"]
-    port = item["port"]
-    ping = item["ping"]
-    user = item.get("user")
-    pwd = item.get("pwd")
+    ip, port, ping = item["ip"], item["port"], item["ping"]
+    user, pwd = item.get("user"), item.get("pwd")
     country = item.get("country", "Germany")
     city = item.get("city", "Frankfurt")
     flag = item.get("flag", "🇩🇪")
     cap = get_capability(ping)
+    ptag = get_proto_tag(proto, ip)
 
-    remark = f"{FIXED_TAG_LINE1}\n📡{flag} {country}\n®️{city}\n🅿️ping:{ping}ms\n{cap}"
-    enc_remark = urllib.parse.quote(remark)
+    remark = f"{FIXED_TAG_LINE1}\n📡{flag} {country}\n®️{city}\n🅿️ping:{ping}ms\n{cap} | {ptag}"
+    enc = urllib.parse.quote(remark)
+    f_ip = f"[{ip}]" if ":" in ip else ip
 
     if proto == "socks5":
         if user and pwd:
-            return f"socks5://{user}:{pwd}@{ip}:{port}#{enc_remark}"
-        return f"socks5://{ip}:{port}#{enc_remark}"
+            return f"socks5://{user}:{pwd}@{f_ip}:{port}#{enc}"
+        return f"socks5://{f_ip}:{port}#{enc}"
     elif proto == "https":
-        return f"https://{ip}:{port}#{enc_remark}"
+        return f"https://{f_ip}:{port}#{enc}"
     else:
-        return f"tg://proxy?server={ip}&port={port}"
+        return f"tg://proxy?server={f_ip}&port={port}"
 
 def save_shards(alive_items):
     os.makedirs("proxies/all", exist_ok=True)
@@ -213,21 +213,24 @@ def save_shards(alive_items):
         by_country.setdefault(c, []).append(item)
 
     for p, items in by_proto.items():
-        p_dir = f"proxies/protocols/{p}"
-        os.makedirs(p_dir, exist_ok=True)
+        os.makedirs(f"proxies/protocols/{p}", exist_ok=True)
         links = [generate_link(x) for x in items]
-        with open(f"{p_dir}/data.txt", "w", encoding="utf-8") as f:
+        with open(f"proxies/protocols/{p}/data.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(links) + "\n")
-        with open(f"{p_dir}/data.json", "w", encoding="utf-8") as f:
-            json.dump(items, f, ensure_ascii=False, indent=2)
         with open(f"sub/{p}.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(links) + "\n")
 
+    # ساخت فایل اختصاصی telegramProxys.txt
+    tg_items = by_proto.get("telegram", []) + by_proto.get("socks5", [])
+    if tg_items:
+        tg_links = [generate_link(x) for x in tg_items]
+        with open("sub/telegramProxys.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(tg_links) + "\n")
+
     for c, items in by_country.items():
-        c_dir = f"proxies/countries/{c}"
-        os.makedirs(c_dir, exist_ok=True)
+        os.makedirs(f"proxies/countries/{c}", exist_ok=True)
         links = [generate_link(x) for x in items]
-        with open(f"{c_dir}/data.txt", "w", encoding="utf-8") as f:
+        with open(f"proxies/countries/{c}/data.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(links) + "\n")
 
     stats = {
@@ -239,31 +242,14 @@ def save_shards(alive_items):
     with open("proxies/stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2)
 
-def send_telegram_file(total_count):
+def send_telegram_documents(alive_count):
     if not BOT_TOKEN or not TARGET_CHAT_ID:
-        return
-
-    file_path = "sub/socks5.txt"
-    if not os.path.exists(file_path):
-        file_path = "proxies/all/data.txt"
-    if not os.path.exists(file_path):
         return
 
     tehran_tz = pytz.timezone("Asia/Tehran")
     now_tehran = datetime.now(tehran_tz)
     shamsi_date = jdatetime.datetime.fromgregorian(datetime=now_tehran).strftime("%Y/%m/%d")
     tehran_time = now_tehran.strftime("%H:%M:%S")
-
-    caption = (
-        f"🚀 **مجموعه کانفیگ‌های تست‌شده و زنده**\n"
-        f"📡 مناسب دوران اختلال، فیلترینگ و شبکه ملی\n\n"
-        f"📅 تاریخ شمسی: `{shamsi_date}`\n"
-        f"⏰ ساعت تهران: `{tehran_time}`\n"
-        f"📊 شاخص کیفیت: `Ultra Clean & Auto-Tested`\n"
-        f"🔢 تعداد کانفیگ سالم: `{total_count}`\n\n"
-        f"🌐 سابسکریپشن گیت‌هاب پیجز:\n"
-        f"`https://alireza786786.github.io/Goodbaye_Collector/sub/socks5.txt`"
-    )
 
     reply_markup = {
         "inline_keyboard": [
@@ -273,19 +259,40 @@ def send_telegram_file(total_count):
         ]
     }
 
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument"
-    try:
-        with open(file_path, "rb") as doc:
-            files = {"document": ("Goodbaye_Socks5.txt", doc, "text/plain")}
-            data = {
-                "chat_id": TARGET_CHAT_ID,
-                "caption": caption,
-                "parse_mode": "Markdown",
-                "reply_markup": json.dumps(reply_markup)
-            }
-            requests.post(url, data=data, files=files, timeout=20)
-    except Exception:
-        pass
+    files_to_send = [
+        ("sub/socks5.txt", "Goodbaye_Socks5.txt", "SOCKS5 Proxies"),
+        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies")
+    ]
+
+    for f_path, doc_name, title in files_to_send:
+        if not os.path.exists(f_path):
+            continue
+
+        caption = (
+            f"🚀 **مجموعه کانفیگ‌های تست‌شده و زنده ({title})**\n"
+            f"📡 مناسب دوران اختلال، فیلترینگ و شبکه ملی\n\n"
+            f"📅 تاریخ شمسی: `{shamsi_date}`\n"
+            f"⏰ ساعت تهران: `{tehran_time}`\n"
+            f"📊 شاخص کیفیت: `Ultra Clean & Auto-Tested`\n"
+            f"🔢 تعداد کانفیگ سالم: `{alive_count}`\n\n"
+            f"🌐 سابسکریپشن گیت‌هاب پیجز:\n"
+            f"`https://alireza786786.github.io/Goodbaye_Collector/sub/{os.path.basename(f_path)}`"
+        )
+
+        url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument"
+        try:
+            with open(f_path, "rb") as doc:
+                req_files = {"document": (doc_name, doc, "text/plain")}
+                data = {
+                    "chat_id": TARGET_CHAT_ID,
+                    "caption": caption,
+                    "parse_mode": "Markdown",
+                    "reply_markup": json.dumps(reply_markup)
+                }
+                requests.post(url, data=data, files=req_files, timeout=25)
+            time.sleep(1.5)
+        except Exception:
+            pass
 
 def main():
     all_raw = []
@@ -314,9 +321,9 @@ def main():
 
         for future in as_completed(future_to_proxy):
             item = future_to_proxy[future]
-            latency = future.result()
-            if latency is not None:
-                item["ping"] = latency
+            lat = future.result()
+            if lat is not None:
+                item["ping"] = lat
                 alive.append(item)
 
     if not alive:
@@ -334,7 +341,7 @@ def main():
         item["flag"] = get_flag(item["countryCode"])
 
     save_shards(alive)
-    send_telegram_file(len(alive))
+    send_telegram_documents(len(alive))
 
 if __name__ == "__main__":
     main()
