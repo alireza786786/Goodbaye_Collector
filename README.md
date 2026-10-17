@@ -4,7 +4,7 @@
   <br><br>
 
 # 🛡️ Goodbaye Collector
-### ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray
+### ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray و پروکسی‌های اضطراری
 
 [![Update](https://img.shields.io/badge/بروزرسانی-هر_۲_ساعت-brightgreen)](#)
 [![Status](https://img.shields.io/badge/تست_سلامت-TCP_Liveness_Passed-blue)](#)
@@ -17,18 +17,40 @@
 ---
 
 ## 🌐 وب‌سایت و پنل اختصاصی اشتراک
-برای مشاهده پنل کاربری مدرن، کپی آسان با یک کلیک و دریافت پروکسی‌های زنده تلگرام، وارد آدرس زیر شوید:
+برای مشاهده پنل کاربری مدرن، کپی آسان با یک کلیک و دریافت کانفیگ‌ها و پروکسی‌های زنده، وارد آدرس زیر شوید:
 
 👉 **[ورود به پنل آنلاین اشتراک Goodbaye](https://alireza786786.github.io/Goodbaye_Collector/)**
 
 ---
 
 ## 🚀 معرفی پروژه
-این پروژه یک سیستم تمام‌اتوماتیک است که هر ۲ ساعت یک‌بار، بیش از ۵۰ کانال مرجع را اسکن کرده، با استفاده از دیتابیس `GeoLite2-City` کشور و شهر دقیق را استخراج می‌کند، تست پینگ زنده می‌گیرد، سرورهای قطع‌شده و تبلیغات را حذف می‌نماید و خروجی‌ها را طبق **قانون ثابت** منتشر می‌کند.
+این پروژه یک سیستم تمام‌اتوماتیک است که به صورت مداوم، کانال‌های مرجع را اسکن کرده، با استفاده از دیتابیس `GeoLite2-City` کشور و شهر دقیق را استخراج می‌کند، تست پینگ زنده می‌گیرد، سرورهای قطع‌شده و تبلیغات را حذف می‌نماید و خروجی‌ها را طبق **قانون ثابت ۵ خطی** منتشر می‌کند.
 
 <br>
 
-### 📦 لینک‌های اصلی سابسکریپشن (آماده کپی در کلاینت‌ها)
+### 🛡️ لینک‌های مستقیم پروکسی‌های اضطراری (دوران اختلال و اینترنت ملی)
+
+**⚡ سابسکریپشن ساکس ۵ (SOCKS5 Ultra Clean - پینگ زیر ۶۵۰ms):**
+```text
+https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/socks5.txt
+```
+*(آدرس مستقیم گیت‌هاب پیجز: `https://alireza786786.github.io/Goodbaye_Collector/socks5.txt`)*
+
+**✈️ پروکسی‌های مستقیم و کلیکی تلگرام (بدون نیاز به فیلترشکن):**
+```text
+https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/telegramProxys.txt
+```
+*(آدرس مستقیم گیت‌هاب پیجز: `https://alireza786786.github.io/Goodbaye_Collector/telegramProxys.txt`)*
+
+**🔒 پروکسی امن و رمزنگاری‌شده HTTPS via TLS:**
+```text
+https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/https.txt
+```
+*(آدرس مستقیم گیت‌هاب پیجز: `https://alireza786786.github.io/Goodbaye_Collector/https.txt`)*
+
+<br>
+
+### 📦 لینک‌های اصلی سابسکریپشن V2Ray (آماده کپی در کلاینت‌ها)
 
 **⭐ سابسکرایب اصلی (تست‌شده و فوق‌العاده پایدار):**
 ```text
@@ -118,6 +140,7 @@ https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/
 <div align="center">
 
 📢 **کانال اصلی تلگرام:** [@Goodbaye_filtering](https://t.me/Goodbaye_filtering)  
-👑 **کانال وی‌آی‌پی:** [@CONFIG_V2RAY_VIP](https://t.me/CONFIG_V2RAY_VIP)
+👑 **کانال وی‌آی‌پی:** [@CONFIG_V2RAY_VIP](https://t.me/CONFIG_V2RAY_VIP)  
+🌐 **وب‌پنل آنلاین سابسکریپشن:** [Goodbaye Collector](https://alireza786786.github.io/Goodbaye_Collector/)
 
 </div>
