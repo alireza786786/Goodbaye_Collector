@@ -14,10 +14,9 @@ FIXED_TAG_LINE1 = "👉🆔@Goodbaye_filtering"
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
 
-# تنظیمات سخت‌گیرانه و فوق‌سریع
-MAX_WORKERS = 250
-STRICT_TIMEOUT = 1.8  # ثانیه - هر سروری بالای این پینگ باشد درجا حذف می‌شود
-MAX_PING_CUTOFF = 1500  # میلی‌ثانیه
+MAX_WORKERS = 200
+STRICT_TIMEOUT = 1.8
+MAX_PING_CUTOFF = 1500
 
 SECRET_SOURCES = {
     "socks5": os.getenv("SOCKS5_SOURCES", ""),
@@ -218,8 +217,14 @@ def save_shards(alive_items):
     with open("proxies/stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2)
 
-def send_telegram_notification(total_count):
+def send_telegram_file(total_count):
     if not BOT_TOKEN or not TARGET_CHAT_ID:
+        return
+
+    file_path = "sub/socks5.txt"
+    if not os.path.exists(file_path):
+        file_path = "proxies/all/data.txt"
+    if not os.path.exists(file_path):
         return
 
     tehran_tz = pytz.timezone("Asia/Tehran")
@@ -246,15 +251,17 @@ def send_telegram_notification(total_count):
         ]
     }
 
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TARGET_CHAT_ID,
-        "text": caption,
-        "parse_mode": "Markdown",
-        "reply_markup": reply_markup
-    }
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument"
     try:
-        requests.post(url, json=payload, timeout=8)
+        with open(file_path, "rb") as doc:
+            files = {"document": ("Goodbaye_Socks5.txt", doc, "text/plain")}
+            data = {
+                "chat_id": TARGET_CHAT_ID,
+                "caption": caption,
+                "parse_mode": "Markdown",
+                "reply_markup": json.dumps(reply_markup)
+            }
+            requests.post(url, data=data, files=files, timeout=20)
     except Exception:
         pass
 
@@ -305,7 +312,7 @@ def main():
         item["flag"] = get_flag(item["countryCode"])
 
     save_shards(alive)
-    send_telegram_notification(len(alive))
+    send_telegram_file(len(alive))
 
 if __name__ == "__main__":
     main()
