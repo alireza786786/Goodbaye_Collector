@@ -15,9 +15,10 @@ FIXED_TAG_LINE1 = "👉🆔@Goodbaye_filtering"
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
 
+# تنظیمات سخت‌گیرانه VIP: تایم‌اوت ۱.۴ ثانیه و حداکثر پینگ ۶۵۰ میلی‌ثانیه
 MAX_WORKERS = 200
-STRICT_TIMEOUT = 1.8
-MAX_PING_CUTOFF = 1500
+STRICT_TIMEOUT = 1.4
+MAX_PING_CUTOFF = 650
 
 SECRET_SOURCES = {
     "socks5": os.getenv("SOCKS5_SOURCES", ""),
@@ -40,7 +41,7 @@ def download_urls_from_secret(secret_text):
     proxies = []
     for url in urls:
         try:
-            r = requests.get(url, timeout=6)
+            r = requests.get(url, timeout=5)
             if r.status_code == 200:
                 for line in r.text.splitlines():
                     l = line.strip()
@@ -187,11 +188,11 @@ def get_proto_tag(proto, ip):
     return f"SOCKS5 ({ver})"
 
 def get_capability(ping):
-    if ping < 200:
+    if ping < 180:
         return "⚡Full Speed & Low Ping"
-    elif ping < 400:
+    elif ping < 350:
         return "⚡Bypass Filtering"
-    return "⚡Anti-Sanction & National Net"
+    return "⚡Anti-Sanction & Fast"
 
 def generate_link(item):
     proto = item["proto"]
@@ -204,21 +205,24 @@ def generate_link(item):
     cap = get_capability(ping)
     ptag = get_proto_tag(proto, ip)
 
-    # تگ ۵ خطی استاندارد
     remark = f"{FIXED_TAG_LINE1}\n📡{flag} {country}\n®️{city}\n🅿️ping:{ping}ms\n{cap} | {ptag}"
     enc = urllib.parse.quote(remark)
     f_ip = f"[{ip}]" if ":" in ip else ip
 
     if proto == "telegram":
         if secret:
-            return f"https://t.me/proxy?server={f_ip}&port={port}&secret={secret}"
-        return f"https://t.me/socks?server={f_ip}&port={port}"
+            link = f"https://t.me/proxy?server={f_ip}&port={port}&secret={secret}"
+        else:
+            link = f"https://t.me/socks?server={f_ip}&port={port}"
     elif proto == "https":
-        return f"https://{f_ip}:{port}#{enc}"
+        link = f"https://{f_ip}:{port}#{enc}"
     else:
         if user and pwd:
-            return f"socks5://{user}:{pwd}@{f_ip}:{port}#{enc}"
-        return f"socks5://{f_ip}:{port}#{enc}"
+            link = f"socks5://{user}:{pwd}@{f_ip}:{port}#{enc}"
+        else:
+            link = f"socks5://{f_ip}:{port}#{enc}"
+    item["link"] = link
+    return link
 
 def save_shards(alive_items):
     os.makedirs("proxies/all", exist_ok=True)
@@ -241,7 +245,7 @@ def save_shards(alive_items):
 
     for p, items in by_proto.items():
         os.makedirs(f"proxies/protocols/{p}", exist_ok=True)
-        links = [generate_link(x) for x in items]
+        links = [x["link"] for x in items]
         with open(f"proxies/protocols/{p}/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
             f.write("\r\n".join(links) + "\r\n")
         with open(f"sub/{p}.txt", "w", encoding="utf-8", newline="\r\n") as f:
@@ -261,24 +265,26 @@ def save_shards(alive_items):
 
     for c, items in by_country.items():
         os.makedirs(f"proxies/countries/{c}", exist_ok=True)
-        links = [generate_link(x) for x in items]
+        links = [x["link"] for x in items]
         with open(f"proxies/countries/{c}/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
             f.write("\r\n".join(links) + "\r\n")
 
-    # کپی کردن مستقیم در ریشه مخزن برای باز شدن روی آدرس اصلی سایت گیت‌هاب پیجز
     if os.path.exists("sub/socks5.txt"):
         shutil.copy("sub/socks5.txt", "socks5.txt")
     if os.path.exists("sub/telegramProxys.txt"):
         shutil.copy("sub/telegramProxys.txt", "telegramProxys.txt")
 
+    tehran_tz = pytz.timezone("Asia/Tehran")
+    now_tehran = datetime.now(tehran_tz)
     stats = {
         "total_active": len(alive_items),
         "protocols": {p: len(items) for p, items in by_proto.items()},
         "countries": list(by_country.keys()),
-        "updated_at": datetime.utcnow().isoformat() + "Z"
+        "updated_at_tehran": now_tehran.strftime("%Y/%m/%d - %H:%M:%S"),
+        "quality_index": "VIP Strict (Ping < 650ms)"
     }
     with open("proxies/stats.json", "w", encoding="utf-8") as f:
-        json.dump(stats, f, indent=2)
+        json.dump(stats, f, ensure_ascii=False, indent=2)
 
 def send_telegram_documents():
     if not BOT_TOKEN or not TARGET_CHAT_ID:
@@ -299,8 +305,7 @@ def send_telegram_documents():
 
     files_to_send = [
         ("sub/socks5.txt", "Goodbaye_Socks5.txt", "SOCKS5 V2Ray/NekoRay"),
-        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies"),
-        ("sub/https.txt", "Goodbaye_HTTPS.txt", "HTTPS via TLS")
+        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies")
     ]
 
     for f_path, doc_name, title in files_to_send:
@@ -315,7 +320,7 @@ def send_telegram_documents():
             f"📡 مناسب دوران اختلال، فیلترینگ و شبکه ملی\n\n"
             f"📅 تاریخ شمسی: `{shamsi_date}`\n"
             f"⏰ ساعت تهران: `{tehran_time}`\n"
-            f"📊 شاخص کیفیت: `Ultra Clean & Auto-Tested`\n"
+            f"📊 شاخص کیفیت: `VIP Strict (Ping < 650ms)`\n"
             f"🔢 تعداد کانفیگ سالم این فایل: `{lines_count}`\n\n"
             f"🌐 لینک مستقیم گیت‌هاب پیجز:\n"
             f"`https://alireza786786.github.io/Goodbaye_Collector/{os.path.basename(f_path)}`"
