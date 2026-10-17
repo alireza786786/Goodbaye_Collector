@@ -28,7 +28,7 @@ SECRET_SOURCES = {
 socket.setdefaulttimeout(STRICT_TIMEOUT)
 
 def get_flag(country_code):
-    if not country_code or len(country_code) != 2:
+    if not country_code or len(country_code) != 2 or country_code.upper() == "XX":
         return "🌐"
     return "".join(chr(127397 + ord(c)) for c in country_code.upper())
 
@@ -122,21 +122,43 @@ def test_https_tls_alive(ip, port):
         s.close()
     return None
 
-def batch_geoip(ip_list):
+# سیستم موقعیت‌یابی مقاوم و چند لایه
+def fetch_single_geo(ip):
+    # منبع اول: freeipapi
+    try:
+        r = requests.get(f"https://freeipapi.com/api/json/{ip}", timeout=3)
+        if r.status_code == 200:
+            d = r.json()
+            c_name = d.get("countryName")
+            c_code = d.get("countryCode")
+            city = d.get("cityName")
+            if c_name and c_code:
+                return ip, {"country": c_name, "countryCode": c_code, "city": city or "Cloud"}
+    except Exception:
+        pass
+
+    # منبع دوم فال‌بک: ipwho.is
+    try:
+        r = requests.get(f"https://ipwho.is/{ip}", timeout=3)
+        if r.status_code == 200:
+            d = r.json()
+            if d.get("success"):
+                return ip, {"country": d.get("country"), "countryCode": d.get("country_code"), "city": d.get("city") or "Cloud"}
+    except Exception:
+        pass
+
+    return ip, {"country": "Germany", "countryCode": "DE", "city": "Frankfurt"}
+
+def resolve_all_geo(unique_ips):
     geo_data = {}
-    chunk_size = 100
-    for i in range(0, len(ip_list), chunk_size):
-        chunk = ip_list[i:i + chunk_size]
-        payload = [{"query": ip, "fields": "country,countryCode,city,status"} for ip in chunk]
-        try:
-            r = requests.post("http://ip-api.com/batch?lang=en", json=payload, timeout=5)
-            if r.status_code == 200:
-                for item in r.json():
-                    if item.get("status") == "success":
-                        geo_data[item.get("query")] = item
-        except Exception:
-            pass
-        time.sleep(0.3)
+    with ThreadPoolExecutor(max_workers=30) as executor:
+        futures = [executor.submit(fetch_single_geo, ip) for ip in unique_ips]
+        for f in as_completed(futures):
+            try:
+                ip, data = f.result()
+                geo_data[ip] = data
+            except Exception:
+                pass
     return geo_data
 
 def get_capability(ping):
@@ -154,9 +176,9 @@ def generate_link(item):
     ping = item["ping"]
     user = item.get("user")
     pwd = item.get("pwd")
-    country = item.get("country", "Global")
-    city = item.get("city", "Cloud")
-    flag = item.get("flag", "🌐")
+    country = item.get("country", "Germany")
+    city = item.get("city", "Frankfurt")
+    flag = item.get("flag", "🇩🇪")
     cap = get_capability(ping)
 
     remark = f"{FIXED_TAG_LINE1}\n📡{flag} {country}\n®️{city}\n🅿️ping:{ping}ms\n{cap}"
@@ -186,7 +208,7 @@ def save_shards(alive_items):
 
     for item in alive_items:
         p = item["proto"]
-        c = item.get("countryCode", "other").lower()
+        c = item.get("countryCode", "de").lower()
         by_proto.setdefault(p, []).append(item)
         by_country.setdefault(c, []).append(item)
 
@@ -302,13 +324,13 @@ def main():
 
     alive.sort(key=lambda x: x["ping"])
     unique_ips = list(set([x["ip"] for x in alive]))
-    geo_data = batch_geoip(unique_ips)
+    geo_data = resolve_all_geo(unique_ips)
 
     for item in alive:
         g = geo_data.get(item["ip"], {})
-        item["country"] = g.get("country", "Unknown")
-        item["countryCode"] = g.get("countryCode", "XX")
-        item["city"] = g.get("city", "Cloud")
+        item["country"] = g.get("country", "Germany")
+        item["countryCode"] = g.get("countryCode", "DE")
+        item["city"] = g.get("city", "Frankfurt")
         item["flag"] = get_flag(item["countryCode"])
 
     save_shards(alive)
