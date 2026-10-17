@@ -6,15 +6,15 @@
     <title>Goodbaye Collector | پنل جامع سابسکریپشن و پروکسی</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap');
-        body { font-family: 'Vazirmatn', sans-serif; background: #0b0f1a; color: #e2e8f0; font-size: 16px; }
-        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
-        .proxy-box { font-family: monospace; background: #000; padding: 18px; border-radius: 14px; height: 260px; overflow-y: auto; direction: ltr; text-align: left; font-size: 13px; border: 1px solid #1e293b; }
+        body { font-family: 'Vazirmatn', sans-serif; background: #0b0f1a; color: #e2e8f0; font-size: 15px; }
+        .glass { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+        .proxy-box { font-family: monospace; background: #000; padding: 16px; border-radius: 14px; height: 240px; overflow-y: auto; direction: ltr; text-align: left; font-size: 13px; border: 1px solid #1e293b; }
         .tab-active { border-bottom: 3px solid #3b82f6; color: #3b82f6; font-weight: 900; }
         .file-card { background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(255,255,255,0.05); border-radius: 14px; padding: 14px; transition: all 0.2s; }
         .file-card:hover { border-color: rgba(59, 130, 246, 0.4); transform: translateY(-2px); }
-        .btn-action { transition: all 0.2s; font-size: 13px; font-weight: 700; }
+        .btn-action { transition: all 0.2s; font-size: 12px; font-weight: 700; }
         .social-card { transition: all 0.3s; border: 1px solid rgba(255,255,255,0.05); }
         .social-card:hover { background: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.4); transform: translateY(-3px); }
         #toast { 
@@ -29,7 +29,7 @@
         .nav-btn:hover { transform: scale(1.1); }
     </style>
 </head>
-<body class="p-4 md:p-10 relative">
+<body class="p-4 md:p-8 relative">
     <div id="toast"><i class="fa-solid fa-check-circle ml-2"></i>کپی شد!</div>
 
     <button onclick="window.scrollTo(0,0)" class="nav-btn bottom-20 bg-blue-600" title="برو به بالا">
@@ -40,33 +40,42 @@
     </button>
 
     <div class="max-w-6xl mx-auto">
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 mb-3">Goodbaye Collector</h1>
-            <p class="text-slate-400 text-sm">ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray و پروکسی اضطراری | بروزرسانی: 2026-10-17 21:45</p>
+        <!-- هدر اصلی -->
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 mb-2">GOODBAYE COLLECTOR</h1>
+            <p class="text-slate-400 text-xs md:text-sm">ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray و پروکسی اضطراری</p>
+            <div class="flex items-center justify-center gap-3 mt-4">
+                <a href="https://t.me/Goodbaye_filtering" target="_blank" class="px-4 py-1.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/20 text-xs font-bold hover:bg-sky-500 hover:text-white transition">
+                    <i class="fa-brands fa-telegram ml-1"></i> کانال اصلی
+                </a>
+                <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold hover:bg-amber-500 hover:text-white transition">
+                    <i class="fa-solid fa-crown ml-1"></i> کانال VIP
+                </a>
+            </div>
         </header>
 
-        <!-- بخش ویژه جدید: پروکسی‌های اضطراری ۳ گانه (Socks5, Telegram, HTTPS) -->
-        <section class="mb-12 glass p-6 rounded-3xl border-t-4 border-emerald-500 shadow-2xl">
-            <div class="flex justify-between items-center mb-6">
+        <!-- بخش اول: ۳ پروکسی اضطراری اینترنت ملی (جدید) -->
+        <section class="mb-10 glass p-5 md:p-6 rounded-3xl border-t-4 border-emerald-500 shadow-2xl">
+            <div class="flex justify-between items-center mb-4">
                 <div>
-                    <h2 class="text-2xl font-black flex items-center text-emerald-400">
-                        <i class="fa-solid fa-shield-virus ml-3 text-3xl"></i> پروکسی‌های اضطراری ضد فیلتر (SOCKS5 | تلگرام | HTTPS)
+                    <h2 class="text-xl md:text-2xl font-black flex items-center text-emerald-400">
+                        <i class="fa-solid fa-shield-virus ml-3 text-2xl md:text-3xl"></i> پروکسی‌های اضطراری ضد فیلتر (SOCKS5 | تلگرام | HTTPS)
                     </h2>
-                    <p class="text-xs text-slate-400 mt-1">کانفیگ‌های تست‌شده با پینگ زیر ۶۵۰ms و سازگار با دوران اختلال و شبکه ملی</p>
+                    <p class="text-xs text-slate-400 mt-1">تست‌شده با پینگ زیر ۶۵۰ms و مناسب دوران اختلال و فیلترینگ شدید</p>
                 </div>
                 <span class="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full font-bold">تست زنده VIP</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-    
+                <!-- کارت ساکس ۵ -->
                 <div class="file-card flex flex-col justify-between gap-3 border border-emerald-500/20 bg-emerald-950/20">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">SOCKS5</span>
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">SOCKS5</span>
                             <i class="fa-solid fa-bolt text-emerald-400"></i>
                         </div>
-                        <h3 class="text-sm font-bold text-slate-100">⚡ ساکس ۵ (SOCKS5 Ultra Clean)</h3>
-                        <p class="text-[11px] text-slate-400 mt-1">مخصوص v2rayNG و Nekoray با پینگ تاییدشده</p>
+                        <h3 class="text-sm font-bold text-slate-100">ساکس ۵ (SOCKS5 Ultra Clean)</h3>
+                        <p class="text-[11px] text-slate-400 mt-1">مخصوص کلاینت‌های v2rayNG و Nekoray</p>
                     </div>
                     <div class="flex gap-2 pt-2 border-t border-white/5">
                         <button onclick="copyText('https://alireza786786.github.io/Goodbaye_Collector/socks5.txt')" class="flex-1 bg-emerald-600/30 text-emerald-300 py-2 rounded-lg btn-action hover:bg-emerald-600 hover:text-white transition">کپی لینک</button>
@@ -74,70 +83,72 @@
                         <button onclick="downloadFile('https://alireza786786.github.io/Goodbaye_Collector/socks5.txt', 'socks5.txt')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                     </div>
                 </div>
-                <div class="file-card flex flex-col justify-between gap-3 border border-emerald-500/20 bg-emerald-950/20">
+
+                <!-- کارت پروکسی مستقیم تلگرام -->
+                <div class="file-card flex flex-col justify-between gap-3 border border-sky-500/20 bg-sky-950/20">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">TELEGRAM</span>
-                            <i class="fa-solid fa-paper-plane text-emerald-400"></i>
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-sky-500/20 text-sky-400">TELEGRAM</span>
+                            <i class="fa-solid fa-paper-plane text-sky-400"></i>
                         </div>
-                        <h3 class="text-sm font-bold text-slate-100">✈️ پروکسی مستقیم تلگرام (Direct TG)</h3>
-                        <p class="text-[11px] text-slate-400 mt-1">اتصال مستقیم تلگرام بدون نیاز به فیلترشکن</p>
+                        <h3 class="text-sm font-bold text-slate-100">پروکسی مستقیم تلگرام (Direct TG)</h3>
+                        <p class="text-[11px] text-slate-400 mt-1">لینک‌های کلیکی اتصال مستقیم بدون وی‌پی‌ان</p>
                     </div>
                     <div class="flex gap-2 pt-2 border-t border-white/5">
-                        <button onclick="copyText('https://alireza786786.github.io/Goodbaye_Collector/telegramProxys.txt')" class="flex-1 bg-emerald-600/30 text-emerald-300 py-2 rounded-lg btn-action hover:bg-emerald-600 hover:text-white transition">کپی لینک</button>
+                        <button onclick="copyText('https://alireza786786.github.io/Goodbaye_Collector/telegramProxys.txt')" class="flex-1 bg-sky-600/30 text-sky-300 py-2 rounded-lg btn-action hover:bg-sky-600 hover:text-white transition">کپی لینک</button>
                         <button onclick="copyContent('https://alireza786786.github.io/Goodbaye_Collector/telegramProxys.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-2 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition">کپی متن</button>
-                        <button onclick="downloadFile('https://alireza786786.github.io/Goodbaye_Collector/telegramProxys.txt', 'telegramProxys.txt')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
+                        <button onclick="downloadFile('https://alireza786786.github.io/Goodbaye_Collector/telegramProxys.txt', 'telegramProxys.txt')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-sky-600 transition"><i class="fa-solid fa-download"></i></button>
                     </div>
                 </div>
-                <div class="file-card flex flex-col justify-between gap-3 border border-emerald-500/20 bg-emerald-950/20">
+
+                <!-- کارت پروکسی HTTPS -->
+                <div class="file-card flex flex-col justify-between gap-3 border border-amber-500/20 bg-amber-950/20">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">HTTPS</span>
-                            <i class="fa-solid fa-lock text-emerald-400"></i>
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-500/20 text-amber-400">HTTPS via TLS</span>
+                            <i class="fa-solid fa-lock text-amber-400"></i>
                         </div>
-                        <h3 class="text-sm font-bold text-slate-100">🔒 پروکسی امن HTTPS via TLS</h3>
-                        <p class="text-[11px] text-slate-400 mt-1">ارتباط رمزنگاری‌شده و مقاوم در برابر اینترنت ملی</p>
+                        <h3 class="text-sm font-bold text-slate-100">پروکسی امن HTTPS via TLS</h3>
+                        <p class="text-[11px] text-slate-400 mt-1">تونل امن رمزنگاری‌شده ضد بازرسی بسته‌ها</p>
                     </div>
                     <div class="flex gap-2 pt-2 border-t border-white/5">
-                        <button onclick="copyText('https://alireza786786.github.io/Goodbaye_Collector/https.txt')" class="flex-1 bg-emerald-600/30 text-emerald-300 py-2 rounded-lg btn-action hover:bg-emerald-600 hover:text-white transition">کپی لینک</button>
+                        <button onclick="copyText('https://alireza786786.github.io/Goodbaye_Collector/https.txt')" class="flex-1 bg-amber-600/30 text-amber-300 py-2 rounded-lg btn-action hover:bg-amber-600 hover:text-white transition">کپی لینک</button>
                         <button onclick="copyContent('https://alireza786786.github.io/Goodbaye_Collector/https.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-2 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition">کپی متن</button>
-                        <button onclick="downloadFile('https://alireza786786.github.io/Goodbaye_Collector/https.txt', 'https.txt')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
+                        <button onclick="downloadFile('https://alireza786786.github.io/Goodbaye_Collector/https.txt', 'https.txt')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-amber-600 transition"><i class="fa-solid fa-download"></i></button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- بخش پروکسی‌های زنده تلگرام MTProto -->
-        <section class="mb-12 glass p-6 rounded-3xl border-t-4 border-sky-500 shadow-2xl">
-            <div class="flex justify-between items-center mb-6">
-                <h2 class="text-2xl font-black flex items-center text-sky-400">
-                    <i class="fa-brands fa-telegram ml-3 text-3xl"></i> پروکسی‌های تلگرام (MTProto)
+        <!-- بخش دوم: پروکسی‌های تلگرام MTProto با باکس کپی سریع -->
+        <section class="mb-10 glass p-5 md:p-6 rounded-3xl border-t-4 border-sky-500 shadow-2xl">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl md:text-2xl font-black flex items-center text-sky-400">
+                    <i class="fa-brands fa-telegram ml-3 text-2xl md:text-3xl"></i> پروکسی‌های زنده تلگرام (MTProto)
                 </h2>
-                <span class="text-xs bg-sky-500/20 text-sky-300 px-3 py-1 rounded-full font-bold">بدون نیاز به وی‌پی‌ان</span>
+                <span class="text-xs bg-sky-500/20 text-sky-300 px-3 py-1 rounded-full font-bold">بدون نیاز به فیلترشکن</span>
             </div>
-            <div class="flex gap-6 mb-4 border-b border-white/10 text-base font-bold">
-                <button onclick="switchTG('mixed')" id="tab-mixed" class="pb-3 px-2 tab-active transition-all">میکس (پیشنهادی)</button>
-                <button onclick="switchTG('android')" id="tab-android" class="pb-3 px-2 text-slate-400 transition-all">اندروید</button>
-                <button onclick="switchTG('windows')" id="tab-windows" class="pb-3 px-2 text-slate-400 transition-all">ویندوز</button>
+            <div class="flex gap-6 mb-3 border-b border-white/10 text-sm font-bold">
+                <button onclick="switchTG('mixed')" id="tab-mixed" class="pb-2.5 px-2 tab-active transition-all">میکس (پیشنهادی)</button>
+                <button onclick="switchTG('android')" id="tab-android" class="pb-2.5 px-2 text-slate-400 transition-all">اندروید</button>
+                <button onclick="switchTG('windows')" id="tab-windows" class="pb-2.5 px-2 text-slate-400 transition-all">ویندوز</button>
             </div>
-            <div id="proxy-display" class="proxy-box mb-4 shadow-inner text-slate-300">در حال بارگذاری پروکسی‌ها...</div>
-            <button onclick="copyCurrentProxy()" class="w-full bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-500 hover:to-blue-500 py-3.5 rounded-xl font-bold transition flex items-center justify-center active:scale-95 text-white">
-                <i class="fa-solid fa-copy ml-2 text-lg"></i> کپی تمام پروکسی‌ها
+            <div id="proxy-display" class="proxy-box mb-4 text-slate-300">در حال بارگذاری پروکسی‌ها...</div>
+            <button onclick="copyCurrentProxy()" class="w-full bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-500 hover:to-blue-500 py-3 rounded-xl font-bold transition flex items-center justify-center active:scale-95 text-white text-sm">
+                <i class="fa-solid fa-copy ml-2 text-base"></i> کپی تمام پروکسی‌ها
             </button>
         </section>
 
-        <!-- بخش سابسکریپشن‌های اصلی V2Ray (دست‌نخورده) -->
-        <h2 class="text-2xl font-black mb-6 flex items-center text-blue-400">
+        <!-- بخش سوم: لینک‌های سابسکریپشن اصلی V2Ray (کامل و دست‌نخورده) -->
+        <h2 class="text-xl md:text-2xl font-black mb-5 flex items-center text-blue-400">
             <i class="fa-solid fa-server ml-3"></i> لینک‌های سابسکریپشن اصلی V2Ray
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
-    
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+            <!-- سابسکرایب اصلی -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-bolt-lightning text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">⭐ سابسکرایب اصلی (تست‌شده و زنده)</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-bolt-lightning text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">⭐ سابسکرایب اصلی (تست‌شده و زنده)</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Sub.txt')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -145,12 +156,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Sub.txt', 'Goodbaye_Sub.txt')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- سابسکرایب لایت -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-clock text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">⚡ سابسکرایب لایت (۲ ساعت اخیر)</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-clock text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">⚡ سابسکرایب لایت (۲ ساعت اخیر)</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Light.txt')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -158,12 +169,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Light.txt', 'Goodbaye_Light.txt')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- بدون کلودفلر -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-shield-halved text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">🚫 بدون کلودفلر (مخصوص اینترنت حساس)</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-shield-halved text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">🚫 بدون کلودفلر (مخصوص اینترنت حساس)</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_no_cf.txt')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -171,12 +182,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_no_cf.txt', 'Goodbaye_no_cf.txt')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- آرشیو هفتگی -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-calendar-week text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">🗓️ آرشیو پایدار هفتگی (۷ روزه)</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-calendar-week text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">🗓️ آرشیو پایدار هفتگی (۷ روزه)</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/conf-week.txt')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -184,12 +195,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/conf-week.txt', 'conf-week.txt')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- کمترین پینگ ایران -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-gauge-high text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">🇮🇷 پکیج اختصاصی کمترین پینگ برای ایران</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-gauge-high text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">🇮🇷 پکیج اختصاصی کمترین پینگ برای ایران</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/iran_ping_top10.txt')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -197,12 +208,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/iran_ping_top10.txt', 'iran_ping_top10.txt')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- اینترنت آزاد -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-earth-europe text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">🌍 پکیج اختصاصی اینترنت آزاد و بدون فیلتر</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-earth-europe text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">🌍 پکیج اختصاصی اینترنت آزاد و بدون فیلتر</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/open_internet_top10.txt')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -210,12 +221,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/open_internet_top10.txt', 'open_internet_top10.txt')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- کلاینت Clash -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-circle-nodes text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">کلاینت Clash / Mihomo (قوانین هوشمند)</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-circle-nodes text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">کلاینت Clash / Mihomo (قوانین هوشمند)</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Clash.yaml')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -223,12 +234,12 @@
                     <button onclick="downloadFile('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Clash.yaml', 'Goodbaye_Clash.yaml')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
+
+            <!-- کلاینت Singbox -->
             <div class="file-card flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
-                        <i class="fa-solid fa-box-open text-lg"></i>
-                    </div>
-                    <span class="text-sm font-bold text-slate-200 truncate">کلاینت Sing-box (قوانین باینری)</span>
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-box-open text-lg"></i></div>
+                    <span class="text-sm font-bold text-slate-200">کلاینت Sing-box (قوانین باینری)</span>
                 </div>
                 <div class="flex gap-2">
                     <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/Goodbaye_Singbox.json')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
@@ -237,25 +248,16 @@
                 </div>
             </div>
         </div>
-    
-        <h2 class="text-2xl font-black mb-6 flex items-center text-indigo-400">
+
+        <!-- بخش چهارم: سابسکریپشن تفکیک‌شده بر اساس کشور (Regions) -->
+        <h2 class="text-xl md:text-2xl font-black mb-5 flex items-center text-indigo-400">
             <i class="fa-solid fa-earth-americas ml-3"></i> سابسکریپشن تفکیک‌شده بر اساس کشور
         </h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-12">
-        
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-12">
+            <!-- آلمان -->
             <div class="file-card flex flex-col gap-2">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور CA</span>
-                    <i class="fa-solid fa-location-dot text-indigo-400"></i>
-                </div>
-                <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-CA.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-CA.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
-                </div>
-            </div>
-            <div class="file-card flex flex-col gap-2">
-                <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور DE</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇩🇪 کشور DE (آلمان)</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
@@ -263,39 +265,10 @@
                     <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-DE.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
                 </div>
             </div>
+            <!-- هلند -->
             <div class="file-card flex flex-col gap-2">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور FI</span>
-                    <i class="fa-solid fa-location-dot text-indigo-400"></i>
-                </div>
-                <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FI.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FI.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
-                </div>
-            </div>
-            <div class="file-card flex flex-col gap-2">
-                <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور FR</span>
-                    <i class="fa-solid fa-location-dot text-indigo-400"></i>
-                </div>
-                <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FR.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FR.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
-                </div>
-            </div>
-            <div class="file-card flex flex-col gap-2">
-                <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور JP</span>
-                    <i class="fa-solid fa-location-dot text-indigo-400"></i>
-                </div>
-                <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-JP.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-JP.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
-                </div>
-            </div>
-            <div class="file-card flex flex-col gap-2">
-                <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور NL</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇳🇱 کشور NL (هلند)</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
@@ -303,29 +276,32 @@
                     <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-NL.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
                 </div>
             </div>
+            <!-- ترکیه -->
             <div class="file-card flex flex-col gap-2">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور PL</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇹🇷 کشور TR (ترکیه)</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-PL.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-PL.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
+                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-TR.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
+                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-TR.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
                 </div>
             </div>
+            <!-- آمریکا -->
             <div class="file-card flex flex-col gap-2">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور SG</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇺🇸 کشور US (آمریکا)</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-SG.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-SG.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
+                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-US.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
+                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-US.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
                 </div>
             </div>
+            <!-- انگلیس -->
             <div class="file-card flex flex-col gap-2">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور UK</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇬🇧 کشور UK (انگلیس)</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
@@ -333,45 +309,60 @@
                     <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-UK.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
                 </div>
             </div>
+            <!-- فنلاند -->
             <div class="file-card flex flex-col gap-2">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور US</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇫🇮 کشور FI (فنلاند)</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
-                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-US.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
-                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-US.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
+                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FI.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
+                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FI.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
                 </div>
-            </div></div>
-        <footer class="mt-16 mb-8">
+            </div>
+            <!-- فرانسه -->
+            <div class="file-card flex flex-col gap-2">
+                <div class="flex items-center justify-between">
+                    <span class="font-bold text-xs md:text-sm text-slate-200">🇫🇷 کشور FR (فرانسه)</span>
+                    <i class="fa-solid fa-location-dot text-indigo-400"></i>
+                </div>
+                <div class="flex gap-1">
+                    <button onclick="copyText('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FR.txt')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
+                    <button onclick="copyContent('https://raw.githubusercontent.com/alireza786786/Goodbaye_Collector/main/regions/conf-FR.txt')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- فوتر -->
+        <footer class="mt-12 mb-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <a href="https://t.me/Goodbaye_filtering" target="_blank" class="social-card glass rounded-2xl p-6 flex items-center justify-between group">
+                <a href="https://t.me/Goodbaye_filtering" target="_blank" class="social-card glass rounded-2xl p-5 flex items-center justify-between group">
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 bg-sky-500/20 rounded-full flex items-center justify-center text-sky-400 text-2xl group-hover:bg-sky-500 group-hover:text-white transition-all">
+                        <div class="w-11 h-11 bg-sky-500/20 rounded-full flex items-center justify-center text-sky-400 text-xl group-hover:bg-sky-500 group-hover:text-white transition-all">
                             <i class="fa-brands fa-telegram"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-lg">کانال اصلی گودبای فیلترینگ</h3>
-                            <p class="text-slate-400 text-sm">@Goodbaye_filtering</p>
+                            <h3 class="font-bold text-base">کانال اصلی گودبای فیلترینگ</h3>
+                            <p class="text-slate-400 text-xs">@Goodbaye_filtering</p>
                         </div>
                     </div>
                     <i class="fa-solid fa-arrow-up-right-from-square text-slate-500 group-hover:text-sky-400 transition-all"></i>
                 </a>
 
-                <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="social-card glass rounded-2xl p-6 flex items-center justify-between group">
+                <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="social-card glass rounded-2xl p-5 flex items-center justify-between group">
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 bg-amber-500/20 rounded-full flex items-center justify-center text-amber-400 text-2xl group-hover:bg-amber-500 group-hover:text-white transition-all">
+                        <div class="w-11 h-11 bg-amber-500/20 rounded-full flex items-center justify-center text-amber-400 text-xl group-hover:bg-amber-500 group-hover:text-white transition-all">
                             <i class="fa-solid fa-crown"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-lg">کانال وی‌آی‌پی کانفیگ</h3>
-                            <p class="text-slate-400 text-sm">@CONFIG_V2RAY_VIP</p>
+                            <h3 class="font-bold text-base">کانال وی‌آی‌پی کانفیگ</h3>
+                            <p class="text-slate-400 text-xs">@CONFIG_V2RAY_VIP</p>
                         </div>
                     </div>
                     <i class="fa-solid fa-arrow-up-right-from-square text-slate-500 group-hover:text-amber-400 transition-all"></i>
                 </a>
             </div>
-            <p class="text-center mt-12 text-slate-500 text-xs font-bold uppercase tracking-widest">Goodbaye Collector Core | Powered by Open Source</p>
+            <p class="text-center mt-10 text-slate-500 text-[11px] font-bold uppercase tracking-widest">Goodbaye Collector Core | Powered by Open Source</p>
         </footer>
     </div>
 
@@ -410,7 +401,7 @@
             }
             ['android', 'windows', 'mixed'].forEach(m => {
                 const btn = document.getElementById('tab-' + m);
-                if(btn) btn.className = 'pb-3 px-2 ' + (m === mode ? 'tab-active' : 'text-slate-400');
+                if(btn) btn.className = 'pb-2.5 px-2 ' + (m === mode ? 'tab-active' : 'text-slate-400');
             });
             window.currentMode = mode;
         }
