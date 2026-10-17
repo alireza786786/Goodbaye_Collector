@@ -39,6 +39,6 @@ jobs:
         run: |
           git config --global user.name "Goodbaye-Bot"
           git config --global user.email "bot@goodbaye.local"
-          git add proxies/ sub/
-          git commit -m "Auto Update: Sharded Proxies & Subscriptions [skip ci]" || exit 0
+          git add proxies/ sub/ *.txt
+          git commit -m "Auto Update Proxies and Pages" || exit 0
           git push
