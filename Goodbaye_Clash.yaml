@@ -70,114 +70,114 @@ proxies:
   password: gf1%3Agfhysteria2024
   sni: w
   skip-cert-verify: true
-- name: US 💥Goodbaye-03
+- name: ZA 💥Goodbaye-03
   type: ss
-  server: 31.57.185.22
-  port: 16242
-  cipher: 2022-blake3-aes-256-gcm
-  password: im7wQea8A7n+DI+q0O0ZDYpUPNcEnYK6LpOD6gj20NQ=:qnSPecKzN183ZW5eUPioqt0pRlUpg7DYcko33VhhUm4=
+  server: 20.164.216.208
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: tM0sV3CrjAU0nokd
   udp: true
 - name: NL 💥Goodbaye-04
-  type: ss
-  server: 193.29.139.234
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: KR 💥Goodbaye-05
-  type: ss
-  server: 13.125.94.114
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
-- name: NL 💥Goodbaye-06
   type: ss
   server: c3.nastuh.link
   port: 443
   cipher: chacha20-ietf-poly1305
   password: y7KeRTzmH0vXT2kp
   udp: true
-- name: DE 💥Goodbaye-07
-  type: ss
-  server: 57.129.113.16
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  udp: true
-- name: DE 💥Goodbaye-08
-  type: ss
-  server: b2a2.velqixa.ir
-  port: 39221
-  cipher: chacha20-ietf-poly1305
-  password: Pzlcb_PeV3uRgiC2NNoNKw
-  udp: true
-- name: NL 💥Goodbaye-09
+- name: NL 💥Goodbaye-05
   type: ss
   server: 193.29.139.168
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: NL 💥Goodbaye-10
+- name: NL 💥Goodbaye-06
   type: ss
   server: 193.29.139.212
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: NL 💥Goodbaye-11
+- name: NL 💥Goodbaye-07
+  type: ss
+  server: panel123.firzav.ir
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: XsP4y4c77aQLRxQkmwgO-dl2T1NY30kE
+  udp: true
+- name: ZA 💥Goodbaye-08
+  type: ss
+  server: 102.37.156.224
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: NL 💥Goodbaye-09
   type: ss
   server: 193.29.139.147
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: NL 💥Goodbaye-12
+- name: NL 💥Goodbaye-10
   type: ss
   server: 193.29.139.223
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: GB 💥Goodbaye-13
+- name: GB 💥Goodbaye-11
   type: ss
   server: 82.38.31.176
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: GB 💥Goodbaye-14
+- name: GB 💥Goodbaye-12
   type: ss
   server: 82.38.31.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: GB 💥Goodbaye-15
+- name: GB 💥Goodbaye-13
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: GB 💥Goodbaye-16
+- name: GB 💥Goodbaye-14
   type: ss
   server: 82.38.31.189
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: GB 💥Goodbaye-17
+- name: GB 💥Goodbaye-15
   type: ss
   server: 82.38.31.191
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: GB 💥Goodbaye-18
+- name: GB 💥Goodbaye-16
+  type: ss
+  server: 82.38.31.213
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: GB 💥Goodbaye-17
   type: ss
   server: 178.83.185.156
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: GB 💥Goodbaye-18
+  type: ss
+  server: 82.38.31.155
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -196,7 +196,58 @@ proxies:
   cipher: aes-128-gcm
   password: 4efe1af272e7292139b889f6a63ee071
   udp: true
-- name: US 💥Goodbaye-21
+- name: GB 💥Goodbaye-21
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: LV 💥Goodbaye-22
+  type: ss
+  server: 185.135.86.175
+  port: 9086
+  cipher: aes-256-cfb
+  password: 37Z4TFCYhfxcpc9Q
+  udp: true
+- name: LT 💥Goodbaye-23
+  type: ss
+  server: 195.238.126.20
+  port: 9086
+  cipher: aes-256-cfb
+  password: 37Z4TFCYhfxcpc9Q
+  udp: true
+- name: PL 💥Goodbaye-24
+  type: ss
+  server: 217.30.10.44
+  port: 9006
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+  udp: true
+- name: PL 💥Goodbaye-25
+  type: ss
+  server: 217.30.10.44
+  port: 9095
+  cipher: aes-256-cfb
+  password: N7j3pdTYkKmsy8CR
+  udp: true
+- name: RU 💥Goodbaye-26
+  type: ss
+  server: 176.32.32.108
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  udp: true
+- name: DE 💥Goodbaye-27
+  type: trojan
+  server: ger8.fytpn.com
+  port: 443
+  password: -VbTw-xqE7XYmEsoZTE7ShJoYLCjdBMQ
+  udp: true
+  sni: ger1.fytpn.com
+  network: tcp
+  client-fingerprint: firefox
+- name: US 💥Goodbaye-28
   type: trojan
   server: 104.18.35.86
   port: 443
@@ -208,7 +259,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.volumerOot.coM.
-- name: US 💥Goodbaye-22
+- name: US 💥Goodbaye-29
   type: trojan
   server: 188.114.97.6
   port: 443
@@ -221,20 +272,20 @@ proxies:
     headers:
       Host: www.pleadcourt.org
   client-fingerprint: chrome
-- name: US 💥Goodbaye-23
+- name: US 💥Goodbaye-30
   type: trojan
   server: 188.114.98.0
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
-    path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /assignment
     headers:
-      Host: www.calmlunch.com
+      Host: www.pleadcourt.org
   client-fingerprint: chrome
-- name: LU 💥Goodbaye-24
+- name: LU 💥Goodbaye-31
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -247,7 +298,7 @@ proxies:
     headers:
       Host: www.volumerOot.coM.
   client-fingerprint: chrome
-- name: AE 💥Goodbaye-25
+- name: AE 💥Goodbaye-32
   type: trojan
   server: 31.57.190.34
   port: 443
@@ -259,7 +310,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: US 💥Goodbaye-26
+- name: US 💥Goodbaye-33
   type: trojan
   server: 8.47.69.0
   port: 443
@@ -271,7 +322,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: US 💥Goodbaye-27
+- name: US 💥Goodbaye-34
   type: trojan
   server: www.speedtest.net
   port: 443
@@ -283,7 +334,7 @@ proxies:
     path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: www.calmlunch.com
-- name: US 💥Goodbaye-28
+- name: US 💥Goodbaye-35
   type: trojan
   server: 146.75.57.238
   port: 443
@@ -296,7 +347,7 @@ proxies:
     headers:
       Host: mitivpn--s3.global.ssl.fastly.net
   client-fingerprint: chrome
-- name: US 💥Goodbaye-29
+- name: US 💥Goodbaye-36
   type: trojan
   server: 151.101.38.6
   port: 443
@@ -309,7 +360,7 @@ proxies:
     headers:
       Host: mitivpn--s3.global.ssl.fastly.net
   client-fingerprint: chrome
-- name: US 💥Goodbaye-30
+- name: US 💥Goodbaye-37
   type: trojan
   server: 167.82.64.46
   port: 443
@@ -322,7 +373,7 @@ proxies:
     headers:
       Host: mitivpn--s2.global.ssl.fastly.net
   client-fingerprint: chrome
-- name: US 💥Goodbaye-31
+- name: US 💥Goodbaye-38
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -335,16 +386,7 @@ proxies:
     headers:
       Host: mitivpn--s2.global.ssl.fastly.net
   client-fingerprint: chrome
-- name: US 💥Goodbaye-32
-  type: trojan
-  server: 199.232.8.223
-  port: 443
-  password: xgMQFUPICwZdBrYI2FpbrnneP_xmTtkd
-  udp: true
-  sni: speedtest.net
-  network: tcp
-  client-fingerprint: firefox
-- name: US 💥Goodbaye-33
+- name: US 💥Goodbaye-39
   type: vless
   server: 47.253.226.114
   port: 443
@@ -357,7 +399,7 @@ proxies:
   servername: www.cloudflare.com
   reality-opts:
     public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-- name: NL 💥Goodbaye-34
+- name: NL 💥Goodbaye-40
   type: vless
   server: nl5.hap-plus.ru
   port: 8443
@@ -371,7 +413,7 @@ proxies:
     path: /api/v1/events
     headers:
       Host: nl5.hap-plus.ru
-- name: DE 💥Goodbaye-35
+- name: DE 💥Goodbaye-41
   type: vless
   server: 5.252.179.15
   port: 443
@@ -385,7 +427,7 @@ proxies:
   reality-opts:
     public-key: XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY
     short-id: 296f27de82dad7ff
-- name: US 💥Goodbaye-36
+- name: US 💥Goodbaye-42
   type: vless
   server: 207.174.31.3
   port: 33760
@@ -398,18 +440,7 @@ proxies:
   reality-opts:
     public-key: AkjYcLioOmiVX2Q52AqUOPLUw60AK25wAzd8NuLQD0E
     short-id: ec77210872738961
-- name: FR 💥Goodbaye-37
-  type: vless
-  server: 149.202.57.89
-  port: 443
-  uuid: 126fdbae-bb34-5882-a40c-fb60c5ea4afb
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-- name: US 💥Goodbaye-38
+- name: US 💥Goodbaye-43
   type: vless
   server: 159.89.87.21
   port: 28190
@@ -422,7 +453,7 @@ proxies:
   servername: aws.amazon.com
   reality-opts:
     public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-- name: DE 💥Goodbaye-39
+- name: DE 💥Goodbaye-44
   type: vless
   server: de-allnet.onlinernet.ir
   port: 22000
@@ -436,7 +467,7 @@ proxies:
   reality-opts:
     public-key: IffRRgkO2Kn06y1prY-NT2TfW-Ezm_RBi__F_jhKoSw
     short-id: 1b0fa065866978d2
-- name: DE 💥Goodbaye-40
+- name: DE 💥Goodbaye-45
   type: vless
   server: de3-allnet.onlinernet.ir
   port: 22000
@@ -450,7 +481,7 @@ proxies:
   reality-opts:
     public-key: IffRRgkO2Kn06y1prY-NT2TfW-Ezm_RBi__F_jhKoSw
     short-id: 1b0fa065866978d2
-- name: DE 💥Goodbaye-41
+- name: DE 💥Goodbaye-46
   type: vless
   server: de3.onlinernet.ir
   port: 40018
@@ -458,7 +489,7 @@ proxies:
   udp: true
   tls: false
   network: tcp
-- name: DE 💥Goodbaye-42
+- name: DE 💥Goodbaye-47
   type: vless
   server: ger-allnet.onlinernet.ir
   port: 22000
@@ -472,7 +503,7 @@ proxies:
   reality-opts:
     public-key: IffRRgkO2Kn06y1prY-NT2TfW-Ezm_RBi__F_jhKoSw
     short-id: 1b0fa065866978d2
-- name: DE 💥Goodbaye-43
+- name: DE 💥Goodbaye-48
   type: vless
   server: gr-v.onlinernet.ir
   port: 40018
@@ -480,7 +511,7 @@ proxies:
   udp: true
   tls: false
   network: tcp
-- name: DE 💥Goodbaye-44
+- name: DE 💥Goodbaye-49
   type: vless
   server: gr.onlinernet.ir
   port: 40018
@@ -488,15 +519,7 @@ proxies:
   udp: true
   tls: false
   network: tcp
-- name: LV 💥Goodbaye-45
-  type: vless
-  server: 31.56.177.95
-  port: 8445
-  uuid: 17acda85-dada-41dd-8add-ad0ad179fc91
-  udp: true
-  tls: false
-  network: tcp
-- name: US 💥Goodbaye-46
+- name: US 💥Goodbaye-50
   type: vless
   server: 45.128.60.127
   port: 443
@@ -510,7 +533,7 @@ proxies:
   reality-opts:
     public-key: kb93iSFmgqH_hIEAL15LZdrB9E-QfGFYG1mspAYJUzI
     short-id: 557d83da1a36996f
-- name: US 💥Goodbaye-47
+- name: US 💥Goodbaye-51
   type: vless
   server: de.vmagnum.win
   port: 443
@@ -520,7 +543,7 @@ proxies:
   client-fingerprint: random
   network: tcp
   servername: api-v3-1bda2ae7.vmagnum.win
-- name: IR 💥Goodbaye-48
+- name: IR 💥Goodbaye-52
   type: vless
   server: fast-pars.netbazshop.ir
   port: 46927
@@ -528,7 +551,7 @@ proxies:
   udp: true
   tls: false
   network: tcp
-- name: DE 💥Goodbaye-49
+- name: DE 💥Goodbaye-53
   type: vless
   server: 130.17.25.67
   port: 443
@@ -541,7 +564,7 @@ proxies:
   reality-opts:
     public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
     short-id: 9e4eced6e98ed4d4
-- name: FI 💥Goodbaye-50
+- name: FI 💥Goodbaye-54
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -553,19 +576,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
-- name: US 💥Goodbaye-51
-  type: vless
-  server: dash.mobiza.ir
-  port: 2052
-  uuid: 1e12e12e-1584-4bcf-869f-f67ab21c3d66
-  udp: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dash.mobiza.ir
-- name: US 💥Goodbaye-52
+- name: US 💥Goodbaye-55
   type: vless
   server: 188.114.98.0
   port: 443
@@ -579,7 +590,20 @@ proxies:
     path: /
     headers:
       Host: free.nadun.store
-- name: FR 💥Goodbaye-53
+- name: SE 💥Goodbaye-56
+  type: vless
+  server: 88.216.223.66
+  port: 443
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
+  udp: true
+  tls: true
+  client-fingerprint: firefox
+  network: tcp
+  servername: tcpswed1.figurapn.ru
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+- name: FR 💥Goodbaye-57
   type: vless
   server: 62.210.24.143
   port: 32202
@@ -591,7 +615,23 @@ proxies:
   reality-opts:
     public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
     short-id: f57d8f26
-- name: US 💥Goodbaye-54
+- name: AE 💥Goodbaye-58
+  type: vless
+  server: 104.143.219.90
+  port: 3090
+  uuid: 2928b6cd-a3f0-44d9-bdfe-71bbb4706326
+  udp: true
+  tls: false
+  network: grpc
+- name: SK 💥Goodbaye-59
+  type: vless
+  server: 80.243.228.51
+  port: 2085
+  uuid: 2928b6cd-a3f0-44d9-bdfe-71bbb4706326
+  udp: true
+  tls: false
+  network: grpc
+- name: US 💥Goodbaye-60
   type: vless
   server: 199.232.78.159
   port: 443
@@ -604,23 +644,7 @@ proxies:
     path: /
     headers:
       Host: azdddaiji5.global.ssl.fastly.net
-- name: AE 💥Goodbaye-55
-  type: vless
-  server: 104.143.219.94
-  port: 3090
-  uuid: 2be02fad-902b-4b0a-9b50-385d868bedd4
-  udp: true
-  tls: false
-  network: grpc
-- name: SK 💥Goodbaye-56
-  type: vless
-  server: 80.243.228.10
-  port: 2085
-  uuid: 2be02fad-902b-4b0a-9b50-385d868bedd4
-  udp: true
-  tls: false
-  network: grpc
-- name: RU 💥Goodbaye-57
+- name: RU 💥Goodbaye-61
   type: vless
   server: 5.42.117.160
   port: 1443
@@ -633,7 +657,7 @@ proxies:
   servername: www.apple.com
   reality-opts:
     public-key: ngTZPxjdNEZ9l-_62155NaUx4LmkjW7vVVWplrkqSlE
-- name: US 💥Goodbaye-58
+- name: US 💥Goodbaye-62
   type: vless
   server: 199.232.20.113
   port: 443
@@ -643,7 +667,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: google.com
-- name: DE 💥Goodbaye-59
+- name: DE 💥Goodbaye-63
   type: vless
   server: de2.balancer.vbuste-bot.com
   port: 443
@@ -657,34 +681,47 @@ proxies:
   reality-opts:
     public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
     short-id: 4be4110078ebed4a
-- name: NL 💥Goodbaye-60
+- name: FI 💥Goodbaye-64
   type: vless
-  server: nl.srv.vbuste-bot.com
-  port: 444
+  server: fl1.balancer.vbuste-bot.com
+  port: 443
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
   udp: true
   tls: true
+  flow: xtls-rprx-vision
   client-fingerprint: chrome
-  network: grpc
-  servername: nl.srv.vbuste-bot.com
+  network: tcp
+  servername: fl1.balancer.vbuste-bot.com
   reality-opts:
     public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
     short-id: 4be4110078ebed4a
-- name: US 💥Goodbaye-61
+- name: US 💥Goodbaye-65
   type: vless
-  server: multipanel-production-02a0.up.railway.app
+  server: 146.75.59.186
   port: 443
-  uuid: 34910ea6-b982-aafc-78b6-4297a01cdbe8
+  uuid: 31f1db9f-2708-48f2-b1ba-f1d6e0098409
   udp: true
   tls: true
-  client-fingerprint: chrome
   network: ws
-  servername: multipanel-production-02a0.up.railway.app
+  servername: firefox.com
   ws-opts:
-    path: /ws/34910ea6-b982-aafc-78b6-4297a01cdbe8
+    path: /
     headers:
-      Host: multipanel-production-02a0.up.railway.app
-- name: IR 💥Goodbaye-62
+      Host: germanyi.global.ssl.fastly.net.
+- name: US 💥Goodbaye-66
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 31f1db9f-2708-48f2-b1ba-f1d6e0098409
+  udp: true
+  tls: true
+  network: ws
+  servername: firefox.com
+  ws-opts:
+    path: /
+    headers:
+      Host: italyma.global.ssl.fastly.net.
+- name: IR 💥Goodbaye-67
   type: vless
   server: 81b52e72fcd7b5c0.tunde.w-ert.org
   port: 501
@@ -697,7 +734,7 @@ proxies:
   reality-opts:
     public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
     short-id: ca4134a0ed2592b6
-- name: NL 💥Goodbaye-63
+- name: NL 💥Goodbaye-68
   type: vless
   server: rrr.soreanapanel.com
   port: 25566
@@ -705,7 +742,7 @@ proxies:
   udp: true
   tls: false
   network: tcp
-- name: US 💥Goodbaye-64
+- name: US 💥Goodbaye-69
   type: vless
   server: 146.75.59.186
   port: 443
@@ -715,7 +752,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: gemini.google.com
-- name: US 💥Goodbaye-65
+- name: US 💥Goodbaye-70
   type: vless
   server: 167.82.79.164
   port: 443
@@ -725,7 +762,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: google.com
-- name: US 💥Goodbaye-66
+- name: US 💥Goodbaye-71
   type: vless
   server: 199.232.20.113
   port: 443
@@ -735,20 +772,34 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: google.com
-- name: CZ 💥Goodbaye-67
+- name: NL 💥Goodbaye-72
   type: vless
-  server: 95.182.89.57
-  port: 25020
-  uuid: 42814d78-4309-41ff-8a14-50f21e024077
+  server: panel123.firzav.ir
+  port: 443
+  uuid: 4035d802-5a55-409a-98e0-735d6b4293f6
   udp: true
   tls: true
   client-fingerprint: chrome
   network: tcp
-  servername: misfit-archives.online
+  servername: speedtest.net
   reality-opts:
-    public-key: xwO9SUKXYo5ZoxiewrdV0lzbbq-nXdsgo2xuPGFcCDg
-    short-id: 268f
-- name: NL 💥Goodbaye-68
+    public-key: LxYR6fv95o4QVyJE8dRYMDbf4Fa6Gq_fSXJm3AlEZAE
+    short-id: e51f863c3ccbd74d
+- name: RU 💥Goodbaye-73
+  type: vless
+  server: 78.159.250.214
+  port: 443
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  servername: qq.utiltools.site
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+    short-id: '00000000'
+- name: NL 💥Goodbaye-74
   type: vless
   server: 86.54.28.75
   port: 443
@@ -761,7 +812,7 @@ proxies:
   reality-opts:
     public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
     short-id: 1d86d17709852910
-- name: NL 💥Goodbaye-69
+- name: NL 💥Goodbaye-75
   type: vless
   server: free-amsterdam-node-1.cloudwidecdn.com
   port: 443
@@ -775,7 +826,7 @@ proxies:
   reality-opts:
     public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
     short-id: 1d86d17709852910
-- name: US 💥Goodbaye-70
+- name: US 💥Goodbaye-76
   type: vless
   server: 15.204.97.206
   port: 23576
@@ -789,7 +840,7 @@ proxies:
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
-- name: US 💥Goodbaye-71
+- name: US 💥Goodbaye-77
   type: vless
   server: 15.204.97.216
   port: 23576
@@ -803,7 +854,7 @@ proxies:
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
-- name: US 💥Goodbaye-72
+- name: US 💥Goodbaye-78
   type: vless
   server: 15.204.97.219
   port: 23576
@@ -817,7 +868,7 @@ proxies:
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
-- name: CH 💥Goodbaye-73
+- name: CH 💥Goodbaye-79
   type: vless
   server: 132.243.174.128
   port: 443
@@ -831,7 +882,7 @@ proxies:
   reality-opts:
     public-key: nR-NstIy4LLdPIppEeRg6bfmRiKkWZPEpq2SwkpHoDo
     short-id: f95dc5db701621f2
-- name: CH 💥Goodbaye-74
+- name: CH 💥Goodbaye-80
   type: vless
   server: 132.243.174.128
   port: 4443
@@ -844,7 +895,7 @@ proxies:
   reality-opts:
     public-key: I805l7v7sXIVk5hl-MMmPLNC1BwZlaXGM1CSqwJxTWQ
     short-id: 5485ce7542ae51d5
-- name: SE 💥Goodbaye-75
+- name: SE 💥Goodbaye-81
   type: vless
   server: 143.246.194.146
   port: 443
@@ -858,7 +909,21 @@ proxies:
   reality-opts:
     public-key: CaDJ7WXDat8JYXs0biw_fGyQ4w0aVjPdp08ipLos8CA
     short-id: edbf592b85a02942
-- name: CY 💥Goodbaye-76
+- name: DE 💥Goodbaye-82
+  type: vless
+  server: 159.200.230.191
+  port: 443
+  uuid: 4917cc12-f947-4f2b-b250-a76893c056be
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  network: tcp
+  servername: passport.yandex.ru
+  reality-opts:
+    public-key: nU-cRpigS8_leCufvUt3beUC7NTBpiJww3FhAxBQXSs
+    short-id: a4055fb6dd9b1842
+- name: CY 💥Goodbaye-83
   type: vless
   server: 2.56.125.4
   port: 443
@@ -872,20 +937,7 @@ proxies:
   reality-opts:
     public-key: V_JTIxcE0uXjS_LzDi4gxuuw6QP-XHhPS0ncz5LvQQ4
     short-id: 22f6bea32a258aca
-- name: US 💥Goodbaye-77
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  network: ws
-  servername: snip.edgeoneai.cc.cd
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: US 💥Goodbaye-78
+- name: US 💥Goodbaye-84
   type: vless
   server: 188.114.97.6
   port: 443
@@ -899,7 +951,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: US 💥Goodbaye-79
+- name: US 💥Goodbaye-85
   type: vless
   server: 188.114.98.0
   port: 443
@@ -913,7 +965,7 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: US 💥Goodbaye-80
+- name: US 💥Goodbaye-86
   type: vless
   server: 188.114.98.0
   port: 443
@@ -927,7 +979,7 @@ proxies:
     path: /gropcdn
     headers:
       Host: cdn.topingr.ir
-- name: NL 💥Goodbaye-81
+- name: LV 💥Goodbaye-87
   type: vless
   server: cdn.topingr.ir
   port: 443
@@ -941,19 +993,7 @@ proxies:
     path: /gropcdn
     headers:
       Host: cdn.topingr.ir
-- name: FR 💥Goodbaye-82
-  type: vless
-  server: 51.75.118.5
-  port: 20205
-  uuid: 49ebeaaf-f6d1-4a11-b5ba-dc0fca90a9a2
-  udp: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: 51.75.118.5
-- name: PL 💥Goodbaye-83
+- name: PL 💥Goodbaye-88
   type: vless
   server: 177.1.192.72
   port: 443
@@ -966,7 +1006,7 @@ proxies:
   reality-opts:
     public-key: y3YCXTqEVks0nGfiSwJ43ol4pY69-mWFUZsdmveoVDM
     short-id: 46455ff0
-- name: PL 💥Goodbaye-84
+- name: PL 💥Goodbaye-89
   type: vless
   server: 177.1.192.74
   port: 443
@@ -980,7 +1020,7 @@ proxies:
   reality-opts:
     public-key: qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8
     short-id: 770618b6
-- name: DE 💥Goodbaye-85
+- name: DE 💥Goodbaye-90
   type: vless
   server: 31.76.35.27
   port: 443
@@ -994,7 +1034,7 @@ proxies:
   reality-opts:
     public-key: P-r-oVr8MTTCILgRxk8YuB9OKVojYw3MkH_ERUXzX3s
     short-id: b76a6309
-- name: CY 💥Goodbaye-86
+- name: CY 💥Goodbaye-91
   type: vless
   server: 5.253.30.99
   port: 40443
@@ -1008,7 +1048,7 @@ proxies:
   reality-opts:
     public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
     short-id: 88b6
-- name: US 💥Goodbaye-87
+- name: US 💥Goodbaye-92
   type: vless
   server: 199.232.78.159
   port: 443
@@ -1021,7 +1061,7 @@ proxies:
     path: /?TELEGRAM----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN----@JKVPN
     headers:
       Host: pannn1.global.ssl.fastly.net
-- name: PL 💥Goodbaye-88
+- name: PL 💥Goodbaye-93
   type: vless
   server: 2.26.225.89
   port: 8443
@@ -1030,7 +1070,7 @@ proxies:
   tls: true
   network: tcp
   servername: pl.flen-vpn.xyz
-- name: LV 💥Goodbaye-89
+- name: LV 💥Goodbaye-94
   type: vless
   server: 138.124.180.137
   port: 443
@@ -1043,34 +1083,57 @@ proxies:
   reality-opts:
     public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
     short-id: 33acba1b
-- name: JP 💥Goodbaye-90
+- name: US 💥Goodbaye-95
   type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 35544
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: 162.159.152.4
+  port: 443
+  uuid: 556e306b-e0a1-4832-80e5-575696c27f88
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: ws
+  servername: dlk.mobileemdad.top
+  ws-opts:
+    path: /
+    headers:
+      Host: dlk.mobileemdad.top
+- name: US 💥Goodbaye-96
+  type: vless
+  server: 199.232.237.79
+  port: 443
+  uuid: 556e306b-e0a1-4832-80e5-575696c27f88
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: ws
+  servername: speedtest.net
+  ws-opts:
+    path: /
+    headers:
+      Host: de-mohamad.global.ssl.fastly.net
+- name: DE 💥Goodbaye-97
+  type: vless
+  server: dearv.moon-night.ir
+  port: 443
+  uuid: 556e306b-e0a1-4832-80e5-575696c27f88
   udp: true
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: ios
   network: tcp
-  servername: iosapps.itunes.apple.com
+  servername: play.google.com
   reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: 25c79e5856c7
-- name: JP 💥Goodbaye-91
+    public-key: dMBDL7ry94pavIxYmzimeyaCqor6fUNb0v3dzHif9xY
+    short-id: e64e9f5eefbffc15
+- name: GB 💥Goodbaye-98
   type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: fal.montago-shop.ir
+  port: 80
+  uuid: 556e306b-e0a1-4832-80e5-575696c27f88
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
+  tls: false
   network: tcp
-  servername: www.lamer.com.sg
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-- name: JP 💥Goodbaye-92
+- name: SG 💥Goodbaye-99
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 47672
@@ -1084,7 +1147,7 @@ proxies:
   reality-opts:
     public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
     short-id: 70ab6d813e
-- name: JP 💥Goodbaye-93
+- name: SG 💥Goodbaye-100
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 55688
@@ -1098,7 +1161,20 @@ proxies:
   reality-opts:
     public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
     short-id: a46bb5972cf50671
-- name: FR 💥Goodbaye-94
+- name: IR 💥Goodbaye-101
+  type: vless
+  server: 07a43ef8ce834d5a.tunvi.w-ert.org
+  port: 448
+  uuid: 58fce630-f90b-42aa-84b4-ba4117864609
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: tcp
+  servername: www.aparat.com
+  reality-opts:
+    public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
+    short-id: ca4134a0ed2592b6
+- name: FR 💥Goodbaye-102
   type: vless
   server: 51.255.166.202
   port: 443
@@ -1108,7 +1184,21 @@ proxies:
   flow: xtls-rprx-vision
   network: tcp
   servername: e3k67dwms3-51255166202-direct.tavafog.com
-- name: AE 💥Goodbaye-95
+- name: US 💥Goodbaye-103
+  type: vless
+  server: 185.121.179.122
+  port: 443
+  uuid: 63c5f8b3-3d3d-46a9-ae1f-58635cdaf891
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  servername: de.stream-node6.com
+  reality-opts:
+    public-key: wpZDT_592emHu309qN-7-qceofbMJzoAdIx9m9RFJGg
+    short-id: 98753667b2406829
+- name: AE 💥Goodbaye-104
   type: vless
   server: nl1.fluxorvpn.net
   port: 443
@@ -1122,53 +1212,7 @@ proxies:
   reality-opts:
     public-key: JWDpSUaLgiXGXpgZzzxfDnYGvi4MBFcadN6cHZ-He1E
     short-id: b8c6965f3596688a
-- name: RU 💥Goodbaye-96
-  type: vless
-  server: fi.chick-chirik.com
-  port: 443
-  uuid: 71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: edge
-  network: tcp
-  servername: fi.chick-chirik.com
-  reality-opts:
-    public-key: 2v1vd2gw3A9Sw6w36s63QaSeMYnY4DrkEPUdKAbBPzE
-    short-id: 25f11b01338a8963
-- name: US 💥Goodbaye-97
-  type: vless
-  server: 104.21.43.200
-  port: 2086
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
-  udp: true
-  tls: false
-  network: tcp
-- name: FR 💥Goodbaye-98
-  type: vless
-  server: farancenew.mamadhpbot.ir
-  port: 8080
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
-  udp: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /real
-    headers:
-      Host: farancenew.mamadhpbot.ir
-- name: US 💥Goodbaye-99
-  type: vless
-  server: usandvipnewpnlsz.mamadhpbot.ir
-  port: 8080
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
-  udp: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /real
-    headers:
-      Host: www.goo.gl
-- name: FI 💥Goodbaye-100
+- name: FI 💥Goodbaye-105
   type: vless
   server: 152.233.71.81
   port: 443
@@ -1182,7 +1226,15 @@ proxies:
   reality-opts:
     public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
     short-id: 1c3e8241a8743df9
-- name: NL 💥Goodbaye-101
+- name: US 💥Goodbaye-106
+  type: vless
+  server: sourceforge.net
+  port: 2052
+  uuid: 76b0a9e7-4b0d-4b0a-b62f-9bb463bb85ee
+  udp: true
+  tls: false
+  network: tcp
+- name: NL 💥Goodbaye-107
   type: vless
   server: nl3.h1cloud.net
   port: 25458
@@ -1196,15 +1248,20 @@ proxies:
   reality-opts:
     public-key: EaWx3gBCS5TeKts5FdgKVqJTn5yGAPoomRNzwVeN41M
     short-id: 705d9608b0b71387
-- name: AE 💥Goodbaye-102
+- name: NL 💥Goodbaye-108
   type: vless
-  server: 104.143.219.92
-  port: 3090
-  uuid: 84573931-e442-4181-8473-a0892dfa12a5
+  server: dns11.m3hrzd.ir
+  port: 8030
+  uuid: 86bf4c34-8280-4958-8462-4276bd443762
   udp: true
-  tls: false
-  network: grpc
-- name: PL 💥Goodbaye-103
+  tls: true
+  client-fingerprint: edge
+  network: tcp
+  servername: race.egistration.ir
+  reality-opts:
+    public-key: yNCiWHU2y1M-cWl5jJLfSDwwYM_9gdP5sqBLANxxdAs
+    short-id: 38dda82955d5791e
+- name: PL 💥Goodbaye-109
   type: vless
   server: 144.31.4.234
   port: 443
@@ -1217,46 +1274,17 @@ proxies:
   servername: direct-nl.bachidze.com
   reality-opts:
     public-key: E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw
-- name: US 💥Goodbaye-104
+- name: DE 💥Goodbaye-110
   type: vless
-  server: revers.bachidze.com
-  port: 443
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
+  server: host.taghvimtime.ir
+  port: 8443
+  uuid: 90c08c98-7ec8-4fab-da36-cf140d18c708
   udp: true
   tls: true
-  flow: xtls-rprx-vision
   client-fingerprint: chrome
   network: tcp
-  servername: poland.travel
-  reality-opts:
-    public-key: TIKEWdxQBblFGWMQmQWserNef8P1rqJCfCLLi-KB32s
-- name: FI 💥Goodbaye-105
-  type: vless
-  server: 212.87.222.10
-  port: 443
-  uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
-  udp: true
-  tls: true
-  client-fingerprint: random
-  network: tcp
-  servername: www.nokia.com
-  reality-opts:
-    public-key: f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg
-- name: US 💥Goodbaye-106
-  type: vless
-  server: 201.58.176.73
-  port: 20324
-  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  servername: metrika.yandex.ru
-  reality-opts:
-    public-key: RK2g-bLoaa9GD9cJRRk2ktU9nAvP4-YmUPnBs1-UC1A
-    short-id: a9391e22
-- name: CY 💥Goodbaye-107
+  servername: host.taghvimtime.ir
+- name: CY 💥Goodbaye-111
   type: vless
   server: 185.166.154.111
   port: 443
@@ -1270,7 +1298,7 @@ proxies:
   reality-opts:
     public-key: bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU
     short-id: 94f32cfc
-- name: CY 💥Goodbaye-108
+- name: CY 💥Goodbaye-112
   type: vless
   server: cdn.bulkavpn.top
   port: 443
@@ -1284,19 +1312,7 @@ proxies:
   reality-opts:
     public-key: bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU
     short-id: 94f32cfc
-- name: RU 💥Goodbaye-109
-  type: vless
-  server: 72.56.241.75
-  port: 1443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  tls: true
-  client-fingerprint: random
-  network: grpc
-  servername: static.nyx53.shop
-  reality-opts:
-    public-key: vi1vP3RJQgLsRgzaiKvjr44iNRzI62lSYMipnrTMAUs
-- name: RU 💥Goodbaye-110
+- name: RU 💥Goodbaye-113
   type: vless
   server: 78.159.246.179
   port: 2053
@@ -1306,7 +1322,7 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   servername: randomquaint.net
-- name: NL 💥Goodbaye-111
+- name: NL 💥Goodbaye-114
   type: vless
   server: 195.123.221.36
   port: 443
@@ -1319,7 +1335,7 @@ proxies:
   reality-opts:
     public-key: dIv6pPS-x6IzbiPyHX8nNdRrwI2yZl4y3YCeRWy9UgE
     short-id: 3e67326f98ddb407
-- name: ES 💥Goodbaye-112
+- name: ES 💥Goodbaye-115
   type: vless
   server: 83.147.18.3
   port: 443
@@ -1333,7 +1349,19 @@ proxies:
   reality-opts:
     public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
     short-id: fd8cf7e1173f0edb
-- name: FR 💥Goodbaye-113
+- name: DE 💥Goodbaye-116
+  type: vless
+  server: 78.47.104.114
+  port: 47081
+  uuid: MiMiTDL
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /index.php
+    headers:
+      Host: dynu.com
+- name: FR 💥Goodbaye-117
   type: vless
   server: 138.124.251.146
   port: 23202
@@ -1345,7 +1373,7 @@ proxies:
   reality-opts:
     public-key: OfDHr_l4SrRA6CFtpaYKkAqZL8aJ6DIPtChiGFmevBE
     short-id: 64f13b45aaa7ff
-- name: FR 💥Goodbaye-114
+- name: FR 💥Goodbaye-118
   type: vless
   server: 62.210.70.194
   port: 37783
@@ -1357,7 +1385,15 @@ proxies:
   reality-opts:
     public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
     short-id: 21569dd6
-- name: DE 💥Goodbaye-115
+- name: IR 💥Goodbaye-119
+  type: vless
+  server: fast-pars.netbazshop.ir
+  port: 35731
+  uuid: a41f79ce-b471-46af-b0f6-932377c60a83
+  udp: true
+  tls: false
+  network: tcp
+- name: DE 💥Goodbaye-120
   type: vless
   server: 94.103.168.133
   port: 2087
@@ -1370,7 +1406,7 @@ proxies:
     path: /hokm
     headers:
       Host: fert6.localip.ir
-- name: DE 💥Goodbaye-116
+- name: DE 💥Goodbaye-121
   type: vless
   server: fert1qswdfegrthy.localip.ir
   port: 2087
@@ -1383,7 +1419,7 @@ proxies:
     path: /hokm
     headers:
       Host: fert1qswdfegrthy.localip.ir
-- name: DE 💥Goodbaye-117
+- name: DE 💥Goodbaye-122
   type: vless
   server: fert6.localip.ir
   port: 2087
@@ -1396,7 +1432,7 @@ proxies:
     path: /hokm
     headers:
       Host: fert6.localip.ir
-- name: DE 💥Goodbaye-118
+- name: DE 💥Goodbaye-123
   type: vless
   server: ops5788tugfuy.localip.ir
   port: 2087
@@ -1409,7 +1445,7 @@ proxies:
     path: /hokm
     headers:
       Host: ops5788tugfuy.localip.ir
-- name: DE 💥Goodbaye-119
+- name: DE 💥Goodbaye-124
   type: vless
   server: stop.localip.ir
   port: 2087
@@ -1422,7 +1458,7 @@ proxies:
     path: /hokm
     headers:
       Host: stop.localip.ir
-- name: US 💥Goodbaye-120
+- name: US 💥Goodbaye-125
   type: vless
   server: tamiiiiz.aryan-sport.ir
   port: 443
@@ -1431,21 +1467,7 @@ proxies:
   tls: true
   network: tcp
   servername: s4.aryan-sport.ir
-- name: US 💥Goodbaye-121
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: a8a6aba0-bbe4-4eaa-8bb7-98601ef162bc
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  servername: omid-3x-ui.abolfzlllll.us.ci
-  ws-opts:
-    path: /ws
-    headers:
-      Host: omid-3x-ui.abolfzlllll.us.ci
-- name: FR 💥Goodbaye-122
+- name: FR 💥Goodbaye-126
   type: vless
   server: 137.74.16.237
   port: 443
@@ -1458,7 +1480,7 @@ proxies:
   reality-opts:
     public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
     short-id: b390e0a721d242b0
-- name: PL 💥Goodbaye-123
+- name: PL 💥Goodbaye-127
   type: vless
   server: 2.59.253.251
   port: 443
@@ -1471,7 +1493,7 @@ proxies:
   reality-opts:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
     short-id: db04ce8bdb8900f1
-- name: NL 💥Goodbaye-124
+- name: NL 💥Goodbaye-128
   type: vless
   server: 31.77.114.114
   port: 443
@@ -1484,15 +1506,21 @@ proxies:
   reality-opts:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
     short-id: db04ce8bdb8900f1
-- name: US 💥Goodbaye-125
+- name: US 💥Goodbaye-129
   type: vless
-  server: 45.138.100.248
-  port: 10443
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  server: 199.232.239.239
+  port: 443
+  uuid: af3a7e12-989a-454c-fcae-d00fd50c5237
   udp: true
-  tls: false
-  network: tcp
-- name: CY 💥Goodbaye-126
+  tls: true
+  client-fingerprint: firefox
+  network: ws
+  servername: www.firefox.com
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NETed=2056
+    headers:
+      Host: mpkoe7ypcibr80p102020.global.ssl.fastly.net
+- name: CY 💥Goodbaye-130
   type: vless
   server: dorado.yokkastars.com
   port: 40443
@@ -1506,16 +1534,7 @@ proxies:
   reality-opts:
     public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
     short-id: 68a8
-- name: EE 💥Goodbaye-127
-  type: vless
-  server: ee-2e06d85dc0.shamanapp.online
-  port: 34451
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  tls: true
-  network: tcp
-  servername: ee-2e06d85dc0.shamanapp.online
-- name: NL 💥Goodbaye-128
+- name: NL 💥Goodbaye-131
   type: vless
   server: 130.12.242.106
   port: 443
@@ -1528,54 +1547,7 @@ proxies:
   reality-opts:
     public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
     short-id: 15affa0af66dfc79
-- name: US 💥Goodbaye-129
-  type: vless
-  server: 140.248.185.253
-  port: 443
-  uuid: bc93c8bc-2929-4865-bf2b-5c543d650c7e
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  network: tcp
-  servername: speedtest.net
-- name: US 💥Goodbaye-130
-  type: vless
-  server: 199.232.246.236
-  port: 443
-  uuid: bc93c8bc-2929-4865-bf2b-5c543d650c7e
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  network: ws
-  servername: www.amazon.com
-  ws-opts:
-    path: /
-    headers:
-      Host: trfas-mohamdrogh-paki.global.ssl.fastly.net
-- name: US 💥Goodbaye-131
-  type: vless
-  server: 199.232.9.254
-  port: 443
-  uuid: bc93c8bc-2929-4865-bf2b-5c543d650c7e
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  network: tcp
-  servername: www.technolife.com
-- name: US 💥Goodbaye-132
-  type: vless
-  server: ais.co.th
-  port: 8443
-  uuid: bc93c8bc-2929-4865-bf2b-5c543d650c7e
-  udp: true
-  tls: true
-  network: ws
-  servername: newrick.varzeshfotsal.ir
-  ws-opts:
-    path: /
-    headers:
-      Host: newrick.varzeshfotsal.ir
-- name: FR 💥Goodbaye-133
+- name: FR 💥Goodbaye-132
   type: vless
   server: 51.77.217.70
   port: 2053
@@ -1587,7 +1559,7 @@ proxies:
   reality-opts:
     public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
     short-id: bfe58beb41f1d09f
-- name: US 💥Goodbaye-134
+- name: US 💥Goodbaye-133
   type: vless
   server: 199.232.78.160
   port: 443
@@ -1597,7 +1569,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: Google.com
-- name: GB 💥Goodbaye-135
+- name: GB 💥Goodbaye-134
   type: vless
   server: node-uk.connectsuite.org
   port: 8443
@@ -1607,7 +1579,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: node-uk.connectsuite.org
-- name: US 💥Goodbaye-136
+- name: US 💥Goodbaye-135
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1620,7 +1592,7 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: RU 💥Goodbaye-137
+- name: RU 💥Goodbaye-136
   type: vless
   server: du-rov.secureservice.top
   port: 8443
@@ -1634,7 +1606,7 @@ proxies:
   reality-opts:
     public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
     short-id: 3cbc3d737fb9c4af
-- name: DE 💥Goodbaye-138
+- name: DE 💥Goodbaye-137
   type: vless
   server: 217.69.167.167
   port: 43000
@@ -1647,7 +1619,7 @@ proxies:
   reality-opts:
     public-key: yVypeNRnQF6yM3z2FJLL6jJcvZY8SArZN34JQbiEzzY
     short-id: 5c97b3bc
-- name: AE 💥Goodbaye-139
+- name: AE 💥Goodbaye-138
   type: vless
   server: 157.228.132.79
   port: 2054
@@ -1660,7 +1632,7 @@ proxies:
   reality-opts:
     public-key: UgJ0ENqGGX-ch2mLdRZiw67OhU3Dqz7rDYCPKcdnn0w
     short-id: d3d9e08a74807928
-- name: US 💥Goodbaye-140
+- name: US 💥Goodbaye-139
   type: vless
   server: 146.75.59.186
   port: 443
@@ -1673,7 +1645,7 @@ proxies:
     path: /
     headers:
       Host: copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.
-- name: US 💥Goodbaye-141
+- name: US 💥Goodbaye-140
   type: vless
   server: 199.232.78.159
   port: 443
@@ -1686,7 +1658,7 @@ proxies:
     path: /
     headers:
       Host: copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.
-- name: US 💥Goodbaye-142
+- name: US 💥Goodbaye-141
   type: vless
   server: wwww.qarvian.ir
   port: 443
@@ -1699,7 +1671,7 @@ proxies:
     path: /
     headers:
       Host: copy_az_channel_NUFiLTER_i.global.ssl.fastly.net.
-- name: DE 💥Goodbaye-143
+- name: DE 💥Goodbaye-142
   type: vless
   server: 157.230.101.36
   port: 443
@@ -1713,7 +1685,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: GB 💥Goodbaye-144
+- name: GB 💥Goodbaye-143
   type: vless
   server: 159.65.51.189
   port: 443
@@ -1727,7 +1699,48 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: US 💥Goodbaye-145
+- name: AE 💥Goodbaye-144
+  type: vless
+  server: 31.57.190.15
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: ws
+  servername: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: AE 💥Goodbaye-145
+  type: vless
+  server: 31.57.190.50
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: ws
+  servername: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: AE 💥Goodbaye-146
+  type: vless
+  server: 31.57.190.89
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  network: ws
+  servername: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: US 💥Goodbaye-147
   type: vless
   server: 31.77.126.2
   port: 443
@@ -1740,7 +1753,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: DE 💥Goodbaye-146
+- name: DE 💥Goodbaye-148
   type: vless
   server: 169.40.42.104
   port: 443
@@ -1754,7 +1767,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-147
+- name: DE 💥Goodbaye-149
   type: vless
   server: 169.40.42.133
   port: 443
@@ -1768,7 +1781,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-148
+- name: DE 💥Goodbaye-150
   type: vless
   server: 169.40.42.15
   port: 443
@@ -1782,7 +1795,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-149
+- name: DE 💥Goodbaye-151
   type: vless
   server: 169.40.42.163
   port: 443
@@ -1796,7 +1809,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-150
+- name: DE 💥Goodbaye-152
   type: vless
   server: 169.40.42.168
   port: 443
@@ -1810,7 +1823,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-151
+- name: DE 💥Goodbaye-153
   type: vless
   server: 169.40.42.16
   port: 443
@@ -1824,7 +1837,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-152
+- name: DE 💥Goodbaye-154
   type: vless
   server: 169.40.42.173
   port: 443
@@ -1838,7 +1851,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-153
+- name: DE 💥Goodbaye-155
   type: vless
   server: 169.40.42.179
   port: 443
@@ -1852,7 +1865,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-154
+- name: DE 💥Goodbaye-156
   type: vless
   server: 169.40.42.182
   port: 443
@@ -1866,7 +1879,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-155
+- name: DE 💥Goodbaye-157
   type: vless
   server: 169.40.42.184
   port: 443
@@ -1880,7 +1893,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-156
+- name: DE 💥Goodbaye-158
   type: vless
   server: 169.40.42.202
   port: 443
@@ -1894,7 +1907,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-157
+- name: DE 💥Goodbaye-159
   type: vless
   server: 169.40.42.212
   port: 443
@@ -1907,7 +1920,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-158
+- name: DE 💥Goodbaye-160
   type: vless
   server: 169.40.42.224
   port: 443
@@ -1921,7 +1934,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-159
+- name: DE 💥Goodbaye-161
   type: vless
   server: 169.40.42.225
   port: 443
@@ -1935,7 +1948,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-160
+- name: DE 💥Goodbaye-162
   type: vless
   server: 169.40.42.229
   port: 443
@@ -1949,7 +1962,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-161
+- name: DE 💥Goodbaye-163
   type: vless
   server: 169.40.42.231
   port: 443
@@ -1963,7 +1976,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-162
+- name: DE 💥Goodbaye-164
   type: vless
   server: 169.40.42.232
   port: 443
@@ -1976,7 +1989,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-163
+- name: DE 💥Goodbaye-165
   type: vless
   server: 169.40.42.235
   port: 443
@@ -1990,7 +2003,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-164
+- name: DE 💥Goodbaye-166
   type: vless
   server: 169.40.42.35
   port: 443
@@ -2004,7 +2017,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-165
+- name: DE 💥Goodbaye-167
   type: vless
   server: 169.40.42.74
   port: 443
@@ -2018,7 +2031,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-166
+- name: DE 💥Goodbaye-168
   type: vless
   server: 169.40.42.75
   port: 443
@@ -2032,7 +2045,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-167
+- name: DE 💥Goodbaye-169
   type: vless
   server: 169.40.42.89
   port: 443
@@ -2046,7 +2059,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: DE 💥Goodbaye-168
+- name: DE 💥Goodbaye-170
   type: vless
   server: 169.40.42.90
   port: 443
@@ -2060,7 +2073,7 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: FR 💥Goodbaye-169
+- name: FR 💥Goodbaye-171
   type: vless
   server: 195.58.140.146
   port: 443
@@ -2073,7 +2086,30 @@ proxies:
   reality-opts:
     public-key: lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI
     short-id: dc927a04e8572c61
-- name: US 💥Goodbaye-170
+- name: NL 💥Goodbaye-172
+  type: vless
+  server: panel123.firzav.ir
+  port: 443
+  uuid: deccaabd-d62d-4196-8cd0-5501a8b972eb
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: tcp
+  servername: speedtest.net
+  reality-opts:
+    public-key: LxYR6fv95o4QVyJE8dRYMDbf4Fa6Gq_fSXJm3AlEZAE
+    short-id: e51f863c3ccbd74d
+- name: US 💥Goodbaye-173
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: df2d6626-90e4-4599-a4da-d84352c4907d
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  network: tcp
+  servername: dd.servicevip.cc.cd
+- name: US 💥Goodbaye-174
   type: vless
   server: tamiiiiz.aryan-sport.ir
   port: 443
@@ -2083,7 +2119,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: dd.servicevip.cc.cd
-- name: DE 💥Goodbaye-171
+- name: DE 💥Goodbaye-175
   type: vless
   server: 2.27.35.55
   port: 443
@@ -2096,7 +2132,7 @@ proxies:
   reality-opts:
     public-key: RTG-xTU5UuKTRrkk8_COe04GiUWrqrSdt9mqSak_XEc
     short-id: e696e744
-- name: DE 💥Goodbaye-172
+- name: DE 💥Goodbaye-176
   type: vless
   server: 2.27.69.128
   port: 443
@@ -2109,7 +2145,7 @@ proxies:
   reality-opts:
     public-key: RTG-xTU5UuKTRrkk8_COe04GiUWrqrSdt9mqSak_XEc
     short-id: e696e744
-- name: NL 💥Goodbaye-173
+- name: NL 💥Goodbaye-177
   type: vless
   server: 2.27.71.48
   port: 443
@@ -2122,15 +2158,35 @@ proxies:
   reality-opts:
     public-key: FTB4bvTP-3JAbScj_vvkIOPFGjtN2TaNTUfeY-Ew8EU
     short-id: 4d767145
-- name: GB 💥Goodbaye-174
+- name: GB 💥Goodbaye-178
   type: vless
   server: 13.135.17.74
-  port: 22222
+  port: 22223
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
   tls: false
   network: tcp
-- name: US 💥Goodbaye-175
+- name: GB 💥Goodbaye-179
+  type: vless
+  server: 13.135.17.74
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  network: tcp
+- name: DE 💥Goodbaye-180
+  type: vless
+  server: 87.120.84.22
+  port: 443
+  uuid: e625f8ef-f935-4c7d-a259-0f154b6842fd
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: seal-de1.bypassme.online
+  reality-opts:
+    public-key: jQC3Kmmbu-CfUKlQaeuSn4I8dbqAZhpgihZhWu1SvBk
+- name: US 💥Goodbaye-181
   type: vless
   server: 104.21.91.244
   port: 443
@@ -2144,7 +2200,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: US 💥Goodbaye-176
+- name: US 💥Goodbaye-182
   type: vless
   server: 162.159.250.29
   port: 443
@@ -2158,7 +2214,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
     headers:
       Host: lucasjow.us.ci
-- name: US 💥Goodbaye-177
+- name: US 💥Goodbaye-183
   type: vless
   server: 172.67.155.65
   port: 2053
@@ -2171,7 +2227,7 @@ proxies:
     path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: US 💥Goodbaye-178
+- name: US 💥Goodbaye-184
   type: vless
   server: 172.67.155.65
   port: 8443
@@ -2184,7 +2240,7 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: US 💥Goodbaye-179
+- name: US 💥Goodbaye-185
   type: vless
   server: 188.114.97.6
   port: 443
@@ -2198,7 +2254,7 @@ proxies:
     path: /
     headers:
       Host: lucasjow.us.ci
-- name: US 💥Goodbaye-180
+- name: US 💥Goodbaye-186
   type: vless
   server: 188.114.98.0
   port: 443
@@ -2212,7 +2268,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: RU 💥Goodbaye-181
+- name: RU 💥Goodbaye-187
   type: vless
   server: 104.171.133.209
   port: 443
@@ -2225,7 +2281,7 @@ proxies:
   reality-opts:
     public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
     short-id: 64c1fe36c7846400
-- name: RU 💥Goodbaye-182
+- name: RU 💥Goodbaye-188
   type: vless
   server: tgfree.rush-server.com
   port: 443
@@ -2239,20 +2295,7 @@ proxies:
   reality-opts:
     public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
     short-id: 64c1fe36c7846400
-- name: RU 💥Goodbaye-183
-  type: vless
-  server: render.tbotapi.ru
-  port: 443
-  uuid: ec05ad08-097f-4bb3-b65f-1806e7345c36
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  network: tcp
-  servername: render.tbotapi.ru
-  reality-opts:
-    public-key: bBTka5j8aqNSD5hl8X0YUhwYH04IrPIaeKUFkijUllg
-- name: NL 💥Goodbaye-184
+- name: NL 💥Goodbaye-189
   type: vless
   server: 185.192.22.159
   port: 8444
@@ -2264,7 +2307,7 @@ proxies:
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
     short-id: 457fab2ac885dbe0
-- name: AM 💥Goodbaye-185
+- name: AM 💥Goodbaye-190
   type: vless
   server: 77.91.68.70
   port: 55983
@@ -2277,7 +2320,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
     short-id: 0e
-- name: US 💥Goodbaye-186
+- name: US 💥Goodbaye-191
   type: vless
   server: ge-s-1.pythonmakemigreat.wiki
   port: 443
@@ -2291,34 +2334,27 @@ proxies:
   reality-opts:
     public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
     short-id: 2c9a2790ad5900b2
-- name: US 💥Goodbaye-187
+- name: US 💥Goodbaye-192
   type: vless
-  server: 13.143.184.226
-  port: 443
-  uuid: f8f23b48-57e6-4a87-9ff5-a086ec1b1803
+  server: cdn.shansim.ir
+  port: 2052
+  uuid: f9847955-6970-4503-a3a1-975979355673
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
+  tls: false
   network: tcp
-  servername: msc1.serverslocal.ru
-  reality-opts:
-    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
-    short-id: f7e66e308136e1a1
-- name: LT 💥Goodbaye-188
+- name: IR 💥Goodbaye-193
   type: vless
-  server: lt.e-bobr.com
+  server: 85.133.244.214
   port: 443
-  uuid: fae6f649-e47d-49a1-85e4-7d95b1f65b47
+  uuid: fb5c43f4-bd23-453d-a3cf-45ad5b9c020b
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: random
-  network: tcp
-  servername: at.e-bobr.com
-  reality-opts:
-    public-key: 4TKYDfkXjtoQhWC1ySfmN2kiXMoP2ntp1CrQjehwtk4
-- name: FR 💥Goodbaye-189
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 85.133.244.214
+- name: FR 💥Goodbaye-194
   type: vless
   server: 149.202.57.89
   port: 443
@@ -2329,7 +2365,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-- name: CA 💥Goodbaye-190
+- name: CA 💥Goodbaye-195
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -2339,7 +2375,7 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: US 💥Goodbaye-191
+- name: US 💥Goodbaye-196
   type: vmess
   server: 38.110.1.246
   port: 18000
@@ -2349,7 +2385,7 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: US 💥Goodbaye-192
+- name: US 💥Goodbaye-197
   type: vmess
   server: 67.220.95.3
   port: 18000
@@ -2359,17 +2395,7 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: DE 💥Goodbaye-193
-  type: vmess
-  server: 5.45.97.147
-  port: 10803
-  uuid: 018fbfb7-721a-49a9-b9f5-fb55d92592b6
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  udp: true
-- name: FR 💥Goodbaye-194
+- name: FR 💥Goodbaye-198
   type: vmess
   server: 54.37.131.126
   port: 80
@@ -2383,7 +2409,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: FR 💥Goodbaye-195
+- name: FR 💥Goodbaye-199
   type: vmess
   server: 57.128.164.21
   port: 80
@@ -2397,7 +2423,7 @@ proxies:
     path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
     headers:
       Host: https.http.www.net.com.ramseyv2.ir.
-- name: FR 💥Goodbaye-196
+- name: FR 💥Goodbaye-200
   type: vmess
   server: 145.239.55.210
   port: 80
@@ -2419,16 +2445,16 @@ proxy-groups:
   - DIRECT
   - SE 💥Goodbaye-01
   - FR 💥Goodbaye-02
-  - US 💥Goodbaye-03
+  - ZA 💥Goodbaye-03
   - NL 💥Goodbaye-04
-  - KR 💥Goodbaye-05
+  - NL 💥Goodbaye-05
   - NL 💥Goodbaye-06
-  - DE 💥Goodbaye-07
-  - DE 💥Goodbaye-08
+  - NL 💥Goodbaye-07
+  - ZA 💥Goodbaye-08
   - NL 💥Goodbaye-09
   - NL 💥Goodbaye-10
-  - NL 💥Goodbaye-11
-  - NL 💥Goodbaye-12
+  - GB 💥Goodbaye-11
+  - GB 💥Goodbaye-12
   - GB 💥Goodbaye-13
   - GB 💥Goodbaye-14
   - GB 💥Goodbaye-15
@@ -2437,133 +2463,133 @@ proxy-groups:
   - GB 💥Goodbaye-18
   - GB 💥Goodbaye-19
   - US 💥Goodbaye-20
-  - US 💥Goodbaye-21
-  - US 💥Goodbaye-22
-  - US 💥Goodbaye-23
-  - LU 💥Goodbaye-24
-  - AE 💥Goodbaye-25
-  - US 💥Goodbaye-26
-  - US 💥Goodbaye-27
+  - GB 💥Goodbaye-21
+  - LV 💥Goodbaye-22
+  - LT 💥Goodbaye-23
+  - PL 💥Goodbaye-24
+  - PL 💥Goodbaye-25
+  - RU 💥Goodbaye-26
+  - DE 💥Goodbaye-27
   - US 💥Goodbaye-28
   - US 💥Goodbaye-29
   - US 💥Goodbaye-30
-  - US 💥Goodbaye-31
-  - US 💥Goodbaye-32
+  - LU 💥Goodbaye-31
+  - AE 💥Goodbaye-32
   - US 💥Goodbaye-33
-  - NL 💥Goodbaye-34
-  - DE 💥Goodbaye-35
+  - US 💥Goodbaye-34
+  - US 💥Goodbaye-35
   - US 💥Goodbaye-36
-  - FR 💥Goodbaye-37
+  - US 💥Goodbaye-37
   - US 💥Goodbaye-38
-  - DE 💥Goodbaye-39
-  - DE 💥Goodbaye-40
+  - US 💥Goodbaye-39
+  - NL 💥Goodbaye-40
   - DE 💥Goodbaye-41
-  - DE 💥Goodbaye-42
-  - DE 💥Goodbaye-43
+  - US 💥Goodbaye-42
+  - US 💥Goodbaye-43
   - DE 💥Goodbaye-44
-  - LV 💥Goodbaye-45
-  - US 💥Goodbaye-46
-  - US 💥Goodbaye-47
-  - IR 💥Goodbaye-48
+  - DE 💥Goodbaye-45
+  - DE 💥Goodbaye-46
+  - DE 💥Goodbaye-47
+  - DE 💥Goodbaye-48
   - DE 💥Goodbaye-49
-  - FI 💥Goodbaye-50
+  - US 💥Goodbaye-50
   - US 💥Goodbaye-51
-  - US 💥Goodbaye-52
-  - FR 💥Goodbaye-53
-  - US 💥Goodbaye-54
-  - AE 💥Goodbaye-55
-  - SK 💥Goodbaye-56
-  - RU 💥Goodbaye-57
-  - US 💥Goodbaye-58
-  - DE 💥Goodbaye-59
-  - NL 💥Goodbaye-60
-  - US 💥Goodbaye-61
-  - IR 💥Goodbaye-62
-  - NL 💥Goodbaye-63
-  - US 💥Goodbaye-64
+  - IR 💥Goodbaye-52
+  - DE 💥Goodbaye-53
+  - FI 💥Goodbaye-54
+  - US 💥Goodbaye-55
+  - SE 💥Goodbaye-56
+  - FR 💥Goodbaye-57
+  - AE 💥Goodbaye-58
+  - SK 💥Goodbaye-59
+  - US 💥Goodbaye-60
+  - RU 💥Goodbaye-61
+  - US 💥Goodbaye-62
+  - DE 💥Goodbaye-63
+  - FI 💥Goodbaye-64
   - US 💥Goodbaye-65
   - US 💥Goodbaye-66
-  - CZ 💥Goodbaye-67
+  - IR 💥Goodbaye-67
   - NL 💥Goodbaye-68
-  - NL 💥Goodbaye-69
+  - US 💥Goodbaye-69
   - US 💥Goodbaye-70
   - US 💥Goodbaye-71
-  - US 💥Goodbaye-72
-  - CH 💥Goodbaye-73
-  - CH 💥Goodbaye-74
-  - SE 💥Goodbaye-75
-  - CY 💥Goodbaye-76
+  - NL 💥Goodbaye-72
+  - RU 💥Goodbaye-73
+  - NL 💥Goodbaye-74
+  - NL 💥Goodbaye-75
+  - US 💥Goodbaye-76
   - US 💥Goodbaye-77
   - US 💥Goodbaye-78
-  - US 💥Goodbaye-79
-  - US 💥Goodbaye-80
-  - NL 💥Goodbaye-81
-  - FR 💥Goodbaye-82
-  - PL 💥Goodbaye-83
-  - PL 💥Goodbaye-84
-  - DE 💥Goodbaye-85
-  - CY 💥Goodbaye-86
-  - US 💥Goodbaye-87
+  - CH 💥Goodbaye-79
+  - CH 💥Goodbaye-80
+  - SE 💥Goodbaye-81
+  - DE 💥Goodbaye-82
+  - CY 💥Goodbaye-83
+  - US 💥Goodbaye-84
+  - US 💥Goodbaye-85
+  - US 💥Goodbaye-86
+  - LV 💥Goodbaye-87
   - PL 💥Goodbaye-88
-  - LV 💥Goodbaye-89
-  - JP 💥Goodbaye-90
-  - JP 💥Goodbaye-91
-  - JP 💥Goodbaye-92
-  - JP 💥Goodbaye-93
-  - FR 💥Goodbaye-94
-  - AE 💥Goodbaye-95
-  - RU 💥Goodbaye-96
-  - US 💥Goodbaye-97
-  - FR 💥Goodbaye-98
-  - US 💥Goodbaye-99
-  - FI 💥Goodbaye-100
-  - NL 💥Goodbaye-101
-  - AE 💥Goodbaye-102
-  - PL 💥Goodbaye-103
-  - US 💥Goodbaye-104
+  - PL 💥Goodbaye-89
+  - DE 💥Goodbaye-90
+  - CY 💥Goodbaye-91
+  - US 💥Goodbaye-92
+  - PL 💥Goodbaye-93
+  - LV 💥Goodbaye-94
+  - US 💥Goodbaye-95
+  - US 💥Goodbaye-96
+  - DE 💥Goodbaye-97
+  - GB 💥Goodbaye-98
+  - SG 💥Goodbaye-99
+  - SG 💥Goodbaye-100
+  - IR 💥Goodbaye-101
+  - FR 💥Goodbaye-102
+  - US 💥Goodbaye-103
+  - AE 💥Goodbaye-104
   - FI 💥Goodbaye-105
   - US 💥Goodbaye-106
-  - CY 💥Goodbaye-107
-  - CY 💥Goodbaye-108
-  - RU 💥Goodbaye-109
-  - RU 💥Goodbaye-110
-  - NL 💥Goodbaye-111
-  - ES 💥Goodbaye-112
-  - FR 💥Goodbaye-113
-  - FR 💥Goodbaye-114
-  - DE 💥Goodbaye-115
+  - NL 💥Goodbaye-107
+  - NL 💥Goodbaye-108
+  - PL 💥Goodbaye-109
+  - DE 💥Goodbaye-110
+  - CY 💥Goodbaye-111
+  - CY 💥Goodbaye-112
+  - RU 💥Goodbaye-113
+  - NL 💥Goodbaye-114
+  - ES 💥Goodbaye-115
   - DE 💥Goodbaye-116
-  - DE 💥Goodbaye-117
-  - DE 💥Goodbaye-118
-  - DE 💥Goodbaye-119
-  - US 💥Goodbaye-120
-  - US 💥Goodbaye-121
-  - FR 💥Goodbaye-122
-  - PL 💥Goodbaye-123
-  - NL 💥Goodbaye-124
+  - FR 💥Goodbaye-117
+  - FR 💥Goodbaye-118
+  - IR 💥Goodbaye-119
+  - DE 💥Goodbaye-120
+  - DE 💥Goodbaye-121
+  - DE 💥Goodbaye-122
+  - DE 💥Goodbaye-123
+  - DE 💥Goodbaye-124
   - US 💥Goodbaye-125
-  - CY 💥Goodbaye-126
-  - EE 💥Goodbaye-127
+  - FR 💥Goodbaye-126
+  - PL 💥Goodbaye-127
   - NL 💥Goodbaye-128
   - US 💥Goodbaye-129
-  - US 💥Goodbaye-130
-  - US 💥Goodbaye-131
-  - US 💥Goodbaye-132
-  - FR 💥Goodbaye-133
-  - US 💥Goodbaye-134
-  - GB 💥Goodbaye-135
-  - US 💥Goodbaye-136
-  - RU 💥Goodbaye-137
-  - DE 💥Goodbaye-138
-  - AE 💥Goodbaye-139
+  - CY 💥Goodbaye-130
+  - NL 💥Goodbaye-131
+  - FR 💥Goodbaye-132
+  - US 💥Goodbaye-133
+  - GB 💥Goodbaye-134
+  - US 💥Goodbaye-135
+  - RU 💥Goodbaye-136
+  - DE 💥Goodbaye-137
+  - AE 💥Goodbaye-138
+  - US 💥Goodbaye-139
   - US 💥Goodbaye-140
   - US 💥Goodbaye-141
-  - US 💥Goodbaye-142
-  - DE 💥Goodbaye-143
-  - GB 💥Goodbaye-144
-  - US 💥Goodbaye-145
-  - DE 💥Goodbaye-146
-  - DE 💥Goodbaye-147
+  - DE 💥Goodbaye-142
+  - GB 💥Goodbaye-143
+  - AE 💥Goodbaye-144
+  - AE 💥Goodbaye-145
+  - AE 💥Goodbaye-146
+  - US 💥Goodbaye-147
   - DE 💥Goodbaye-148
   - DE 💥Goodbaye-149
   - DE 💥Goodbaye-150
@@ -2585,49 +2611,53 @@ proxy-groups:
   - DE 💥Goodbaye-166
   - DE 💥Goodbaye-167
   - DE 💥Goodbaye-168
-  - FR 💥Goodbaye-169
-  - US 💥Goodbaye-170
-  - DE 💥Goodbaye-171
-  - DE 💥Goodbaye-172
-  - NL 💥Goodbaye-173
-  - GB 💥Goodbaye-174
-  - US 💥Goodbaye-175
-  - US 💥Goodbaye-176
-  - US 💥Goodbaye-177
-  - US 💥Goodbaye-178
-  - US 💥Goodbaye-179
-  - US 💥Goodbaye-180
-  - RU 💥Goodbaye-181
-  - RU 💥Goodbaye-182
-  - RU 💥Goodbaye-183
-  - NL 💥Goodbaye-184
-  - AM 💥Goodbaye-185
+  - DE 💥Goodbaye-169
+  - DE 💥Goodbaye-170
+  - FR 💥Goodbaye-171
+  - NL 💥Goodbaye-172
+  - US 💥Goodbaye-173
+  - US 💥Goodbaye-174
+  - DE 💥Goodbaye-175
+  - DE 💥Goodbaye-176
+  - NL 💥Goodbaye-177
+  - GB 💥Goodbaye-178
+  - GB 💥Goodbaye-179
+  - DE 💥Goodbaye-180
+  - US 💥Goodbaye-181
+  - US 💥Goodbaye-182
+  - US 💥Goodbaye-183
+  - US 💥Goodbaye-184
+  - US 💥Goodbaye-185
   - US 💥Goodbaye-186
-  - US 💥Goodbaye-187
-  - LT 💥Goodbaye-188
-  - FR 💥Goodbaye-189
-  - CA 💥Goodbaye-190
+  - RU 💥Goodbaye-187
+  - RU 💥Goodbaye-188
+  - NL 💥Goodbaye-189
+  - AM 💥Goodbaye-190
   - US 💥Goodbaye-191
   - US 💥Goodbaye-192
-  - DE 💥Goodbaye-193
+  - IR 💥Goodbaye-193
   - FR 💥Goodbaye-194
-  - FR 💥Goodbaye-195
-  - FR 💥Goodbaye-196
+  - CA 💥Goodbaye-195
+  - US 💥Goodbaye-196
+  - US 💥Goodbaye-197
+  - FR 💥Goodbaye-198
+  - FR 💥Goodbaye-199
+  - FR 💥Goodbaye-200
 - name: 💥 Best Ping 🚀
   type: url-test
   proxies:
   - SE 💥Goodbaye-01
   - FR 💥Goodbaye-02
-  - US 💥Goodbaye-03
+  - ZA 💥Goodbaye-03
   - NL 💥Goodbaye-04
-  - KR 💥Goodbaye-05
+  - NL 💥Goodbaye-05
   - NL 💥Goodbaye-06
-  - DE 💥Goodbaye-07
-  - DE 💥Goodbaye-08
+  - NL 💥Goodbaye-07
+  - ZA 💥Goodbaye-08
   - NL 💥Goodbaye-09
   - NL 💥Goodbaye-10
-  - NL 💥Goodbaye-11
-  - NL 💥Goodbaye-12
+  - GB 💥Goodbaye-11
+  - GB 💥Goodbaye-12
   - GB 💥Goodbaye-13
   - GB 💥Goodbaye-14
   - GB 💥Goodbaye-15
@@ -2636,133 +2666,133 @@ proxy-groups:
   - GB 💥Goodbaye-18
   - GB 💥Goodbaye-19
   - US 💥Goodbaye-20
-  - US 💥Goodbaye-21
-  - US 💥Goodbaye-22
-  - US 💥Goodbaye-23
-  - LU 💥Goodbaye-24
-  - AE 💥Goodbaye-25
-  - US 💥Goodbaye-26
-  - US 💥Goodbaye-27
+  - GB 💥Goodbaye-21
+  - LV 💥Goodbaye-22
+  - LT 💥Goodbaye-23
+  - PL 💥Goodbaye-24
+  - PL 💥Goodbaye-25
+  - RU 💥Goodbaye-26
+  - DE 💥Goodbaye-27
   - US 💥Goodbaye-28
   - US 💥Goodbaye-29
   - US 💥Goodbaye-30
-  - US 💥Goodbaye-31
-  - US 💥Goodbaye-32
+  - LU 💥Goodbaye-31
+  - AE 💥Goodbaye-32
   - US 💥Goodbaye-33
-  - NL 💥Goodbaye-34
-  - DE 💥Goodbaye-35
+  - US 💥Goodbaye-34
+  - US 💥Goodbaye-35
   - US 💥Goodbaye-36
-  - FR 💥Goodbaye-37
+  - US 💥Goodbaye-37
   - US 💥Goodbaye-38
-  - DE 💥Goodbaye-39
-  - DE 💥Goodbaye-40
+  - US 💥Goodbaye-39
+  - NL 💥Goodbaye-40
   - DE 💥Goodbaye-41
-  - DE 💥Goodbaye-42
-  - DE 💥Goodbaye-43
+  - US 💥Goodbaye-42
+  - US 💥Goodbaye-43
   - DE 💥Goodbaye-44
-  - LV 💥Goodbaye-45
-  - US 💥Goodbaye-46
-  - US 💥Goodbaye-47
-  - IR 💥Goodbaye-48
+  - DE 💥Goodbaye-45
+  - DE 💥Goodbaye-46
+  - DE 💥Goodbaye-47
+  - DE 💥Goodbaye-48
   - DE 💥Goodbaye-49
-  - FI 💥Goodbaye-50
+  - US 💥Goodbaye-50
   - US 💥Goodbaye-51
-  - US 💥Goodbaye-52
-  - FR 💥Goodbaye-53
-  - US 💥Goodbaye-54
-  - AE 💥Goodbaye-55
-  - SK 💥Goodbaye-56
-  - RU 💥Goodbaye-57
-  - US 💥Goodbaye-58
-  - DE 💥Goodbaye-59
-  - NL 💥Goodbaye-60
-  - US 💥Goodbaye-61
-  - IR 💥Goodbaye-62
-  - NL 💥Goodbaye-63
-  - US 💥Goodbaye-64
+  - IR 💥Goodbaye-52
+  - DE 💥Goodbaye-53
+  - FI 💥Goodbaye-54
+  - US 💥Goodbaye-55
+  - SE 💥Goodbaye-56
+  - FR 💥Goodbaye-57
+  - AE 💥Goodbaye-58
+  - SK 💥Goodbaye-59
+  - US 💥Goodbaye-60
+  - RU 💥Goodbaye-61
+  - US 💥Goodbaye-62
+  - DE 💥Goodbaye-63
+  - FI 💥Goodbaye-64
   - US 💥Goodbaye-65
   - US 💥Goodbaye-66
-  - CZ 💥Goodbaye-67
+  - IR 💥Goodbaye-67
   - NL 💥Goodbaye-68
-  - NL 💥Goodbaye-69
+  - US 💥Goodbaye-69
   - US 💥Goodbaye-70
   - US 💥Goodbaye-71
-  - US 💥Goodbaye-72
-  - CH 💥Goodbaye-73
-  - CH 💥Goodbaye-74
-  - SE 💥Goodbaye-75
-  - CY 💥Goodbaye-76
+  - NL 💥Goodbaye-72
+  - RU 💥Goodbaye-73
+  - NL 💥Goodbaye-74
+  - NL 💥Goodbaye-75
+  - US 💥Goodbaye-76
   - US 💥Goodbaye-77
   - US 💥Goodbaye-78
-  - US 💥Goodbaye-79
-  - US 💥Goodbaye-80
-  - NL 💥Goodbaye-81
-  - FR 💥Goodbaye-82
-  - PL 💥Goodbaye-83
-  - PL 💥Goodbaye-84
-  - DE 💥Goodbaye-85
-  - CY 💥Goodbaye-86
-  - US 💥Goodbaye-87
+  - CH 💥Goodbaye-79
+  - CH 💥Goodbaye-80
+  - SE 💥Goodbaye-81
+  - DE 💥Goodbaye-82
+  - CY 💥Goodbaye-83
+  - US 💥Goodbaye-84
+  - US 💥Goodbaye-85
+  - US 💥Goodbaye-86
+  - LV 💥Goodbaye-87
   - PL 💥Goodbaye-88
-  - LV 💥Goodbaye-89
-  - JP 💥Goodbaye-90
-  - JP 💥Goodbaye-91
-  - JP 💥Goodbaye-92
-  - JP 💥Goodbaye-93
-  - FR 💥Goodbaye-94
-  - AE 💥Goodbaye-95
-  - RU 💥Goodbaye-96
-  - US 💥Goodbaye-97
-  - FR 💥Goodbaye-98
-  - US 💥Goodbaye-99
-  - FI 💥Goodbaye-100
-  - NL 💥Goodbaye-101
-  - AE 💥Goodbaye-102
-  - PL 💥Goodbaye-103
-  - US 💥Goodbaye-104
+  - PL 💥Goodbaye-89
+  - DE 💥Goodbaye-90
+  - CY 💥Goodbaye-91
+  - US 💥Goodbaye-92
+  - PL 💥Goodbaye-93
+  - LV 💥Goodbaye-94
+  - US 💥Goodbaye-95
+  - US 💥Goodbaye-96
+  - DE 💥Goodbaye-97
+  - GB 💥Goodbaye-98
+  - SG 💥Goodbaye-99
+  - SG 💥Goodbaye-100
+  - IR 💥Goodbaye-101
+  - FR 💥Goodbaye-102
+  - US 💥Goodbaye-103
+  - AE 💥Goodbaye-104
   - FI 💥Goodbaye-105
   - US 💥Goodbaye-106
-  - CY 💥Goodbaye-107
-  - CY 💥Goodbaye-108
-  - RU 💥Goodbaye-109
-  - RU 💥Goodbaye-110
-  - NL 💥Goodbaye-111
-  - ES 💥Goodbaye-112
-  - FR 💥Goodbaye-113
-  - FR 💥Goodbaye-114
-  - DE 💥Goodbaye-115
+  - NL 💥Goodbaye-107
+  - NL 💥Goodbaye-108
+  - PL 💥Goodbaye-109
+  - DE 💥Goodbaye-110
+  - CY 💥Goodbaye-111
+  - CY 💥Goodbaye-112
+  - RU 💥Goodbaye-113
+  - NL 💥Goodbaye-114
+  - ES 💥Goodbaye-115
   - DE 💥Goodbaye-116
-  - DE 💥Goodbaye-117
-  - DE 💥Goodbaye-118
-  - DE 💥Goodbaye-119
-  - US 💥Goodbaye-120
-  - US 💥Goodbaye-121
-  - FR 💥Goodbaye-122
-  - PL 💥Goodbaye-123
-  - NL 💥Goodbaye-124
+  - FR 💥Goodbaye-117
+  - FR 💥Goodbaye-118
+  - IR 💥Goodbaye-119
+  - DE 💥Goodbaye-120
+  - DE 💥Goodbaye-121
+  - DE 💥Goodbaye-122
+  - DE 💥Goodbaye-123
+  - DE 💥Goodbaye-124
   - US 💥Goodbaye-125
-  - CY 💥Goodbaye-126
-  - EE 💥Goodbaye-127
+  - FR 💥Goodbaye-126
+  - PL 💥Goodbaye-127
   - NL 💥Goodbaye-128
   - US 💥Goodbaye-129
-  - US 💥Goodbaye-130
-  - US 💥Goodbaye-131
-  - US 💥Goodbaye-132
-  - FR 💥Goodbaye-133
-  - US 💥Goodbaye-134
-  - GB 💥Goodbaye-135
-  - US 💥Goodbaye-136
-  - RU 💥Goodbaye-137
-  - DE 💥Goodbaye-138
-  - AE 💥Goodbaye-139
+  - CY 💥Goodbaye-130
+  - NL 💥Goodbaye-131
+  - FR 💥Goodbaye-132
+  - US 💥Goodbaye-133
+  - GB 💥Goodbaye-134
+  - US 💥Goodbaye-135
+  - RU 💥Goodbaye-136
+  - DE 💥Goodbaye-137
+  - AE 💥Goodbaye-138
+  - US 💥Goodbaye-139
   - US 💥Goodbaye-140
   - US 💥Goodbaye-141
-  - US 💥Goodbaye-142
-  - DE 💥Goodbaye-143
-  - GB 💥Goodbaye-144
-  - US 💥Goodbaye-145
-  - DE 💥Goodbaye-146
-  - DE 💥Goodbaye-147
+  - DE 💥Goodbaye-142
+  - GB 💥Goodbaye-143
+  - AE 💥Goodbaye-144
+  - AE 💥Goodbaye-145
+  - AE 💥Goodbaye-146
+  - US 💥Goodbaye-147
   - DE 💥Goodbaye-148
   - DE 💥Goodbaye-149
   - DE 💥Goodbaye-150
@@ -2784,34 +2814,38 @@ proxy-groups:
   - DE 💥Goodbaye-166
   - DE 💥Goodbaye-167
   - DE 💥Goodbaye-168
-  - FR 💥Goodbaye-169
-  - US 💥Goodbaye-170
-  - DE 💥Goodbaye-171
-  - DE 💥Goodbaye-172
-  - NL 💥Goodbaye-173
-  - GB 💥Goodbaye-174
-  - US 💥Goodbaye-175
-  - US 💥Goodbaye-176
-  - US 💥Goodbaye-177
-  - US 💥Goodbaye-178
-  - US 💥Goodbaye-179
-  - US 💥Goodbaye-180
-  - RU 💥Goodbaye-181
-  - RU 💥Goodbaye-182
-  - RU 💥Goodbaye-183
-  - NL 💥Goodbaye-184
-  - AM 💥Goodbaye-185
+  - DE 💥Goodbaye-169
+  - DE 💥Goodbaye-170
+  - FR 💥Goodbaye-171
+  - NL 💥Goodbaye-172
+  - US 💥Goodbaye-173
+  - US 💥Goodbaye-174
+  - DE 💥Goodbaye-175
+  - DE 💥Goodbaye-176
+  - NL 💥Goodbaye-177
+  - GB 💥Goodbaye-178
+  - GB 💥Goodbaye-179
+  - DE 💥Goodbaye-180
+  - US 💥Goodbaye-181
+  - US 💥Goodbaye-182
+  - US 💥Goodbaye-183
+  - US 💥Goodbaye-184
+  - US 💥Goodbaye-185
   - US 💥Goodbaye-186
-  - US 💥Goodbaye-187
-  - LT 💥Goodbaye-188
-  - FR 💥Goodbaye-189
-  - CA 💥Goodbaye-190
+  - RU 💥Goodbaye-187
+  - RU 💥Goodbaye-188
+  - NL 💥Goodbaye-189
+  - AM 💥Goodbaye-190
   - US 💥Goodbaye-191
   - US 💥Goodbaye-192
-  - DE 💥Goodbaye-193
+  - IR 💥Goodbaye-193
   - FR 💥Goodbaye-194
-  - FR 💥Goodbaye-195
-  - FR 💥Goodbaye-196
+  - CA 💥Goodbaye-195
+  - US 💥Goodbaye-196
+  - US 💥Goodbaye-197
+  - FR 💥Goodbaye-198
+  - FR 💥Goodbaye-199
+  - FR 💥Goodbaye-200
   url: https://www.gstatic.com/generate_204
   interval: 30
   tolerance: 50
