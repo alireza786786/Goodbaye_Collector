@@ -8,21 +8,21 @@ def generate_web_page():
     
     # ۳ پروتکل اختصاصی و اضطراری جدید
     emergency_proxies = [
-        {"name": "socks5.txt", "title": "⚡ ساکس ۵ (SOCKS5 Ultra Clean)", "icon": "fa-bolt", "desc": "مخصوص v2rayNG و Nekoray با پینگ تاییدشده", "badge": "SOCKS5"},
-        {"name": "telegramProxys.txt", "title": "✈️ پروکسی مستقیم تلگرام (Direct TG)", "icon": "fa-paper-plane", "desc": "اتصال مستقیم تلگرام بدون نیاز به فیلترشکن", "badge": "TELEGRAM"},
-        {"name": "https.txt", "title": "🔒 پروکسی امن HTTPS via TLS", "icon": "fa-lock", "desc": "ارتباط رمزنگاری‌شده و مقاوم در برابر اینترنت ملی", "badge": "HTTPS"}
+        {"name": "socks5.txt", "title": "⚡ ساکس ۵ (SOCKS5 Ultra Clean)", "icon": "fa-bolt", "desc": "مخصوص v2rayNG و Nekoray با پینگ تاییدشده", "badge": "SOCKS5", "isp": "all mci mtn home"},
+        {"name": "telegramProxys.txt", "title": "✈️ پروکسی مستقیم تلگرام (Direct TG)", "icon": "fa-paper-plane", "desc": "اتصال مستقیم تلگرام بدون نیاز به فیلترشکن", "badge": "TELEGRAM", "isp": "all mci mtn home"},
+        {"name": "https.txt", "title": "🔒 پروکسی امن HTTPS via TLS", "icon": "fa-lock", "desc": "ارتباط رمزنگاری‌شده و مقاوم در برابر اینترنت ملی", "badge": "HTTPS", "isp": "all mci"}
     ]
 
     # فایل‌های اصلی و فرمت‌های V2Ray (دست‌نخورده و کامل)
     core_files = [
-        {"name": "Goodbaye_Sub.txt", "title": "⭐ سابسکرایب اصلی (تست‌شده و زنده)", "icon": "fa-bolt-lightning", "type": "txt"},
-        {"name": "Goodbaye_Light.txt", "title": "⚡ سابسکرایب لایت (۲ ساعت اخیر)", "icon": "fa-clock", "type": "txt"},
-        {"name": "Goodbaye_no_cf.txt", "title": "🚫 بدون کلودفلر (مخصوص اینترنت حساس)", "icon": "fa-shield-halved", "type": "txt"},
-        {"name": "conf-week.txt", "title": "🗓️ آرشیو پایدار هفتگی (۷ روزه)", "icon": "fa-calendar-week", "type": "txt"},
-        {"name": "iran_ping_top10.txt", "title": "🇮🇷 پکیج اختصاصی کمترین پینگ برای ایران", "icon": "fa-gauge-high", "type": "txt"},
-        {"name": "open_internet_top10.txt", "title": "🌍 پکیج اختصاصی اینترنت آزاد و بدون فیلتر", "icon": "fa-earth-europe", "type": "txt"},
-        {"name": "Goodbaye_Clash.yaml", "title": "کلاینت Clash / Mihomo (قوانین هوشمند)", "icon": "fa-circle-nodes", "type": "yaml"},
-        {"name": "Goodbaye_Singbox.json", "title": "کلاینت Sing-box (قوانین باینری)", "icon": "fa-box-open", "type": "json"}
+        {"name": "Goodbaye_Sub.txt", "title": "⭐ سابسکرایب اصلی (تست‌شده و زنده)", "icon": "fa-bolt-lightning", "type": "txt", "isp": "all mtn home"},
+        {"name": "Goodbaye_Light.txt", "title": "⚡ سابسکرایب لایت (۲ ساعت اخیر)", "icon": "fa-clock", "type": "txt", "isp": "all mtn mci"},
+        {"name": "Goodbaye_no_cf.txt", "title": "🚫 بدون کلودفلر (مخصوص اینترنت حساس)", "icon": "fa-shield-halved", "type": "txt", "isp": "all mci"},
+        {"name": "conf-week.txt", "title": "🗓️ آرشیو پایدار هفتگی (۷ روزه)", "icon": "fa-calendar-week", "type": "txt", "isp": "all home"},
+        {"name": "iran_ping_top10.txt", "title": "🇮🇷 پکیج اختصاصی کمترین پینگ برای ایران", "icon": "fa-gauge-high", "type": "txt", "isp": "all home"},
+        {"name": "open_internet_top10.txt", "title": "🌍 پکیج اختصاصی اینترنت آزاد و بدون فیلتر", "icon": "fa-earth-europe", "type": "txt", "isp": "all mtn home"},
+        {"name": "Goodbaye_Clash.yaml", "title": "کلاینت Clash / Mihomo (قوانین هوشمند)", "icon": "fa-circle-nodes", "type": "yaml", "isp": "all mci mtn home"},
+        {"name": "Goodbaye_Singbox.json", "title": "کلاینت Sing-box (قوانین باینری)", "icon": "fa-box-open", "type": "json", "isp": "all mci mtn home"}
     ]
 
     # بررسی فایل‌های منطقه‌ای موجود در پوشه regions
@@ -40,20 +40,23 @@ def generate_web_page():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goodbaye Collector | پنل جامع سابسکریپشن و پروکسی</title>
+    <title>Goodbaye Collector | پنل هوشمند سابسکریپشن و رادار پایش</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap');
-        body {{ font-family: 'Vazirmatn', sans-serif; background: #0b0f1a; color: #e2e8f0; font-size: 16px; }}
-        .glass {{ background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }}
-        .proxy-box {{ font-family: monospace; background: #000; padding: 18px; border-radius: 14px; height: 260px; overflow-y: auto; direction: ltr; text-align: left; font-size: 13px; border: 1px solid #1e293b; }}
-        .tab-active {{ border-bottom: 3px solid #3b82f6; color: #3b82f6; font-weight: 900; }}
-        .file-card {{ background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(255,255,255,0.05); border-radius: 14px; padding: 14px; transition: all 0.2s; }}
-        .file-card:hover {{ border-color: rgba(59, 130, 246, 0.4); transform: translateY(-2px); }}
-        .btn-action {{ transition: all 0.2s; font-size: 13px; font-weight: 700; }}
-        .social-card {{ transition: all 0.3s; border: 1px solid rgba(255,255,255,0.05); }}
-        .social-card:hover {{ background: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.4); transform: translateY(-3px); }}
+        body {{ font-family: 'Vazirmatn', sans-serif; background: #070a13; color: #e2e8f0; font-size: 15px; }}
+        .glass {{ background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(14px); border: 1px solid rgba(255,255,255,0.08); }}
+        .proxy-box {{ font-family: monospace; background: #020617; padding: 16px; border-radius: 14px; height: 230px; overflow-y: auto; direction: ltr; text-align: left; font-size: 13px; border: 1px solid #1e293b; }}
+        .tab-active {{ border-bottom: 3px solid #38bdf8; color: #38bdf8; font-weight: 900; }}
+        .file-card {{ background: rgba(30, 41, 59, 0.45); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px; padding: 14px; transition: all 0.25s; }}
+        .file-card:hover {{ border-color: rgba(56, 189, 248, 0.45); transform: translateY(-2px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5); }}
+        .file-card.dimmed {{ opacity: 0.25; filter: grayscale(80%); transform: scale(0.98); }}
+        .file-card.highlighted {{ border-color: #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.2); }}
+        .btn-action {{ transition: all 0.2s; font-size: 12px; font-weight: 700; }}
+        .isp-btn {{ transition: all 0.2s; font-size: 12px; font-weight: 800; }}
+        .isp-btn.active {{ background: #0284c7; color: #ffffff; border-color: #38bdf8; box-shadow: 0 0 15px rgba(2, 132, 199, 0.4); }}
         #toast {{ 
             visibility: hidden; min-width: 220px; background-color: #10b981; color: #fff; 
             text-align: center; border-radius: 12px; padding: 12px; position: fixed; 
@@ -62,34 +65,114 @@ def generate_web_page():
             transition: opacity 0.3s, bottom 0.3s;
         }}
         #toast.show {{ visibility: visible; opacity: 1; bottom: 50px; }}
-        .nav-btn {{ position: fixed; right: 20px; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 50; box-shadow: 0 4px 10px rgba(0,0,0,0.5); transition: 0.3s; color: white; cursor: pointer; }}
-        .nav-btn:hover {{ transform: scale(1.1); }}
+        .floating-chat {{ 
+            position: fixed; left: 20px; bottom: 25px; z-index: 60; 
+            box-shadow: 0 8px 25px rgba(14, 165, 233, 0.4); 
+            animation: pulse-ring 2.5s infinite; 
+        }}
+        @keyframes pulse-ring {{
+            0% {{ box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.6); }}
+            70% {{ box-shadow: 0 0 0 15px rgba(14, 165, 233, 0); }}
+            100% {{ box-shadow: 0 0 0 0 rgba(14, 165, 233, 0); }}
+        }}
     </style>
 </head>
-<body class="p-4 md:p-10 relative">
+<body class="p-4 md:p-8 relative">
     <div id="toast"><i class="fa-solid fa-check-circle ml-2"></i>کپی شد!</div>
 
-    <button onclick="window.scrollTo(0,0)" class="nav-btn bottom-20 bg-blue-600" title="برو به بالا">
+    <!-- دکمه شناور ارسال پیام و نظرات به پست ۱۰۰۲۱ -->
+    <a href="https://t.me/CONFIG_V2RAY_VIP/10021?comment=1" target="_blank" class="floating-chat flex items-center gap-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white px-4 py-3 rounded-full font-bold text-xs md:text-sm transition-all" title="ارسال نظر، پرسش و گزارش خرابی در تلگرام">
+        <i class="fa-solid fa-comments text-lg"></i>
+        <span>ارسال نظر و گزارش (پست ۱۰۰۲۱)</span>
+    </a>
+
+    <!-- دکمه‌های ناوبری بالا و پایین -->
+    <button onclick="window.scrollTo(0,0)" class="fixed right-5 bottom-20 w-11 h-11 rounded-full bg-blue-600/80 hover:bg-blue-600 text-white flex items-center justify-center z-50 shadow-lg transition" title="برو به بالا">
         <i class="fa-solid fa-arrow-up"></i>
     </button>
-    <button onclick="window.scrollTo(0, document.body.scrollHeight)" class="nav-btn bottom-5 bg-slate-700" title="برو به پایین">
+    <button onclick="window.scrollTo(0, document.body.scrollHeight)" class="fixed right-5 bottom-6 w-11 h-11 rounded-full bg-slate-800/80 hover:bg-slate-700 text-white flex items-center justify-center z-50 shadow-lg transition" title="برو به پایین">
         <i class="fa-solid fa-arrow-down"></i>
     </button>
 
+    <!-- پنجره پاپ‌آپ بارکد QR -->
+    <div id="qrModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="glass max-w-sm w-full p-6 rounded-3xl border border-sky-500/30 text-center relative">
+            <button onclick="closeQR()" class="absolute top-4 left-4 text-slate-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h3 id="qrTitle" class="text-sm font-bold text-sky-400 mb-2 truncate">بارکد سابسکریپشن</h3>
+            <p class="text-[11px] text-slate-400 mb-4">اسکن مستقیم با دوربین اپلیکیشن (v2rayNG / Nekoray)</p>
+            <div id="qrcode" class="bg-white p-3 rounded-2xl inline-block mb-4 shadow-xl"></div>
+            <div class="flex gap-2">
+                <button id="qrCopyBtn" onclick="" class="flex-1 bg-sky-600 hover:bg-sky-500 text-white py-2 rounded-xl text-xs font-bold transition">
+                    کپی لینک
+                </button>
+                <button onclick="closeQR()" class="px-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-xl text-xs font-bold transition">
+                    بستن
+                </button>
+            </div>
+        </div>
+    </div>
+
     <div class="max-w-6xl mx-auto">
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 mb-3">Goodbaye Collector</h1>
-            <p class="text-slate-400 text-sm">ابر کالکتور و موتور هوشمند سابسکریپشن V2Ray و پروکسی اضطراری | بروزرسانی: {now_tehran}</p>
+        <!-- هدر و رادار وضعیت شبکه (مورد ۴) -->
+        <header class="text-center mb-8">
+            <!-- نوار رادار پایش شبکه -->
+            <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full glass border border-sky-500/30 text-xs mb-4">
+                <span class="flex h-2.5 w-2.5 relative">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                </span>
+                <span class="text-emerald-400 font-bold">رادار پایش: ارتباط گیت‌وی‌ها پایدار</span>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300">ساعت رسمی تهران: <b class="text-sky-400">{now_tehran}</b></span>
+            </div>
+
+            <h1 class="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 mb-2">
+                GOODBAYE COLLECTOR
+            </h1>
+            <p class="text-slate-400 text-xs md:text-sm">ابر کالکتور و موتور هوشمند استخراج، پالایش و سابسکریپشن زنده V2Ray و پروکسی اضطراری</p>
+
+            <div class="flex items-center justify-center gap-3 mt-4">
+                <a href="https://t.me/Goodbaye_filtering" target="_blank" class="px-4 py-1.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/20 text-xs font-bold hover:bg-sky-500 hover:text-white transition">
+                    <i class="fa-brands fa-telegram ml-1"></i> کانال اصلی
+                </a>
+                <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold hover:bg-amber-500 hover:text-white transition">
+                    <i class="fa-solid fa-crown ml-1"></i> کانال VIP
+                </a>
+            </div>
         </header>
 
-        <!-- بخش ویژه جدید: پروکسی‌های اضطراری ۳ گانه (Socks5, Telegram, HTTPS) -->
-        <section class="mb-12 glass p-6 rounded-3xl border-t-4 border-emerald-500 shadow-2xl">
-            <div class="flex justify-between items-center mb-6">
+        <!-- نوار فیلتر هوشمند اپراتورها (مورد ۲) -->
+        <section class="glass p-3.5 rounded-2xl mb-8 flex flex-wrap items-center justify-between gap-3 border border-sky-500/20">
+            <div class="flex items-center gap-2 text-xs font-bold text-slate-300">
+                <i class="fa-solid fa-filter text-sky-400"></i>
+                <span>پیشنهاد هوشمند بر اساس اینترنت شما:</span>
+            </div>
+            <div class="flex flex-wrap items-center gap-2">
+                <button onclick="filterISP('all')" id="isp-all" class="isp-btn active px-3.5 py-1.5 rounded-xl border border-slate-700 bg-slate-800 text-slate-300">
+                    همه سرورها
+                </button>
+                <button onclick="filterISP('mci')" id="isp-mci" class="isp-btn px-3.5 py-1.5 rounded-xl border border-slate-700 bg-slate-800/60 text-slate-300 hover:text-white">
+                    📱 همراه اول (MCI)
+                </button>
+                <button onclick="filterISP('mtn')" id="isp-mtn" class="isp-btn px-3.5 py-1.5 rounded-xl border border-slate-700 bg-slate-800/60 text-slate-300 hover:text-white">
+                    📶 ایرانسل (MTN)
+                </button>
+                <button onclick="filterISP('home')" id="isp-home" class="isp-btn px-3.5 py-1.5 rounded-xl border border-slate-700 bg-slate-800/60 text-slate-300 hover:text-white">
+                    🌐 مخابرات و خانگی
+                </button>
+            </div>
+        </section>
+
+        <!-- بخش ۳ پروکسی اضطراری ضد فیلتر (Socks5, Telegram, HTTPS) -->
+        <section class="mb-10 glass p-5 md:p-6 rounded-3xl border-t-4 border-emerald-500 shadow-2xl">
+            <div class="flex justify-between items-center mb-4">
                 <div>
-                    <h2 class="text-2xl font-black flex items-center text-emerald-400">
-                        <i class="fa-solid fa-shield-virus ml-3 text-3xl"></i> پروکسی‌های اضطراری ضد فیلتر (SOCKS5 | تلگرام | HTTPS)
+                    <h2 class="text-xl md:text-2xl font-black flex items-center text-emerald-400">
+                        <i class="fa-solid fa-shield-virus ml-3 text-2xl md:text-3xl"></i> پروکسی‌های اضطراری ضد فیلتر (SOCKS5 | تلگرام | HTTPS)
                     </h2>
-                    <p class="text-xs text-slate-400 mt-1">کانفیگ‌های تست‌شده با پینگ زیر ۶۵۰ms و سازگار با دوران اختلال و شبکه ملی</p>
+                    <p class="text-xs text-slate-400 mt-1">تست‌شده با پینگ زیر ۶۵۰ms و مناسب دوران اختلال و شبکه ملی</p>
                 </div>
                 <span class="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full font-bold">تست زنده VIP</span>
             </div>
@@ -100,19 +183,20 @@ def generate_web_page():
     for ep in emergency_proxies:
         ep_url = f"{pages_base_url}/{ep['name']}"
         html_content += f"""
-                <div class="file-card flex flex-col justify-between gap-3 border border-emerald-500/20 bg-emerald-950/20">
+                <div class="file-card flex flex-col justify-between gap-3 border border-emerald-500/20 bg-emerald-950/20" data-isp="{ep['isp']}">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">{ep['badge']}</span>
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400">{ep['badge']}</span>
                             <i class="fa-solid {ep['icon']} text-emerald-400"></i>
                         </div>
                         <h3 class="text-sm font-bold text-slate-100">{ep['title']}</h3>
                         <p class="text-[11px] text-slate-400 mt-1">{ep['desc']}</p>
                     </div>
-                    <div class="flex gap-2 pt-2 border-t border-white/5">
-                        <button onclick="copyText('{ep_url}')" class="flex-1 bg-emerald-600/30 text-emerald-300 py-2 rounded-lg btn-action hover:bg-emerald-600 hover:text-white transition">کپی لینک</button>
-                        <button onclick="copyContent('{ep_url}')" class="flex-1 bg-purple-600/20 text-purple-300 py-2 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition">کپی متن</button>
-                        <button onclick="downloadFile('{ep_url}', '{ep['name']}')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
+                    <div class="flex gap-1.5 pt-2 border-t border-white/5">
+                        <button onclick="copyText('{ep_url}')" class="flex-1 bg-emerald-600/30 text-emerald-300 py-1.5 rounded-lg btn-action hover:bg-emerald-600 hover:text-white transition">کپی لینک</button>
+                        <button onclick="copyContent('{ep_url}')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition">کپی متن</button>
+                        <button onclick="openQR('{ep_url}', '{ep['title']}')" class="bg-sky-600/30 text-sky-300 px-2.5 py-1.5 rounded-lg btn-action hover:bg-sky-600 hover:text-white transition" title="بارکد QR"><i class="fa-solid fa-qrcode"></i></button>
+                        <button onclick="downloadFile('{ep_url}', '{ep['name']}')" class="bg-slate-700 text-white px-2.5 py-1.5 rounded-lg btn-action hover:bg-emerald-600 transition" title="دانلود مستقیم"><i class="fa-solid fa-download"></i></button>
                     </div>
                 </div>"""
 
@@ -120,48 +204,98 @@ def generate_web_page():
             </div>
         </section>
 
-        <!-- بخش پروکسی‌های زنده تلگرام MTProto -->
-        <section class="mb-12 glass p-6 rounded-3xl border-t-4 border-sky-500 shadow-2xl">
-            <div class="flex justify-between items-center mb-6">
-                <h2 class="text-2xl font-black flex items-center text-sky-400">
-                    <i class="fa-brands fa-telegram ml-3 text-3xl"></i> پروکسی‌های تلگرام (MTProto)
+        <!-- بخش سازنده سابسکریپشن سفارشی (مورد ۶) -->
+        <section class="mb-10 glass p-5 md:p-6 rounded-3xl border-t-4 border-indigo-500 shadow-2xl">
+            <div class="flex flex-wrap justify-between items-center gap-3 mb-4">
+                <div>
+                    <h2 class="text-lg md:text-xl font-black flex items-center text-indigo-400">
+                        <i class="fa-solid fa-sliders ml-2.5 text-2xl"></i> سازنده سابسکریپشن سفارشی
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">کشورهای دلخواهتان را انتخاب کنید تا یک پکیج ترکیبی اختصاصی برای شما ساخته شود</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2 mb-4">
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-DE.txt" checked>
+                    <span>🇩🇪 آلمان</span>
+                </label>
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-NL.txt" checked>
+                    <span>🇳🇱 هلند</span>
+                </label>
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-TR.txt">
+                    <span>🇹🇷 ترکیه</span>
+                </label>
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-US.txt">
+                    <span>🇺🇸 آمریکا</span>
+                </label>
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-UK.txt">
+                    <span>🇬🇧 انگلیس</span>
+                </label>
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-FI.txt">
+                    <span>🇫🇮 فنلاند</span>
+                </label>
+                <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-indigo-500 text-xs">
+                    <input type="checkbox" class="custom-reg-cb accent-indigo-500" value="conf-FR.txt">
+                    <span>🇫🇷 فرانسه</span>
+                </label>
+            </div>
+
+            <button onclick="buildCustomSub()" class="w-full bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white py-2.5 rounded-xl text-xs font-bold transition flex items-center justify-center gap-2 shadow-lg">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>تولید و کپی مستقیم متن کانفیگ‌های انتخابی</span>
+            </button>
+        </section>
+
+        <!-- بخش پروکسی‌های زنده تلگرام MTProto با باکس کپی سریع -->
+        <section class="mb-10 glass p-5 md:p-6 rounded-3xl border-t-4 border-sky-500 shadow-2xl">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl md:text-2xl font-black flex items-center text-sky-400">
+                    <i class="fa-brands fa-telegram ml-3 text-2xl md:text-3xl"></i> پروکسی‌های زنده تلگرام (MTProto)
                 </h2>
                 <span class="text-xs bg-sky-500/20 text-sky-300 px-3 py-1 rounded-full font-bold">بدون نیاز به وی‌پی‌ان</span>
             </div>
-            <div class="flex gap-6 mb-4 border-b border-white/10 text-base font-bold">
-                <button onclick="switchTG('mixed')" id="tab-mixed" class="pb-3 px-2 tab-active transition-all">میکس (پیشنهادی)</button>
-                <button onclick="switchTG('android')" id="tab-android" class="pb-3 px-2 text-slate-400 transition-all">اندروید</button>
-                <button onclick="switchTG('windows')" id="tab-windows" class="pb-3 px-2 text-slate-400 transition-all">ویندوز</button>
+            <div class="flex gap-6 mb-3 border-b border-white/10 text-sm font-bold">
+                <button onclick="switchTG('mixed')" id="tab-mixed" class="pb-2.5 px-2 tab-active transition-all">میکس (پیشنهادی)</button>
+                <button onclick="switchTG('android')" id="tab-android" class="pb-2.5 px-2 text-slate-400 transition-all">اندروید</button>
+                <button onclick="switchTG('windows')" id="tab-windows" class="pb-2.5 px-2 text-slate-400 transition-all">ویندوز</button>
             </div>
-            <div id="proxy-display" class="proxy-box mb-4 shadow-inner text-slate-300">در حال بارگذاری پروکسی‌ها...</div>
-            <button onclick="copyCurrentProxy()" class="w-full bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-500 hover:to-blue-500 py-3.5 rounded-xl font-bold transition flex items-center justify-center active:scale-95 text-white">
-                <i class="fa-solid fa-copy ml-2 text-lg"></i> کپی تمام پروکسی‌ها
+            <div id="proxy-display" class="proxy-box mb-4 text-slate-300">در حال بارگذاری پروکسی‌ها...</div>
+            <button onclick="copyCurrentProxy()" class="w-full bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-500 hover:to-blue-500 py-3 rounded-xl font-bold transition flex items-center justify-center active:scale-95 text-white text-sm">
+                <i class="fa-solid fa-copy ml-2 text-base"></i> کپی تمام پروکسی‌ها
             </button>
         </section>
 
         <!-- بخش سابسکریپشن‌های اصلی V2Ray (دست‌نخورده) -->
-        <h2 class="text-2xl font-black mb-6 flex items-center text-blue-400">
+        <h2 class="text-xl md:text-2xl font-black mb-5 flex items-center text-blue-400">
             <i class="fa-solid fa-server ml-3"></i> لینک‌های سابسکریپشن اصلی V2Ray
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
     """
 
     for item in core_files:
         furl = f"{repo_raw_url}/{item['name']}"
         icon = item['icon']
         title = item['title']
+        isp_tag = item.get('isp', 'all')
         html_content += f"""
-            <div class="file-card flex flex-col justify-between gap-3">
+            <div class="file-card flex flex-col justify-between gap-3" data-isp="{isp_tag}">
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
                         <i class="fa-solid {icon} text-lg"></i>
                     </div>
                     <span class="text-sm font-bold text-slate-200 truncate">{title}</span>
                 </div>
-                <div class="flex gap-2">
+                <div class="flex gap-1.5">
                     <button onclick="copyText('{furl}')" class="flex-1 bg-blue-600/20 text-blue-400 py-2 rounded-lg btn-action hover:bg-blue-600 hover:text-white transition">کپی لینک</button>
                     <button onclick="copyContent('{furl}')" class="flex-1 bg-purple-600/20 text-purple-400 py-2 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition">کپی متن</button>
-                    <button onclick="downloadFile('{furl}', '{item['name']}')" class="bg-slate-700 text-white px-4 py-2 rounded-lg btn-action hover:bg-emerald-600 transition"><i class="fa-solid fa-download"></i></button>
+                    <button onclick="openQR('{furl}', '{title}')" class="bg-sky-600/20 text-sky-400 px-3 py-2 rounded-lg btn-action hover:bg-sky-600 hover:text-white transition" title="بارکد QR"><i class="fa-solid fa-qrcode"></i></button>
+                    <button onclick="downloadFile('{furl}', '{item['name']}')" class="bg-slate-700 text-white px-3 py-2 rounded-lg btn-action hover:bg-emerald-600 transition" title="دانلود مستقیم"><i class="fa-solid fa-download"></i></button>
                 </div>
             </div>"""
 
@@ -172,69 +306,139 @@ def generate_web_page():
     # بخش سابسکریپشن به تفکیک کشورها (دست‌نخورده)
     if regional_files:
         html_content += """
-        <h2 class="text-2xl font-black mb-6 flex items-center text-indigo-400">
+        <h2 class="text-xl md:text-2xl font-black mb-5 flex items-center text-indigo-400">
             <i class="fa-solid fa-earth-americas ml-3"></i> سابسکریپشن تفکیک‌شده بر اساس کشور
         </h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-12">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-12">
         """
         for reg in regional_files:
             rfurl = f"{repo_raw_url}/{reg['file']}"
             html_content += f"""
-            <div class="file-card flex flex-col gap-2">
+            <div class="file-card flex flex-col gap-2" data-isp="all">
                 <div class="flex items-center justify-between">
-                    <span class="font-bold text-sm text-slate-200">کشور {reg['iso']}</span>
+                    <span class="font-bold text-xs md:text-sm text-slate-200">کشور {reg['iso']}</span>
                     <i class="fa-solid fa-location-dot text-indigo-400"></i>
                 </div>
                 <div class="flex gap-1">
                     <button onclick="copyText('{rfurl}')" class="flex-1 bg-indigo-600/20 text-indigo-300 py-1.5 rounded-lg btn-action hover:bg-indigo-600 hover:text-white transition text-xs">لینک</button>
                     <button onclick="copyContent('{rfurl}')" class="flex-1 bg-purple-600/20 text-purple-300 py-1.5 rounded-lg btn-action hover:bg-purple-600 hover:text-white transition text-xs">متن</button>
+                    <button onclick="openQR('{rfurl}', 'کشور {reg['iso']}')" class="bg-sky-600/20 text-sky-400 px-2 py-1.5 rounded-lg btn-action hover:bg-sky-600 hover:text-white transition text-xs"><i class="fa-solid fa-qrcode"></i></button>
                 </div>
             </div>"""
         html_content += """</div>"""
 
     # فوتر با هر دو کانال رسمی
     html_content += f"""
-        <footer class="mt-16 mb-8">
+        <footer class="mt-12 mb-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <a href="https://t.me/Goodbaye_filtering" target="_blank" class="social-card glass rounded-2xl p-6 flex items-center justify-between group">
+                <a href="https://t.me/Goodbaye_filtering" target="_blank" class="social-card glass rounded-2xl p-5 flex items-center justify-between group">
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 bg-sky-500/20 rounded-full flex items-center justify-center text-sky-400 text-2xl group-hover:bg-sky-500 group-hover:text-white transition-all">
+                        <div class="w-11 h-11 bg-sky-500/20 rounded-full flex items-center justify-center text-sky-400 text-xl group-hover:bg-sky-500 group-hover:text-white transition-all">
                             <i class="fa-brands fa-telegram"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-lg">کانال اصلی گودبای فیلترینگ</h3>
-                            <p class="text-slate-400 text-sm">@Goodbaye_filtering</p>
+                            <h3 class="font-bold text-base">کانال اصلی گودبای فیلترینگ</h3>
+                            <p class="text-slate-400 text-xs">@Goodbaye_filtering</p>
                         </div>
                     </div>
                     <i class="fa-solid fa-arrow-up-right-from-square text-slate-500 group-hover:text-sky-400 transition-all"></i>
                 </a>
 
-                <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="social-card glass rounded-2xl p-6 flex items-center justify-between group">
+                <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="social-card glass rounded-2xl p-5 flex items-center justify-between group">
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 bg-amber-500/20 rounded-full flex items-center justify-center text-amber-400 text-2xl group-hover:bg-amber-500 group-hover:text-white transition-all">
+                        <div class="w-11 h-11 bg-amber-500/20 rounded-full flex items-center justify-center text-amber-400 text-xl group-hover:bg-amber-500 group-hover:text-white transition-all">
                             <i class="fa-solid fa-crown"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-lg">کانال وی‌آی‌پی کانفیگ</h3>
-                            <p class="text-slate-400 text-sm">@CONFIG_V2RAY_VIP</p>
+                            <h3 class="font-bold text-base">کانال وی‌آی‌پی کانفیگ</h3>
+                            <p class="text-slate-400 text-xs">@CONFIG_V2RAY_VIP</p>
                         </div>
                     </div>
                     <i class="fa-solid fa-arrow-up-right-from-square text-slate-500 group-hover:text-amber-400 transition-all"></i>
                 </a>
             </div>
-            <p class="text-center mt-12 text-slate-500 text-xs font-bold uppercase tracking-widest">Goodbaye Collector Core | Powered by Open Source</p>
+            <p class="text-center mt-10 text-slate-500 text-[11px] font-bold uppercase tracking-widest">Goodbaye Collector Core | Powered by Open Source</p>
         </footer>
     </div>
 
     <script>
         let tgData = {{ android: '', windows: '', mixed: '' }};
         const REPO_URL = "{repo_raw_url}";
+        let qrCodeInstance = null;
         
         function showToast(msg = 'کپی شد!') {{
             const t = document.getElementById("toast");
             t.innerHTML = '<i class="fa-solid fa-check-circle ml-2"></i>' + msg;
             t.className = "show";
             setTimeout(() => {{ t.className = t.className.replace("show", ""); }}, 2200);
+        }}
+
+        function filterISP(isp) {{
+            document.querySelectorAll('.isp-btn').forEach(btn => btn.classList.remove('active'));
+            const activeBtn = document.getElementById('isp-' + isp);
+            if(activeBtn) activeBtn.classList.add('active');
+
+            const cards = document.querySelectorAll('.file-card');
+            cards.forEach(c => {{
+                const allowed = c.getAttribute('data-isp') || 'all';
+                if(isp === 'all' || allowed.includes(isp)) {{
+                    c.classList.remove('dimmed');
+                    if(isp !== 'all' && allowed.includes(isp)) {{
+                        c.classList.add('highlighted');
+                    }} else {{
+                        c.classList.remove('highlighted');
+                    }}
+                }} else {{
+                    c.classList.add('dimmed');
+                    c.classList.remove('highlighted');
+                }}
+            }});
+        }}
+
+        function openQR(url, title) {{
+            document.getElementById('qrTitle').innerText = title;
+            const container = document.getElementById('qrcode');
+            container.innerHTML = '';
+            qrCodeInstance = new QRCode(container, {{
+                text: url,
+                width: 190,
+                height: 190,
+                colorDark : "#000000",
+                colorLight : "#ffffff",
+                correctLevel : QRCode.CorrectLevel.M
+            }});
+            document.getElementById('qrCopyBtn').onclick = () => {{ copyText(url); }};
+            document.getElementById('qrModal').classList.remove('hidden');
+        }}
+
+        function closeQR() {{
+            document.getElementById('qrModal').classList.add('hidden');
+        }}
+
+        async function buildCustomSub() {{
+            const selected = [];
+            document.querySelectorAll('.custom-reg-cb:checked').forEach(cb => selected.push(cb.value));
+            if(selected.length === 0) {{
+                showToast('لطفاً حداقل یک کشور را انتخاب کنید');
+                return;
+            }}
+            showToast('در حال دریافت کانفیگ‌های انتخابی...');
+            let combined = '';
+            for(const file of selected) {{
+                try {{
+                    const r = await fetch(REPO_URL + '/regions/' + file);
+                    if(r.ok) {{
+                        const txt = await r.text();
+                        combined += txt.trim() + '\\n';
+                    }}
+                }} catch(e) {{}}
+            }}
+            if(combined) {{
+                navigator.clipboard.writeText(combined);
+                showToast('کانفیگ‌های کشورهای انتخابی کپی شد!');
+            }} else {{
+                showToast('خطا در دریافت سرورها');
+            }}
         }}
 
         async function loadTGData() {{
@@ -261,7 +465,7 @@ def generate_web_page():
             }}
             ['android', 'windows', 'mixed'].forEach(m => {{
                 const btn = document.getElementById('tab-' + m);
-                if(btn) btn.className = 'pb-3 px-2 ' + (m === mode ? 'tab-active' : 'text-slate-400');
+                if(btn) btn.className = 'pb-2.5 px-2 ' + (m === mode ? 'tab-active' : 'text-slate-400');
             }});
             window.currentMode = mode;
         }}
