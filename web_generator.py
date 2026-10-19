@@ -80,10 +80,10 @@ def generate_web_page():
 <body class="p-4 md:p-8 relative">
     <div id="toast"><i class="fa-solid fa-check-circle ml-2"></i>کپی شد!</div>
 
-    <!-- دکمه شناور ارسال پیام و نظرات به پست ۱۰۰۲۱ -->
-    <a href="https://t.me/CONFIG_V2RAY_VIP/10021?comment=1" target="_blank" class="floating-chat flex items-center gap-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white px-4 py-3 rounded-full font-bold text-xs md:text-sm transition-all" title="ارسال نظر، پرسش و گزارش خرابی در تلگرام">
-        <i class="fa-solid fa-comments text-lg"></i>
-        <span>ارسال نظر و گزارش (پست ۱۰۰۲۱)</span>
+    <!-- دکمه شناور ارتباط و نظرات در کانال VIP (آدرس بدون خطا) -->
+    <a href="https://t.me/CONFIG_V2RAY_VIP" target="_blank" class="floating-chat flex items-center gap-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white px-4 py-3 rounded-full font-bold text-xs md:text-sm transition-all" title="کانال ارتباطی و پشتیبانی تلگرام">
+        <i class="fa-brands fa-telegram text-lg"></i>
+        <span>ارتباط و پشتیبانی تلگرام (VIP)</span>
     </a>
 
     <!-- دکمه‌های ناوبری بالا و پایین -->
@@ -115,9 +115,8 @@ def generate_web_page():
     </div>
 
     <div class="max-w-6xl mx-auto">
-        <!-- هدر و رادار وضعیت شبکه (مورد ۴) -->
+        <!-- هدر و رادار وضعیت شبکه -->
         <header class="text-center mb-8">
-            <!-- نوار رادار پایش شبکه -->
             <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full glass border border-sky-500/30 text-xs mb-4">
                 <span class="flex h-2.5 w-2.5 relative">
                     <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
@@ -143,7 +142,7 @@ def generate_web_page():
             </div>
         </header>
 
-        <!-- نوار فیلتر هوشمند اپراتورها (مورد ۲) -->
+        <!-- نوار فیلتر هوشمند اپراتورها -->
         <section class="glass p-3.5 rounded-2xl mb-8 flex flex-wrap items-center justify-between gap-3 border border-sky-500/20">
             <div class="flex items-center gap-2 text-xs font-bold text-slate-300">
                 <i class="fa-solid fa-filter text-sky-400"></i>
@@ -204,7 +203,7 @@ def generate_web_page():
             </div>
         </section>
 
-        <!-- بخش سازنده سابسکریپشن سفارشی (مورد ۶) -->
+        <!-- بخش سازنده سابسکریپشن سفارشی -->
         <section class="mb-10 glass p-5 md:p-6 rounded-3xl border-t-4 border-indigo-500 shadow-2xl">
             <div class="flex flex-wrap justify-between items-center gap-3 mb-4">
                 <div>
