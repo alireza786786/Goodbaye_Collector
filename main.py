@@ -591,7 +591,7 @@ class GoodbayeExtractor:
             "route": {"rule_set": [{"tag": "geosite-ir", "type": "remote", "format": "binary", "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geosite-ir.srs", "download_detour": "direct"}, {"tag": "geoip-ir", "type": "remote", "format": "binary", "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geoip-ir.srs", "download_detour": "direct"}], "rules": [{"protocol": "dns", "outbound": "dns-out"}, {"rule_set": ["geosite-ir", "geoip-ir"], "outbound": "direct"}], "final": "PROXY"}
         }
 
-    # قانون ثابت: اصل دوم و سوم
+    # قانون ثابت: اصل دوم و سوم (۴ دکمه شیشه‌ای رسمی)
     async def send_to_telegram(self, configs: List[str], pings: List[int]):
         if not BOT_TOKEN or not TARGET_CHAT_ID or not API_ID or not API_HASH:
             return
@@ -621,6 +621,7 @@ class GoodbayeExtractor:
         buttons = InlineKeyboardMarkup([
             [InlineKeyboardButton("📢 کانال اصلی گودبای فیلترینگ", url="https://t.me/Goodbaye_filtering")],
             [InlineKeyboardButton("👑 کانال وی‌آی‌پی", url="https://t.me/CONFIG_V2RAY_VIP")],
+            [InlineKeyboardButton("🌐 وب‌پنل آنلاین سابسکریپشن", url="https://alireza786786.github.io/Goodbaye_Collector/")],
             [InlineKeyboardButton("🚀 اشتراک‌گذاری با دوستان", url="https://t.me/share/url?url=https://t.me/Goodbaye_filtering")]
         ])
 
