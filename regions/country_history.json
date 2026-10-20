@@ -1,17 +1,5 @@
 {
   "NL": {
-    "vless://22136b20-6365-4ae6-b21a-799a00ab1346@89.124.100.104:8080?security=reality&encryption=none&pbk=t_z1GMEv2FYr0Bo57WBuKRRlkyOMj40025j-OcWCtkU&host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&fp=chrome&spx=%2F929574c99a2f206&type=tcp&sni=graphs.4cdn.de&sid=75": {
-      "link": "vless://22136b20-6365-4ae6-b21a-799a00ab1346@89.124.100.104:8080?security=reality&encryption=none&pbk=t_z1GMEv2FYr0Bo57WBuKRRlkyOMj40025j-OcWCtkU&host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&fp=chrome&spx=%2F929574c99a2f206&type=tcp&sni=graphs.4cdn.de&sid=75#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FAmsterdam%0A%F0%9F%85%BF%EF%B8%8Fping%3A105ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://96ee55ac-d534-4502-878a-468c7896360b@208.67.106.154:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=firefox&pbk=_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg&sid=c9677d3b7dea&type=tcp&headerType=none": {
-      "link": "vless://96ee55ac-d534-4502-878a-468c7896360b@208.67.106.154:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=firefox&pbk=_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg&sid=c9677d3b7dea&type=tcp&headerType=none#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FAmsterdam%0A%F0%9F%85%BF%EF%B8%8Fping%3A88ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "trojan://humanity@209.38.109.222:443?path=%2Fassignment&security=tls&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com": {
-      "link": "trojan://humanity@209.38.109.222:443?path=%2Fassignment&security=tls&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FAmsterdam%0A%F0%9F%85%BF%EF%B8%8Fping%3A116ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "trojan://humanity@82.196.5.20:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com": {
       "link": "trojan://humanity@82.196.5.20:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FAmsterdam%0A%F0%9F%85%BF%EF%B8%8Fping%3A85ms%0A%E2%9A%A1WebSocket",
       "date": "2026-10-18T10:46:44.069720"
@@ -111,17 +99,25 @@
     "vmess://eyJhZGQiOiAiMTY4LjExMy4yMTUuNiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLXdzIiwgInBjcyI6ICIiLCAicG9ydCI6ICIzMzczNiIsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHNcbsKu77iPQW1zdGVyZGFtXG7wn4W/77iPcGluZzo5M21zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=": {
       "link": "vmess://eyJhZGQiOiAiMTY4LjExMy4yMTUuNiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLXdzIiwgInBjcyI6ICIiLCAicG9ydCI6ICIzMzczNiIsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHNcbsKu77iPQW1zdGVyZGFtXG7wn4W/77iPcGluZzo5M21zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=",
       "date": "2026-10-19T23:31:10.507733"
+    },
+    "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080": {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A100ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184:8080": {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184:8080#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A97ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "trojan://humanity@209.38.99.120:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com": {
+      "link": "trojan://humanity@209.38.99.120:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FAmsterdam%0A%F0%9F%85%BF%EF%B8%8Fping%3A85ms%0A%E2%9A%A1WebSocket",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vmess://eyJhZGQiOiAiMTY4LjExMy4yMTUuNiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLXdzIiwgInBjcyI6ICIiLCAicG9ydCI6ICIzMzczNiIsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHNcbsKu77iPQW1zdGVyZGFtXG7wn4W/77iPcGluZzo4OW1zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=": {
+      "link": "vmess://eyJhZGQiOiAiMTY4LjExMy4yMTUuNiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLXdzIiwgInBjcyI6ICIiLCAicG9ydCI6ICIzMzczNiIsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHNcbsKu77iPQW1zdGVyZGFtXG7wn4W/77iPcGluZzo4OW1zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=",
+      "date": "2026-10-20T04:24:37.350985"
     }
   },
   "UK": {
-    "vless://8e790f25-1d71-4601-9fb0-d503931dcfca@51.89.194.151:2053?security=reality&encryption=none&pbk=xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0&headerType=none&fp=firefox&type=tcp&sni=www.apple.com&sid=d051f678212f9d54": {
-      "link": "vless://8e790f25-1d71-4601-9fb0-d503931dcfca@51.89.194.151:2053?security=reality&encryption=none&pbk=xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0&headerType=none&fp=firefox&type=tcp&sni=www.apple.com&sid=d051f678212f9d54#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FLondon%0A%F0%9F%85%BF%EF%B8%8Fping%3A76ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "ss://YWVzLTEyOC1nY206MTc2MTllODZkY2ZiZjY5NmE2Mjc0YjFmNGE3MTQ0MTk@89.238.165.94:12023": {
-      "link": "ss://YWVzLTEyOC1nY206MTc2MTllODZkY2ZiZjY5NmE2Mjc0YjFmNGE3MTQ0MTk@89.238.165.94:12023#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FManchester%0A%F0%9F%85%BF%EF%B8%8Fping%3A105ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.11.104.202:22222?encryption=none&security=none&type=tcp": {
       "link": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.11.104.202:22222?encryption=none&security=none&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FCity%20of%20London%0A%F0%9F%85%BF%EF%B8%8Fping%3A78ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T10:46:44.069720"
@@ -209,57 +205,21 @@
     "vless://8e790f25-1d71-4601-9fb0-d503931dcfca@51.89.194.151:2053?security=reality&encryption=none&pbk=xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=d051f678212f9d54": {
       "link": "vless://8e790f25-1d71-4601-9fb0-d503931dcfca@51.89.194.151:2053?security=reality&encryption=none&pbk=xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=d051f678212f9d54#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FLondon%0A%F0%9F%85%BF%EF%B8%8Fping%3A76ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-19T23:31:10.507733"
+    },
+    "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080": {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A101ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.26:8080": {
+      "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.26:8080#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A97ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@16.61.117.36:22223?encryption=none&security=none&type=tcp&headerType=none": {
+      "link": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@16.61.117.36:22223?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FCity%20of%20London%0A%F0%9F%85%BF%EF%B8%8Fping%3A82ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
     }
   },
   "US": {
-    "trojan://m%69tivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com": {
-      "link": "trojan://m%69tivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "trojan://m%69tivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com": {
-      "link": "trojan://m%69tivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "trojan://mitivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com": {
-      "link": "trojan://mitivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "trojan://mitivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com": {
-      "link": "trojan://mitivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://%58pnTeam-17@199.232.78.170:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F&security=tls&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com": {
-      "link": "vless://%58pnTeam-17@199.232.78.170:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F&security=tls&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://%58pnTeam-18@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F&security=tls&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com": {
-      "link": "vless://%58pnTeam-18@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F&security=tls&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://082f5694-9019-4110-b67b-8125dbb9bab8@152.232.57.10:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&security=reality&sid=a8&sni=api.videobereg.cc&type=tcp": {
-      "link": "vless://082f5694-9019-4110-b67b-8125dbb9bab8@152.232.57.10:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&security=reality&sid=a8&sni=api.videobereg.cc&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FLos%20Angeles%0A%F0%9F%85%BF%EF%B8%8Fping%3A54ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://7dea3f7e-5ab2-46da-bd35-0978cd740dd1@199.232.237.245:443?encryption=none&security=tls&type=xhttp&headerType=none&path=%2F&host=trfastali.global.ssl.fastly.net&mode=auto&sni=hbjb.google.com&fp=firefox&pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&pinSHA256=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&allowInsecure=1": {
-      "link": "vless://7dea3f7e-5ab2-46da-bd35-0978cd740dd1@199.232.237.245:443?encryption=none&security=tls&type=xhttp&headerType=none&path=%2F&host=trfastali.global.ssl.fastly.net&mode=auto&sni=hbjb.google.com&fp=firefox&pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&pinSHA256=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&allowInsecure=1#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A1ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://f86d2f6d-3139-59ba-9a74-f79c8dc31a15@69.46.46.16:443?path=%2Fws%2Fyaser&security=tls&alpn=http%2F1.1&encryption=none&host=api-f5255c-056f5f-production.up.railway.app&fp=chrome&type=ws&sni=api-f5255c-056f5f-production.up.railway.app": {
-      "link": "vless://f86d2f6d-3139-59ba-9a74-f79c8dc31a15@69.46.46.16:443?path=%2Fws%2Fyaser&security=tls&alpn=http%2F1.1&encryption=none&host=api-f5255c-056f5f-production.up.railway.app&fp=chrome&type=ws&sni=api-f5255c-056f5f-production.up.railway.app#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FMukilteo%0A%F0%9F%85%BF%EF%B8%8Fping%3A2ms%0A%E2%9A%A1WebSocket",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.206:23576?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=fuck.rkn&alpn=http%252f1.1&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&headertype=none": {
-      "link": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.206:23576?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=fuck.rkn&alpn=http%252f1.1&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&headertype=none#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FHillsboro%0A%F0%9F%85%BF%EF%B8%8Fping%3A51ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-18T04:03:10.858687"
-    },
-    "vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9NYXJpZXR0YVxu8J+Fv++4j3Bpbmc6NTBtc1xu4pqhVk1lc3MtVENQIiwgImFkZCI6ICIzOC4xMTAuMS4yNDYiLCAicG9ydCI6ICIxODAwMCIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgImZwIjogIiJ9": {
-      "link": "vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9NYXJpZXR0YVxu8J+Fv++4j3Bpbmc6NTBtc1xu4pqhVk1lc3MtVENQIiwgImFkZCI6ICIzOC4xMTAuMS4yNDYiLCAicG9ydCI6ICIxODAwMCIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgImZwIjogIiJ9",
-      "date": "2026-10-18T04:03:10.858687"
-    },
-    "vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9Bc2hidXJuXG7wn4W/77iPcGluZzoyNG1zXG7imqFWTWVzcy1UQ1AiLCAiYWRkIjogIjY3LjIyMC45NS4zIiwgInBvcnQiOiAiMTgwMDAiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiIsICJmcCI6ICIifQ==": {
-      "link": "vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9Bc2hidXJuXG7wn4W/77iPcGluZzoyNG1zXG7imqFWTWVzcy1UQ1AiLCAiYWRkIjogIjY3LjIyMC45NS4zIiwgInBvcnQiOiAiMTgwMDAiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiIsICJmcCI6ICIifQ==",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443": {
       "link": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FDallas%0A%F0%9F%85%BF%EF%B8%8Fping%3A37ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T10:46:44.069720"
@@ -631,29 +591,25 @@
     "vmess://eyJhZGQiOiAiMTI5LjE0Ni43Ny4yNDgiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImY4MzZjNzM2LTg3ZmMtNGZkZS1hYWJjLTAwODU3ZWNkZmYzZSIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMubTN1OCIsICJwY3MiOiAiIiwgInBvcnQiOiAiMzk0OTUiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9QaG9lbml4XG7wn4W/77iPcGluZzo1M21zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=": {
       "link": "vmess://eyJhZGQiOiAiMTI5LjE0Ni43Ny4yNDgiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImY4MzZjNzM2LTg3ZmMtNGZkZS1hYWJjLTAwODU3ZWNkZmYzZSIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMubTN1OCIsICJwY3MiOiAiIiwgInBvcnQiOiAiMzk0OTUiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9QaG9lbml4XG7wn4W/77iPcGluZzo1M21zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=",
       "date": "2026-10-19T23:31:10.507733"
+    },
+    "trojan://mitivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com": {
+      "link": "trojan://mitivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A5ms%0A%E2%9A%A1WebSocket",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@2.27.249.83:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ya.ru": {
+      "link": "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@2.27.249.83:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ya.ru#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A94ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vless://2e2e204a-7e61-48fb-8182-5955821e8da0@31.57.185.220:443?path=%2F&security=&encryption=none&type=ws": {
+      "link": "vless://2e2e204a-7e61-48fb-8182-5955821e8da0@31.57.185.220:443?path=%2F&security=&encryption=none&type=ws#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A91ms%0A%E2%9A%A1WebSocket",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vmess://eyJhZGQiOiAiMTI5LjE0Ni43Ny4yNDgiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImY4MzZjNzM2LTg3ZmMtNGZkZS1hYWJjLTAwODU3ZWNkZmYzZSIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMubTN1OCIsICJwY3MiOiAiIiwgInBvcnQiOiAiMzk0OTUiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9QaG9lbml4XG7wn4W/77iPcGluZzo1Mm1zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=": {
+      "link": "vmess://eyJhZGQiOiAiMTI5LjE0Ni43Ny4yNDgiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImY4MzZjNzM2LTg3ZmMtNGZkZS1hYWJjLTAwODU3ZWNkZmYzZSIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMubTN1OCIsICJwY3MiOiAiIiwgInBvcnQiOiAiMzk0OTUiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HuvCfh7ggVW5pdGVkIFN0YXRlc1xuwq7vuI9QaG9lbml4XG7wn4W/77iPcGluZzo1Mm1zXG7imqFXZWJTb2NrZXQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=",
+      "date": "2026-10-20T04:24:37.350985"
     }
   },
   "DE": {
-    "vless://244d9eab-3311-40c7-b47f-4968dc3088a6@84.32.100.149:443?security=reality&encryption=none&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&host=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&type=tcp&sni=tcpde7.figurapn.ru&sid=868419504747f6de": {
-      "link": "vless://244d9eab-3311-40c7-b47f-4968dc3088a6@84.32.100.149:443?security=reality&encryption=none&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&host=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&type=tcp&sni=tcpde7.figurapn.ru&sid=868419504747f6de#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FFrankfurt%20am%20Main%0A%F0%9F%85%BF%EF%B8%8Fping%3A95ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://3545891d-ae18-42f2-af82-baa80fe72655@49.13.131.196:443?security=reality&encryption=none&pbk=tRtLsikRNIVBXegTrRG3GSd_48mDeEecCSJ68vuxMWg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=libreoffice.org&sid=e75665ac558fff17": {
-      "link": "vless://3545891d-ae18-42f2-af82-baa80fe72655@49.13.131.196:443?security=reality&encryption=none&pbk=tRtLsikRNIVBXegTrRG3GSd_48mDeEecCSJ68vuxMWg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=libreoffice.org&sid=e75665ac558fff17#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FFalkenstein%0A%F0%9F%85%BF%EF%B8%8Fping%3A98ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://558b26f6-061b-4079-9b84-ca13b3e90ae3@144.31.215.162:443?security=reality&encryption=none&pbk=kqKpUiLtm5SPT2NO5Ss4LuH9xpTOxi79UJZWURwulwI&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=c1.qwyak.ru&sid=547f159030aedc64": {
-      "link": "vless://558b26f6-061b-4079-9b84-ca13b3e90ae3@144.31.215.162:443?security=reality&encryption=none&pbk=kqKpUiLtm5SPT2NO5Ss4LuH9xpTOxi79UJZWURwulwI&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=c1.qwyak.ru&sid=547f159030aedc64#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FFrankfurt%20am%20Main%0A%F0%9F%85%BF%EF%B8%8Fping%3A1143ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.90:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&host=%2F%3Ftelegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a": {
-      "link": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.90:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&host=%2F%3Ftelegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A8ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.52:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a": {
-      "link": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.52:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A50ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "vless://261cdc0d-9a73-4b75-b61b-e99980e3d668@51.38.127.93:8080?security=reality&encryption=mlkem768x25519plus.native.0rtt.05JPC3_8Wu_AICg4N1Iwi-wygGesw78y5dQUFNT_UwE&pbk=vKnJBC8MN4hGDqu7_C6luBwjVnhq9Wjb6BWkuK_8_z0&headerType=none&fp=chrome&spx=%2F697894d38cc69ce&type=tcp&flow=xtls-rprx-vision&sni=icloud.com&sid=dee5ab9e": {
       "link": "vless://261cdc0d-9a73-4b75-b61b-e99980e3d668@51.38.127.93:8080?security=reality&encryption=mlkem768x25519plus.native.0rtt.05JPC3_8Wu_AICg4N1Iwi-wygGesw78y5dQUFNT_UwE&pbk=vKnJBC8MN4hGDqu7_C6luBwjVnhq9Wjb6BWkuK_8_z0&headerType=none&fp=chrome&spx=%2F697894d38cc69ce&type=tcp&flow=xtls-rprx-vision&sni=icloud.com&sid=dee5ab9e#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FLimburg%20an%20der%20Lahn%0A%F0%9F%85%BF%EF%B8%8Fping%3A92ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T10:46:44.069720"
@@ -955,13 +911,21 @@
     "vless://4d852af3-a121-41aa-9aed-4ca40a6f7b4d@177.1.192.72:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=y3YCXTqEVks0nGfiSwJ43ol4pY69-mWFUZsdmveoVDM&security=reality&sid=46455ff0&sni=addons.mozilla.org&type=tcp": {
       "link": "vless://4d852af3-a121-41aa-9aed-4ca40a6f7b4d@177.1.192.72:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=y3YCXTqEVks0nGfiSwJ43ol4pY69-mWFUZsdmveoVDM&security=reality&sid=46455ff0&sni=addons.mozilla.org&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B5%F0%9F%87%B1%20Poland%0A%C2%AE%EF%B8%8FWarsaw%0A%F0%9F%85%BF%EF%B8%8Fping%3A105ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-19T18:27:28.866985"
+    },
+    "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@212.127.78.105:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=ya.ru": {
+      "link": "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@212.127.78.105:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=ya.ru#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B5%F0%9F%87%B1%20Poland%0A%C2%AE%EF%B8%8FWroclaw%0A%F0%9F%85%BF%EF%B8%8Fping%3A105ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@212.127.78.105:9443?mode=gun&security=reality&encryption=none&pbk=8Psrf1KEB56yBqaxcNhwcVWJ0_t6in3UP-QVkmVobVw&fp=randomized&type=grpc&serviceName=grpc&sni=ya.ru": {
+      "link": "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@212.127.78.105:9443?mode=gun&security=reality&encryption=none&pbk=8Psrf1KEB56yBqaxcNhwcVWJ0_t6in3UP-QVkmVobVw&fp=randomized&type=grpc&serviceName=grpc&sni=ya.ru#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B5%F0%9F%87%B1%20Poland%0A%C2%AE%EF%B8%8FWroclaw%0A%F0%9F%85%BF%EF%B8%8Fping%3A103ms%0A%E2%9A%A1gRPC-Multi",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@83.168.91.61:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=ya.ru": {
+      "link": "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@83.168.91.61:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=ya.ru#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B5%F0%9F%87%B1%20Poland%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A105ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
     }
   },
   "FR": {
-    "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.122.146:22222?encryption=none&security=none&type=tcp": {
-      "link": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.122.146:22222?encryption=none&security=none&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%B7%20France%0A%C2%AE%EF%B8%8FParis%0A%F0%9F%85%BF%EF%B8%8Fping%3A112ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "vless://593bf46b-8316-5050-9357-d8a41e4db78b@51.255.166.202:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=e3k67dwms3-51255166202-direct.tavafog.com": {
       "link": "vless://593bf46b-8316-5050-9357-d8a41e4db78b@51.255.166.202:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=e3k67dwms3-51255166202-direct.tavafog.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%B7%20France%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A118ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T15:43:08.840308"
@@ -1012,10 +976,6 @@
     }
   },
   "FI": {
-    "vless://318c935d-c195-41d3-99ad-9bbcfdab3386@144.31.232.104:443?security=reality&encryption=none&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fl1.balancer.vbuste-bot.com&sid=4be4110078ebed4a": {
-      "link": "vless://318c935d-c195-41d3-99ad-9bbcfdab3386@144.31.232.104:443?security=reality&encryption=none&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fl1.balancer.vbuste-bot.com&sid=4be4110078ebed4a#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%AE%20Finland%0A%C2%AE%EF%B8%8FHelsinki%0A%F0%9F%85%BF%EF%B8%8Fping%3A144ms%0A%E2%9A%A1TCP-Direct",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "vless://3d331dfb-28e4-40fb-b3d9-f4538915aa23@2.27.207.208:8080?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=VkjNuOP5jrX1d7bhWoYZK6k-7OQTXkdiOyCHzQuiJXA&host=vipmhfg.xyz&fp=chrome&spx=%2Fdf80d56ef7bdfd1&type=xhttp&sni=dash.cloudflare.com&sid=c0f2fd1bec": {
       "link": "vless://3d331dfb-28e4-40fb-b3d9-f4538915aa23@2.27.207.208:8080?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=VkjNuOP5jrX1d7bhWoYZK6k-7OQTXkdiOyCHzQuiJXA&host=vipmhfg.xyz&fp=chrome&spx=%2Fdf80d56ef7bdfd1&type=xhttp&sni=dash.cloudflare.com&sid=c0f2fd1bec#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%AE%20Finland%0A%C2%AE%EF%B8%8FHelsinki%0A%F0%9F%85%BF%EF%B8%8Fping%3A128ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T15:43:08.840308"
@@ -1023,6 +983,14 @@
     "vless://741809be-e44e-000b-b411-bf66f0ae3860@152.233.71.81:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=brointelengence.com&fp=chrome&pbk=6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY&sid=1c3e8241a8743df9&type=tcp&headerType=none": {
       "link": "vless://741809be-e44e-000b-b411-bf66f0ae3860@152.233.71.81:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=brointelengence.com&fp=chrome&pbk=6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY&sid=1c3e8241a8743df9&type=tcp&headerType=none#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%AE%20Finland%0A%C2%AE%EF%B8%8FHelsinki%0A%F0%9F%85%BF%EF%B8%8Fping%3A127ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T15:43:08.840308"
+    },
+    "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@31.77.203.49:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=ya.ru": {
+      "link": "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@31.77.203.49:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=ya.ru#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%AE%20Finland%0A%C2%AE%EF%B8%8FSouth%20Ostrobothnia%0A%F0%9F%85%BF%EF%B8%8Fping%3A128ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
+    },
+    "vless://318c935d-c195-41d3-99ad-9bbcfdab3386@144.31.232.104:443?security=reality&encryption=none&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fl1.balancer.vbuste-bot.com&sid=4be4110078ebed4a": {
+      "link": "vless://318c935d-c195-41d3-99ad-9bbcfdab3386@144.31.232.104:443?security=reality&encryption=none&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fl1.balancer.vbuste-bot.com&sid=4be4110078ebed4a#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%AE%20Finland%0A%C2%AE%EF%B8%8FHelsinki%0A%F0%9F%85%BF%EF%B8%8Fping%3A119ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
     }
   },
   "SG": {
@@ -1059,13 +1027,13 @@
     "vless://d342d11e-d224-4463-b982-532309285094@141.11.139.215:443?path=%2F&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz": {
       "link": "vless://d342d11e-d224-4463-b982-532309285094@141.11.139.215:443?path=%2F&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AF%F0%9F%87%B5%20Japan%0A%C2%AE%EF%B8%8FTokyo%0A%F0%9F%85%BF%EF%B8%8Fping%3A1423ms%0A%E2%9A%A1WebSocket",
       "date": "2026-10-18T10:46:44.069720"
+    },
+    "vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?security=reality&encryption=none&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=091e1c5db8451757": {
+      "link": "vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?security=reality&encryption=none&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=091e1c5db8451757#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AF%F0%9F%87%B5%20Japan%0A%C2%AE%EF%B8%8FTokyo%0A%F0%9F%85%BF%EF%B8%8Fping%3A151ms%0A%E2%9A%A1TCP-Direct",
+      "date": "2026-10-20T04:24:37.350985"
     }
   },
   "CA": {
-    "vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HqPCfh6YgQ2FuYWRhXG7Cru+4j1Rvcm9udG9cbvCfhb/vuI9waW5nOjI5bXNcbuKaoVZNZXNzLVRDUCIsICJhZGQiOiAiMTM0LjE5NS4xOTYuMjExIiwgInBvcnQiOiAiMTgwMDAiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiIsICJmcCI6ICIifQ==": {
-      "link": "vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+RifCfhpRAR29vZGJheWVfZmlsdGVyaW5nXG7wn5Oh8J+HqPCfh6YgQ2FuYWRhXG7Cru+4j1Rvcm9udG9cbvCfhb/vuI9waW5nOjI5bXNcbuKaoVZNZXNzLVRDUCIsICJhZGQiOiAiMTM0LjE5NS4xOTYuMjExIiwgInBvcnQiOiAiMTgwMDAiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiIsICJmcCI6ICIifQ==",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445": {
       "link": "ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6%20Canada%0A%C2%AE%EF%B8%8FQuebec%0A%F0%9F%85%BF%EF%B8%8Fping%3A47ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T15:43:08.840308"
@@ -1088,14 +1056,6 @@
     }
   },
   "TR": {
-    "vmess://eyJhZGQiOiAiMjA2LjEuMTAyLjY0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJpZCI6ICJmODk1ZDk1Mi04MWM0LTQ4MTAtODhmMC04OWIyMWI5ZGYzZjYiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBjcyI6ICIiLCAicG9ydCI6ICIyMDk1IiwgInBzIjogIvCfkYnwn4aUQEdvb2RiYXllX2ZpbHRlcmluZ1xu8J+TofCfh7nwn4e3IFTDvHJraXllXG7Cru+4j0lzdGFuYnVsXG7wn4W/77iPcGluZzoxMjVtc1xu4pqhVk1lc3MtVENQIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgInZjbiI6ICIifQ==": {
-      "link": "vmess://eyJhZGQiOiAiMjA2LjEuMTAyLjY0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJpZCI6ICJmODk1ZDk1Mi04MWM0LTQ4MTAtODhmMC04OWIyMWI5ZGYzZjYiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBjcyI6ICIiLCAicG9ydCI6ICIyMDk1IiwgInBzIjogIvCfkYnwn4aUQEdvb2RiYXllX2ZpbHRlcmluZ1xu8J+TofCfh7nwn4e3IFTDvHJraXllXG7Cru+4j0lzdGFuYnVsXG7wn4W/77iPcGluZzoxMjVtc1xu4pqhVk1lc3MtVENQIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgInZjbiI6ICIifQ==",
-      "date": "2026-10-17T23:55:34.449846"
-    },
-    "vmess://eyJhZGQiOiAiMjA2LjEuMTAyLjY0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI3NWNlY2E3ZC0yYmIwLTRkYTctYTVjOC0wNTU1YjllOTVhZTUiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAiZ3JwYyIsICJwYXRoIjogIjIwNi4xLjEwMi42NCIsICJwY3MiOiAiIiwgInBvcnQiOiAiMTc3NyIsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4e58J+HtyBUw7xya2l5ZVxuwq7vuI9Jc3RhbmJ1bFxu8J+Fv++4j3Bpbmc6MTUxbXNcbuKaoWdSUEMtTXVsdGkiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiZ3VuIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=": {
-      "link": "vmess://eyJhZGQiOiAiMjA2LjEuMTAyLjY0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI3NWNlY2E3ZC0yYmIwLTRkYTctYTVjOC0wNTU1YjllOTVhZTUiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAiZ3JwYyIsICJwYXRoIjogIjIwNi4xLjEwMi42NCIsICJwY3MiOiAiIiwgInBvcnQiOiAiMTc3NyIsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4e58J+HtyBUw7xya2l5ZVxuwq7vuI9Jc3RhbmJ1bFxu8J+Fv++4j3Bpbmc6MTUxbXNcbuKaoWdSUEMtTXVsdGkiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiZ3VuIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=",
-      "date": "2026-10-18T04:03:10.858687"
-    },
     "vless://0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8@151.241.226.201:2053?encryption=none&fp=&pbk=bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104&security=reality&sid=9e419c0759b54d6f&sni=www.apple.com&type=tcp": {
       "link": "vless://0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8@151.241.226.201:2053?encryption=none&fp=&pbk=bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104&security=reality&sid=9e419c0759b54d6f&sni=www.apple.com&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%0A%C2%AE%EF%B8%8FIstanbul%0A%F0%9F%85%BF%EF%B8%8Fping%3A147ms%0A%E2%9A%A1TCP-Direct",
       "date": "2026-10-18T15:43:08.840308"
