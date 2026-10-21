@@ -16,8 +16,8 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
 
 MAX_WORKERS = 200
-STRICT_TIMEOUT = 1.4
-MAX_PING_CUTOFF = 650
+STRICT_TIMEOUT = 1.3       # کاهش جزئی تایم‌اوت برای سرعت بالاتر
+MAX_PING_CUTOFF = 500      # پینگ سخت‌گیرانه زیر ۵۰۰ میلی‌ثانیه
 
 SECRET_SOURCES = {
     "socks5": os.getenv("SOCKS5_SOURCES", ""),
@@ -187,9 +187,9 @@ def get_proto_tag(proto, ip):
     return f"SOCKS5 ({ver})"
 
 def get_capability(ping):
-    if ping < 180:
+    if ping < 150:
         return "⚡Full Speed & Low Ping"
-    elif ping < 350:
+    elif ping < 300:
         return "⚡Bypass Filtering"
     return "⚡Anti-Sanction & Fast"
 
@@ -268,7 +268,6 @@ def save_shards(alive_items):
         with open(f"proxies/countries/{c}/data.txt", "w", encoding="utf-8", newline="\r\n") as f:
             f.write("\r\n".join(links) + "\r\n")
 
-    # کپی هر ۳ فایل به ریشه مخزن برای دسترسی مستقیم
     if os.path.exists("sub/socks5.txt"):
         shutil.copy("sub/socks5.txt", "socks5.txt")
     if os.path.exists("sub/telegramProxys.txt"):
@@ -283,7 +282,7 @@ def save_shards(alive_items):
         "protocols": {p: len(items) for p, items in by_proto.items()},
         "countries": list(by_country.keys()),
         "updated_at_tehran": now_tehran.strftime("%Y/%m/%d - %H:%M:%S"),
-        "quality_index": "VIP Strict (Ping < 650ms)"
+        "quality_index": "VIP Strict (Ping < 500ms)"
     }
     with open("proxies/stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
@@ -297,7 +296,6 @@ def send_telegram_documents():
     shamsi_date = jdatetime.datetime.fromgregorian(datetime=now_tehran).strftime("%Y/%m/%d")
     tehran_time = now_tehran.strftime("%H:%M:%S")
 
-    # ۴ دکمه شیشه‌ای رسمی شامل وب‌پنل آنلاین
     reply_markup = {
         "inline_keyboard": [
             [{"text": "📢 کانال اصلی Goodbaye Filtering", "url": "https://t.me/Goodbaye_filtering"}],
@@ -307,11 +305,9 @@ def send_telegram_documents():
         ]
     }
 
-    # ارسال کامل هر ۳ فایل
     files_to_send = [
         ("sub/socks5.txt", "Goodbaye_Socks5.txt", "SOCKS5 V2Ray/NekoRay"),
-        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies"),
-        ("sub/https.txt", "Goodbaye_HTTPS.txt", "HTTPS via TLS")
+        ("sub/telegramProxys.txt", "telegramProxys.txt", "Telegram Direct Proxies")
     ]
 
     for f_path, doc_name, title in files_to_send:
@@ -326,7 +322,7 @@ def send_telegram_documents():
             f"📡 مناسب دوران اختلال، فیلترینگ و شبکه ملی\n\n"
             f"📅 تاریخ شمسی: `{shamsi_date}`\n"
             f"⏰ ساعت تهران: `{tehran_time}`\n"
-            f"📊 شاخص کیفیت: `VIP Strict (Ping < 650ms)`\n"
+            f"📊 شاخص کیفیت: `VIP Strict (Ping < 500ms)`\n"
             f"🔢 تعداد کانفیگ سالم این فایل: `{lines_count}`\n\n"
             f"🌐 لینک مستقیم دانلود / سابسکریپشن:\n"
             f"`https://alireza786786.github.io/Goodbaye_Collector/{os.path.basename(f_path)}`"
@@ -396,7 +392,6 @@ def main():
     save_shards(alive)
     send_telegram_documents()
 
-    # آپدیت خودکار صفحه وب با فراخوانی سازنده وب
     try:
         import web_generator
         web_generator.generate_web_page()
