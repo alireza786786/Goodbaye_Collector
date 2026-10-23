@@ -1,28 +1,4 @@
 {
-  "cvII85TrW6n0OGyfpHVS1u": {
-    "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A100ms%0A%E2%9A%A1TCP-Direct",
-    "date": "2026-10-20T04:24:37.327534"
-  },
-  "17360870-9c2f-4bfc-9e0c-9aca386606a3": {
-    "link": "vless://17360870-9c2f-4bfc-9e0c-9aca386606a3@2.27.249.83:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ya.ru#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A94ms%0A%E2%9A%A1TCP-Direct",
-    "date": "2026-10-20T04:24:37.327534"
-  },
-  "2e2e204a-7e61-48fb-8182-5955821e8da0": {
-    "link": "vless://2e2e204a-7e61-48fb-8182-5955821e8da0@31.57.185.220:443?path=%2F&security=&encryption=none&type=ws#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A91ms%0A%E2%9A%A1WebSocket",
-    "date": "2026-10-20T04:24:37.327534"
-  },
-  "c7a38247-b801-453d-a483-e3a8a4250937": {
-    "link": "vless://c7a38247-b801-453d-a483-e3a8a4250937@86.54.42.61:8443?security=none&encryption=mlkem768x25519plus.native.0rtt.TBGJUK0zbDaRN5kG9DKcE5raAONeB4wnEsGeMO9VHjM&headerType=none&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B7%20Iran%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A94ms%0A%E2%9A%A1TCP-Direct",
-    "date": "2026-10-20T04:24:37.327534"
-  },
-  "d56624b2-35bb-468c-9b2a-e0b0df7230c1": {
-    "link": "vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?security=reality&encryption=none&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=091e1c5db8451757#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AF%F0%9F%87%B5%20Japan%0A%C2%AE%EF%B8%8FTokyo%0A%F0%9F%85%BF%EF%B8%8Fping%3A151ms%0A%E2%9A%A1TCP-Direct",
-    "date": "2026-10-20T04:24:37.327534"
-  },
-  "ee18d188-14cc-417e-beb1-70e4add6d023": {
-    "link": "vless://ee18d188-14cc-417e-beb1-70e4add6d023@31.59.180.155:443?security=reality&encryption=none&pbk=_0bRaAOYHd4ccDCmnlIq9I13WLRuT4LzlXfV_GGHKE0&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=italynew.nztvpn.com&sid=5aab0b0401044801#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B9%20Italy%0A%C2%AE%EF%B8%8FMilan%0A%F0%9F%85%BF%EF%B8%8Fping%3A99ms%0A%E2%9A%A1TCP-Direct",
-    "date": "2026-10-20T04:24:37.327534"
-  },
   "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=": {
     "link": "ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06MnRGcXlrR3FaMTAxWFcxMWY2aVJpRVJuUHljRkFqallxMHkyelVZaEtobz0@51.38.71.51:2083#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FLondon%0A%F0%9F%85%BF%EF%B8%8Fping%3A138ms%0A%E2%9A%A1TCP-Direct",
     "date": "2026-10-20T11:17:55.590089"
@@ -910,5 +886,41 @@
   "XpnTeam-38": {
     "link": "vless://XpnTeam-38@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F&security=tls&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A5ms%0A%E2%9A%A1WebSocket",
     "date": "2026-10-23T00:31:27.206576"
+  },
+  "e4QiDXErSwfetOwV9+oomPA5eHHcmtDCTMh5uN04kfw=:8MlbBZIgOVdg/m+ZJ3bhK/Mok62XICaLriLWhNMaexw=": {
+    "link": "ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZTRRaURYRXJTd2ZldE93Vjkrb29tUEE1ZUhIY210RENUTWg1dU4wNGtmdz06OE1sYkJaSWdPVmRnL20rWkozYmhLL01vazYyWElDYUxyaUxXaE5NYWV4dz0@31.57.185.124:25592#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FChicago%0A%F0%9F%85%BF%EF%B8%8Fping%3A118ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "nQeEoXC5Yl5PZnPLvKUpFTU9cyQcNG902zpibWkwGbo=": {
+    "link": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuUWVFb1hDNVlsNVBablBMdktVcEZUVTljeVFjTkc5MDJ6cGliV2t3R2JvPQ@130.49.189.158:43558#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%B7%F0%9F%87%BA%20Russia%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A194ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "6da2c981-8c77-4340-bda3-93399b7aea26": {
+    "link": "vless://6da2c981-8c77-4340-bda3-93399b7aea26@163.245.41.52:2096?mode=auto&path=%2Fapple-xh%3Fed%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=reality&encryption=none&pbk=2riaCWjnC6m96hid0WcL9BG4vwzh8NoW_ps8CrVo1mo&fp=chrome&type=xhttp&sni=www.apple.com&sid=3649e084544949f1#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%20Germany%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A128ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "7d1a74fd-8a38-4a29-863f-5da53a9e557e": {
+    "link": "vless://7d1a74fd-8a38-4a29-863f-5da53a9e557e@50.7.216.174:443?path=%2Fes%2F%3F%40MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI%3Fed%3D2048&security=tls&encryption=none&extra=%7B%22xmux%22%3A%20%7B%22maxConnections%22%3A%203%2C%20%22hMaxReusableSecs%22%3A%20%221140-1260%22%7D%7D&insecure=0&fp=firefox&type=xhttp&allowInsecure=0&sni=7d1a74fd.ferrin.uk#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%0A%C2%AE%EF%B8%8FSlough%0A%F0%9F%85%BF%EF%B8%8Fping%3A118ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "d56624b2-35bb-468c-9b2a-e0b0df7230c1": {
+    "link": "vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?security=reality&encryption=none&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=091e1c5db8451757#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AF%F0%9F%87%B5%20Japan%0A%C2%AE%EF%B8%8FTokyo%0A%F0%9F%85%BF%EF%B8%8Fping%3A135ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "ee18d188-14cc-417e-beb1-70e4add6d023": {
+    "link": "vless://ee18d188-14cc-417e-beb1-70e4add6d023@142.91.108.25:443?security=reality&encryption=none&pbk=9ZCYjybxMQ7JpE39B8u_Bo-alI1LIbt5ER0E-4yMjiM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=jp3.nztvpn.com&sid=ea36c03d86f91287#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AF%F0%9F%87%B5%20Japan%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A140ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "f8b74d3c-4c21-4667-a3e7-412d8a5598f6": {
+    "link": "vless://f8b74d3c-4c21-4667-a3e7-412d8a5598f6@213.182.201.15:3090?encryption=none&mode=multi&security=none&serviceName=vless&type=grpc#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%AA%F0%9F%87%B8%20Spain%0A%C2%AE%EF%B8%8FCentral%0A%F0%9F%85%BF%EF%B8%8Fping%3A132ms%0A%E2%9A%A1gRPC-Multi",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "saint": {
+    "link": "vless://saint@18.189.166.116:10101?encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2FSaint&pbk=fqg4ANJLSiL85n9-mH5JJ8-DapfFFvkiZdrHKRTP5V8&security=reality&sid=a537&sni=adsterra.com&spx=%2Fad872573eae5271&support-x25519mlkem768=true&type=xhttp&x_padding_bytes=100-1000#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%0A%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%20United%20States%0A%C2%AE%EF%B8%8FColumbus%0A%F0%9F%85%BF%EF%B8%8Fping%3A30ms%0A%E2%9A%A1TCP-Direct",
+    "date": "2026-10-23T07:18:11.433408"
+  },
+  "a25cbf11-2908-4a1b-a3a8-9a571777dca3": {
+    "link": "vmess://eyJhZGQiOiAiNTcuMTI5LjEzMi4yMjMiLCAiYWlkIjogMCwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICJhMjVjYmYxMS0yOTA4LTRhMWItYTNhOC05YTU3MTc3N2RjYTMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLyIsICJwb3J0IjogODAsICJwcyI6ICLwn5GJ8J+GlEBHb29kYmF5ZV9maWx0ZXJpbmdcbvCfk6Hwn4es8J+HpyBVbml0ZWQgS2luZ2RvbVxuwq7vuI9CZXhsZXlcbvCfhb/vuI9waW5nOjEwOW1zXG7imqFXZWJTb2NrZXQiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==",
+    "date": "2026-10-23T07:18:11.433408"
   }
 }
