@@ -51,11 +51,11 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "BG 💥Goodbaye-01",
-            "server": "6.bmi.ir.asopardaz.ir",
-            "server_port": 35176,
-            "method": "2022-blake3-aes-256-gcm",
-            "password": "NjcyNmVjMTU1ZWU5NDA5ZDk0ODg1NWM1MzJjZTE3NDk=:MmRhODU5Mzc5M2Q5NDUwOTg0OTE2M2IxOTIxY2Y0NDc="
+            "tag": "GB 💥Goodbaye-01",
+            "server": "8.211.196.252",
+            "server_port": 443,
+            "method": "2022-blake3-chacha20-poly1305",
+            "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
         },
         {
             "type": "shadowsocks",
@@ -91,7 +91,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "NL 💥Goodbaye-06",
+            "tag": "DE 💥Goodbaye-06",
+            "server": "57.129.113.16",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NcAXc0UZI6yQJE1p8QmOv8"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "NL 💥Goodbaye-07",
             "server": "193.29.139.212",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -99,31 +107,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "NL 💥Goodbaye-07",
-            "server": "dns22.m3hrzd.ir",
-            "server_port": 1346,
-            "method": "chacha20-ietf-poly1305",
-            "password": "T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "NL 💥Goodbaye-08",
-            "server": "dns22.m3hrzd.ir",
-            "server_port": 1353,
-            "method": "chacha20-ietf-poly1305",
-            "password": "T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "NL 💥Goodbaye-09",
-            "server": "dns22.m3hrzd.ir",
-            "server_port": 1354,
-            "method": "chacha20-ietf-poly1305",
-            "password": "T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "DE 💥Goodbaye-10",
+            "tag": "DE 💥Goodbaye-08",
             "server": "dns9.m3hrzd.ir",
             "server_port": 8044,
             "method": "chacha20-ietf-poly1305",
@@ -131,7 +115,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "US 💥Goodbaye-11",
+            "tag": "US 💥Goodbaye-09",
             "server": "198.98.53.130",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
@@ -139,31 +123,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "RU 💥Goodbaye-12",
-            "server": "130.49.189.54",
-            "server_port": 8388,
-            "method": "chacha20-ietf-poly1305",
-            "password": "hTTg7lwQMzpaF7KXpY3A8w"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-13",
-            "server": "82.38.31.180",
+            "tag": "NL 💥Goodbaye-10",
+            "server": "193.29.139.147",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-14",
-            "server": "82.38.31.203",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "k1dBOmOB4oqi7Ump37a1bQ"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-15",
+            "tag": "GB 💥Goodbaye-11",
             "server": "82.38.31.205",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -171,7 +139,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-16",
+            "tag": "GB 💥Goodbaye-12",
             "server": "82.38.31.208",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -179,7 +147,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-17",
+            "tag": "GB 💥Goodbaye-13",
             "server": "82.38.31.212",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -187,7 +155,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-18",
+            "tag": "GB 💥Goodbaye-14",
             "server": "82.38.31.213",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -195,7 +163,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-19",
+            "tag": "GB 💥Goodbaye-15",
             "server": "82.38.31.214",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -203,7 +171,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "NL 💥Goodbaye-20",
+            "tag": "NL 💥Goodbaye-16",
+            "server": "193.29.139.188",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "NL 💥Goodbaye-17",
             "server": "193.29.139.197",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -211,7 +187,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "NL 💥Goodbaye-21",
+            "tag": "NL 💥Goodbaye-18",
             "server": "193.29.139.225",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -219,15 +195,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-22",
-            "server": "82.38.31.10",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-23",
+            "tag": "GB 💥Goodbaye-19",
             "server": "82.38.31.11",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -235,31 +203,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-24",
-            "server": "82.38.31.13",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-25",
-            "server": "82.38.31.149",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-26",
-            "server": "82.38.31.149",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-27",
+            "tag": "GB 💥Goodbaye-20",
             "server": "82.38.31.155",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -267,7 +211,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-28",
+            "tag": "GB 💥Goodbaye-21",
             "server": "82.38.31.162",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
@@ -275,55 +219,39 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-29",
-            "server": "82.38.31.170",
+            "tag": "GB 💥Goodbaye-22",
+            "server": "82.38.31.28",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "GB 💥Goodbaye-23",
+            "server": "82.38.31.54",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "JP 💥Goodbaye-24",
+            "server": "84.247.155.196",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-30",
-            "server": "82.38.31.17",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-31",
-            "server": "82.38.31.7",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "GB 💥Goodbaye-32",
-            "server": "london02.npvnot.com",
-            "server_port": 995,
             "method": "aes-256-gcm",
-            "password": "OGEyYWJkY2Y4OTFjYTQ1MTFmZmE0OWI2MTA5ZDgz"
+            "password": "3eOFeNssde7PYYMv"
         },
         {
             "type": "shadowsocks",
-            "tag": "TR 💥Goodbaye-33",
-            "server": "istanbul07.npvnot.com",
-            "server_port": 995,
+            "tag": "JP 💥Goodbaye-25",
+            "server": "84.247.155.196",
+            "server_port": 80,
             "method": "aes-256-gcm",
-            "password": "OWJjMTUwNTNmZjhlZjk2ODNjYjBiZjRiNzRlM2Zj"
+            "password": "3eOFeNssde7PYYMv"
         },
         {
             "type": "shadowsocks",
-            "tag": "FI 💥Goodbaye-34",
-            "server": "helsinki03.npvnot.com",
-            "server_port": 995,
-            "method": "aes-256-gcm",
-            "password": "MjNhN2QwNmFlYTRlZGMxNWVlOTI0MGI0MTU4MDY1"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "DE 💥Goodbaye-35",
+            "tag": "DE 💥Goodbaye-26",
             "server": "185.226.172.8",
             "server_port": 8008,
             "method": "aes-256-gcm",
@@ -331,7 +259,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "DE 💥Goodbaye-36",
+            "tag": "DE 💥Goodbaye-27",
+            "server": "213.202.208.199",
+            "server_port": 5000,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "DE 💥Goodbaye-28",
             "server": "185.176.204.18",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -339,7 +275,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "US 💥Goodbaye-37",
+            "tag": "US 💥Goodbaye-29",
+            "server": "185.215.132.18",
+            "server_port": 19999,
+            "method": "aes-256-gcm",
+            "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "US 💥Goodbaye-30",
             "server": "185.215.132.9",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -347,7 +291,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "IT 💥Goodbaye-38",
+            "tag": "IT 💥Goodbaye-31",
             "server": "202.50.253.18",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -355,7 +299,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "IT 💥Goodbaye-39",
+            "tag": "IT 💥Goodbaye-32",
+            "server": "202.50.253.36",
+            "server_port": 19999,
+            "method": "aes-256-gcm",
+            "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "IT 💥Goodbaye-33",
             "server": "202.50.253.45",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -363,7 +315,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "IT 💥Goodbaye-40",
+            "tag": "IT 💥Goodbaye-34",
+            "server": "202.50.253.54",
+            "server_port": 19999,
+            "method": "aes-256-gcm",
+            "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "IT 💥Goodbaye-35",
             "server": "202.50.253.63",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -371,7 +331,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "IT 💥Goodbaye-41",
+            "tag": "IT 💥Goodbaye-36",
             "server": "202.50.253.72",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -379,7 +339,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "IT 💥Goodbaye-42",
+            "tag": "IT 💥Goodbaye-37",
             "server": "202.50.253.81",
             "server_port": 19999,
             "method": "aes-256-gcm",
@@ -387,31 +347,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "US 💥Goodbaye-43",
+            "tag": "US 💥Goodbaye-38",
             "server": "45.86.51.18",
             "server_port": 19999,
             "method": "aes-256-gcm",
             "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
         },
         {
-            "type": "shadowsocks",
-            "tag": "FR 💥Goodbaye-44",
-            "server": "51.83.192.80",
-            "server_port": 8388,
-            "method": "aes-256-gcm",
-            "password": "itzvpn@321"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "FR 💥Goodbaye-45",
-            "server": "51.75.118.5",
-            "server_port": 20222,
-            "method": "aes-256-gcm",
-            "password": "lF3nRjH58koKTe-_VtABbg"
-        },
-        {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-46",
+            "tag": "US 💥Goodbaye-39",
             "server": "146.75.57.120",
             "server_port": 443,
             "password": "%4D%69%54%69%56%50%4E",
@@ -429,7 +373,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-47",
+            "tag": "US 💥Goodbaye-40",
             "server": "167.82.64.120",
             "server_port": 443,
             "password": "%4D%69%54%69%56%50%4E",
@@ -447,7 +391,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-48",
+            "tag": "US 💥Goodbaye-41",
             "server": "wwww.qarvian.ir",
             "server_port": 443,
             "password": "%4D%69%54%69%56%50%4E",
@@ -465,7 +409,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-49",
+            "tag": "US 💥Goodbaye-42",
             "server": "199.232.78.160",
             "server_port": 443,
             "password": "%6D%69%74%69%76%70%6E",
@@ -483,7 +427,18 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-50",
+            "tag": "US 💥Goodbaye-43",
+            "server": "169.197.140.171",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-44",
             "server": "169.197.140.214",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -494,7 +449,29 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-51",
+            "tag": "US 💥Goodbaye-45",
+            "server": "169.197.140.218",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-46",
+            "server": "169.197.140.224",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-47",
             "server": "170.101.101.131",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -505,51 +482,18 @@
         },
         {
             "type": "trojan",
-            "tag": "DE 💥Goodbaye-52",
-            "server": "193.108.119.29",
+            "tag": "US 💥Goodbaye-48",
+            "server": "170.101.101.53",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "blog.iloverussia2026.com"
+                "server_name": "www.explorecreativejobsandenhanceyourcareerportfolio.com"
             }
         },
         {
             "type": "trojan",
-            "tag": "DE 💥Goodbaye-53",
-            "server": "193.108.119.96",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "learn.iloverussia2026.com"
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "CH 💥Goodbaye-54",
-            "server": "208.69.78.19",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yourultimateprofessionalcareerhub.com"
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "CH 💥Goodbaye-55",
-            "server": "208.69.78.29",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "learn.yourultimateprofessionalcareerhub.com"
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "CA 💥Goodbaye-56",
+            "tag": "CA 💥Goodbaye-49",
             "server": "216.152.147.79",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -560,7 +504,40 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-57",
+            "tag": "CA 💥Goodbaye-50",
+            "server": "216.152.147.85",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.connectingpeoplewithgreatjobs.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "CA 💥Goodbaye-51",
+            "server": "216.152.147.89",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.connectingpeoplewithgreatjobs.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "CA 💥Goodbaye-52",
+            "server": "216.152.147.93",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "connectingpeoplewithgreatjobs.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-53",
             "server": "216.152.155.131",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -571,18 +548,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-58",
-            "server": "216.152.155.158",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "resources.nextjobopportunityandclaimyouridealrole.com"
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "US 💥Goodbaye-59",
+            "tag": "US 💥Goodbaye-54",
             "server": "216.152.155.176",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -593,7 +559,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-60",
+            "tag": "US 💥Goodbaye-55",
             "server": "216.152.155.23",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -604,7 +570,29 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-61",
+            "tag": "US 💥Goodbaye-56",
+            "server": "216.152.155.59",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.nextjobopportunityandclaimyouridealrole.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-57",
+            "server": "216.152.156.49",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-58",
             "server": "216.152.156.65",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -615,7 +603,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-62",
+            "tag": "US 💥Goodbaye-59",
             "server": "216.152.156.81",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -626,7 +614,51 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-63",
+            "tag": "CL 💥Goodbaye-60",
+            "server": "64.176.7.205",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "advanceyouremploymentskillsandcareerdevelopmenthub.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-61",
+            "server": "66.163.114.106",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.findconnectwithemployersandbuildprofessionalnetwork.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "ES 💥Goodbaye-62",
+            "server": "66.163.118.244",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.discovergreatjobsandadvanceyourcareer.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "ES 💥Goodbaye-63",
+            "server": "66.163.118.62",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "courses.discovergreatjobsandadvanceyourcareer.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-64",
             "server": "66.163.122.7",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -637,7 +669,7 @@
         },
         {
             "type": "trojan",
-            "tag": "SE 💥Goodbaye-64",
+            "tag": "SE 💥Goodbaye-65",
             "server": "70.34.207.14",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -648,7 +680,18 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-65",
+            "tag": "US 💥Goodbaye-66",
+            "server": "199.232.8.223",
+            "server_port": 443,
+            "password": "65IHvp68B85OE3zc2K9VwUShp8ibgFOq",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.firefox.com"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-67",
             "server": "146.75.57.120",
             "server_port": 443,
             "password": "MiTiVPN",
@@ -666,8 +709,8 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-66",
-            "server": "167.82.64.120",
+            "tag": "US 💥Goodbaye-68",
+            "server": "151.101.36.120",
             "server_port": 443,
             "password": "MiTiVPN",
             "tls": {
@@ -684,7 +727,79 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-67",
+            "tag": "US 💥Goodbaye-69",
+            "server": "167.82.64.120",
+            "server_port": 443,
+            "password": "MiTiVPN",
+            "tls": {
+                "enabled": true,
+                "server_name": "firefox.com"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+                "headers": {
+                    "Host": "mitivpn--mitivpn.ac.ir"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-70",
+            "server": "wwww.qarvian.ir",
+            "server_port": 443,
+            "password": "MiTiVPN",
+            "tls": {
+                "enabled": true,
+                "server_name": "firefox.com"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mitivpn--mitivpn.ac.ir"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-71",
+            "server": "104.25.239.113",
+            "server_port": 2053,
+            "password": "gHQP0D7D15",
+            "tls": {
+                "enabled": true,
+                "server_name": "marvdasht.phonecomparisonblog.org"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "%2F",
+                "headers": {
+                    "Host": "marvdasht.phonecomparisonblog.org"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-72",
+            "server": "104.18.37.127",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.trusteeforward.com"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.trusteeforward.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-73",
             "server": "108.162.194.134",
             "server_port": 443,
             "password": "humanity",
@@ -702,25 +817,25 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-68",
-            "server": "141.101.115.104",
+            "tag": "ES 💥Goodbaye-74",
+            "server": "109.234.211.232",
             "server_port": 443,
             "password": "humanity",
             "tls": {
                 "enabled": true,
-                "server_name": "www.calmlunch.com"
+                "server_name": "www.pleadcourt.org"
             },
             "transport": {
                 "type": "ws",
                 "path": "/assignment",
                 "headers": {
-                    "Host": "www.calmlunch.com"
+                    "Host": "www.pleadcourt.org"
                 }
             }
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-69",
+            "tag": "US 💥Goodbaye-75",
             "server": "162.159.84.189",
             "server_port": 443,
             "password": "humanity",
@@ -738,7 +853,61 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-70",
+            "tag": "US 💥Goodbaye-76",
+            "server": "172.64.145.133",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pleadcourt.org"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.pleadcourt.org"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-77",
+            "server": "172.64.152.23",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.calmlunch.com"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.calmlunch.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-78",
+            "server": "172.66.1.36",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pleadcourt.org"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.pleadcourt.org"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-79",
             "server": "172.66.40.99",
             "server_port": 443,
             "password": "humanity",
@@ -756,7 +925,7 @@
         },
         {
             "type": "trojan",
-            "tag": "CH 💥Goodbaye-71",
+            "tag": "CH 💥Goodbaye-80",
             "server": "185.18.250.252",
             "server_port": 443,
             "password": "humanity",
@@ -774,7 +943,25 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-72",
+            "tag": "US 💥Goodbaye-81",
+            "server": "188.114.97.2",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pleadcourt.org"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.pleadcourt.org"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "US 💥Goodbaye-82",
             "server": "188.114.97.6",
             "server_port": 443,
             "password": "humanity",
@@ -792,25 +979,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-73",
-            "server": "188.114.98.0",
-            "server_port": 443,
-            "password": "humanity",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.calmlunch.com"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assignment",
-                "headers": {
-                    "Host": "www.calmlunch.com"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "BG 💥Goodbaye-74",
+            "tag": "BG 💥Goodbaye-83",
             "server": "193.239.160.134",
             "server_port": 443,
             "password": "humanity",
@@ -828,43 +997,7 @@
         },
         {
             "type": "trojan",
-            "tag": "LT 💥Goodbaye-75",
-            "server": "195.181.244.216",
-            "server_port": 443,
-            "password": "humanity",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.calmlunch.com"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assignment",
-                "headers": {
-                    "Host": "www.calmlunch.com"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "ES 💥Goodbaye-76",
-            "server": "212.227.90.142",
-            "server_port": 443,
-            "password": "humanity",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.calmlunch.com"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assignment",
-                "headers": {
-                    "Host": "www.calmlunch.com"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "SC 💥Goodbaye-77",
+            "tag": "SC 💥Goodbaye-84",
             "server": "45.128.76.242",
             "server_port": 443,
             "password": "humanity",
@@ -874,7 +1007,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/assignment",
+                "path": "/assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
                 "headers": {
                     "Host": "www.trusteeforward.com"
                 }
@@ -882,25 +1015,7 @@
         },
         {
             "type": "trojan",
-            "tag": "SC 💥Goodbaye-78",
-            "server": "45.130.125.160",
-            "server_port": 443,
-            "password": "humanity",
-            "tls": {
-                "enabled": true,
-                "server_name": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assignment",
-                "headers": {
-                    "Host": "www.calmlunch.com"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "DE 💥Goodbaye-79",
+            "tag": "DE 💥Goodbaye-85",
             "server": "45.80.111.7",
             "server_port": 443,
             "password": "humanity",
@@ -918,7 +1033,7 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-80",
+            "tag": "US 💥Goodbaye-86",
             "server": "5.78.92.27",
             "server_port": 8443,
             "password": "humanity",
@@ -936,44 +1051,8 @@
         },
         {
             "type": "trojan",
-            "tag": "US 💥Goodbaye-81",
-            "server": "8.6.112.206",
-            "server_port": 443,
-            "password": "humanity",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.trusteeforward.com"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assignment",
-                "headers": {
-                    "Host": "www.trusteeforward.com"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "LV 💥Goodbaye-82",
-            "server": "85.31.102.163",
-            "server_port": 443,
-            "password": "humanity",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.calmlunch.com"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assignment",
-                "headers": {
-                    "Host": "www.calmlunch.com"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": "US 💥Goodbaye-83",
-            "server": "www.pleadcourt.org",
+            "tag": "US 💥Goodbaye-87",
+            "server": "8.47.69.60",
             "server_port": 443,
             "password": "humanity",
             "tls": {
@@ -990,35 +1069,25 @@
         },
         {
             "type": "trojan",
-            "tag": "FI 💥Goodbaye-84",
-            "server": "31.76.102.130",
-            "server_port": 41445,
-            "password": "sBMuYgEz3jve2XtEBh8JPh9trNE-c9bH",
-            "tls": {
-                "enabled": true,
-                "server_name": "d1-fl.cloud-cdn.xyz"
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "IR 💥Goodbaye-85",
-            "server": "konglam.goodphilips.ir",
+            "tag": "US 💥Goodbaye-88",
+            "server": "8.6.112.206",
             "server_port": 443,
-            "uuid": "0205a7e1-970d-468a-926c-7e3b4c9a8b9d",
-            "flow": null,
+            "password": "humanity",
             "tls": {
                 "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "x1K53K_cLlg8QvxQhDnfRvMkQbtWkdzKdmaeYCIo4Hc",
-                    "short_id": "e85705ad62739603"
+                "server_name": "www.trusteeforward.com"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.trusteeforward.com"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "SG 💥Goodbaye-86",
+            "tag": "SG 💥Goodbaye-89",
             "server": "msydjt.com",
             "server_port": 443,
             "uuid": "024cf4e8-fa64-44ea-b22f-c28437120563",
@@ -1038,61 +1107,41 @@
         },
         {
             "type": "vless",
-            "tag": "SG 💥Goodbaye-87",
-            "server": "www.naviga-ting.com",
+            "tag": "LV 💥Goodbaye-90",
+            "server": "195.123.213.28",
             "server_port": 443,
-            "uuid": "024cf4e8-fa64-44ea-b22f-c28437120563",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "www.naviga-ting.com",
-                "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/51544/ws",
-                "headers": {
-                    "Host": "ded1ws.samcdn.shop"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "LV 💥Goodbaye-88",
-            "server": "45.43.79.92",
-            "server_port": 443,
-            "uuid": "042b12d8-bac4-4b3a-b661-79e333f08e4e",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "vikt659.isgood.host",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM",
-                    "short_id": "af4ca5d16438c938"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-89",
-            "server": "47.253.226.114",
-            "server_port": 443,
-            "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+            "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
                 "server_name": "www.cloudflare.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-                    "short_id": null
+                    "public_key": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
+                    "short_id": "5c256336e3b673fa"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "FR 💥Goodbaye-90",
+            "tag": "IL 💥Goodbaye-91",
+            "server": "79.182.39.37",
+            "server_port": 27591,
+            "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+                    "short_id": "6c5c7900406a1ae7"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "FR 💥Goodbaye-92",
             "server": "ai.smrtai.top",
             "server_port": 443,
             "uuid": "086bf957-9cd0-4e55-8280-bbef10435b41",
@@ -1109,7 +1158,7 @@
         },
         {
             "type": "vless",
-            "tag": "FI 💥Goodbaye-91",
+            "tag": "FI 💥Goodbaye-93",
             "server": "hw6.divarkhaghazi.com",
             "server_port": 465,
             "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
@@ -1129,54 +1178,61 @@
         },
         {
             "type": "vless",
-            "tag": "IR 💥Goodbaye-92",
-            "server": "bs.cexora.ir",
-            "server_port": 2087,
-            "uuid": "17a6d68f-76ef-4d98-5f5b-0cce58fd96b1",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "bs.cexora.ir",
-                "reality": null
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RU 💥Goodbaye-93",
-            "server": "82.202.183.9",
+            "tag": "DE 💥Goodbaye-94",
+            "server": "195.26.26.56",
             "server_port": 443,
-            "uuid": "1ba0439d-384c-4a6e-9560-0439698beb2a",
+            "uuid": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "h4.smart-life.agency",
+                "server_name": "store.sony.ca",
                 "reality": {
                     "enabled": true,
-                    "public_key": "1A9loATtqTbKfErpj24clMebWdbmBRDgUIADwtlvtAw",
-                    "short_id": "70c20a2f5a7d542e"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "FI 💥Goodbaye-94",
-            "server": "95.216.27.15",
-            "server_port": 2053,
-            "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "www.google.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-                    "short_id": "d368b94e275ab080"
+                    "public_key": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+                    "short_id": "b1"
                 }
             }
         },
         {
             "type": "vless",
             "tag": "US 💥Goodbaye-95",
+            "server": "www.buydomains.com",
+            "server_port": 443,
+            "uuid": "174e22d4-5090-4a65-a78a-a564b8bf3455",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "lGqqH57cL548wfovAPhEiXVW9.pagES.DeV",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vl/h69TFzetQgf0g215fLzzk9v5Zxa?ed=2560",
+                "headers": {
+                    "Host": "lgqqh57cl548wfovapheixvw9.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-96",
+            "server": "185.168.208.190",
+            "server_port": 47443,
+            "uuid": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "us-1.waspguard.ru",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hz7rzdHvTAVwfy48pa6313yBF-sV7V0svvPVnl95bgY",
+                    "short_id": "ae97246a8f799854"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-97",
             "server": "187.52.44.20",
             "server_port": 47443,
             "uuid": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e",
@@ -1193,24 +1249,7 @@
         },
         {
             "type": "vless",
-            "tag": "KZ 💥Goodbaye-96",
-            "server": "95.56.251.12",
-            "server_port": 47443,
-            "uuid": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "kz1.waspnest.space",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU",
-                    "short_id": "ae97223a8f799877"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-97",
+            "tag": "NL 💥Goodbaye-98",
             "server": "108.61.164.217",
             "server_port": 4443,
             "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
@@ -1227,54 +1266,35 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-98",
-            "server": "51.38.127.93",
-            "server_port": 8080,
-            "uuid": "261cdc0d-9a73-4b75-b61b-e99980e3d668",
+            "tag": "SG 💥Goodbaye-99",
+            "server": "46.137.202.178",
+            "server_port": 12512,
+            "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "icloud.com",
+                "server_name": "www.intel.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "vKnJBC8MN4hGDqu7_C6luBwjVnhq9Wjb6BWkuK_8_z0",
-                    "short_id": "dee5ab9e"
+                    "public_key": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
+                    "short_id": "e692a8250d2e2fd0"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-99",
-            "server": "104.16.7.70",
-            "server_port": 2095,
-            "uuid": "2b5f8588-87f6-40af-a785-322c8fa1df77",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560",
-                "headers": {
-                    "Host": "sni.111000.dynv6.azazilvpn.sbs"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-100",
-            "server": "web-tomcat.pages.dev",
+            "tag": "RS 💥Goodbaye-100",
+            "server": "150.40.126.19",
             "server_port": 443,
-            "uuid": "2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac",
+            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "web-tomcat.pages.dev",
-                "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "web-tomcat.pages.dev"
+                "server_name": "rs2.univesalsrv.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE",
+                    "short_id": "1469af2040b7c323"
                 }
             }
         },
@@ -1332,23 +1352,6 @@
         {
             "type": "vless",
             "tag": "BG 💥Goodbaye-104",
-            "server": "bg4.univesalsrv.com",
-            "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "bg4.univesalsrv.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc",
-                    "short_id": "51f45d4fd58cc319"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "BG 💥Goodbaye-105",
             "server": "bg5.univesalsrv.com",
             "server_port": 443,
             "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -1365,139 +1368,58 @@
         },
         {
             "type": "vless",
-            "tag": "MD 💥Goodbaye-106",
-            "server": "md5.univesalsrv.com",
-            "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": null,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg",
-                    "short_id": "aa9884f2982b7d3c"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RS 💥Goodbaye-107",
-            "server": "rs2.univesalsrv.com",
-            "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": null,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE",
-                    "short_id": "1469af2040b7c323"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RS 💥Goodbaye-108",
-            "server": "rs3.univesalsrv.com",
-            "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "rs3.univesalsrv.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ",
-                    "short_id": "35d05b666e2c6cdf"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RS 💥Goodbaye-109",
-            "server": "rs5.univesalsrv.com",
-            "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": null,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
-                    "short_id": "4872856d5489c37d"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "DE 💥Goodbaye-110",
-            "server": "94.249.187.43",
-            "server_port": 43000,
-            "uuid": "30b08c3d-f208-4993-91c9-af86a5f4a2f0",
+            "tag": "SC 💥Goodbaye-105",
+            "server": "hk3n.wxgqlfx.vip",
+            "server_port": 35193,
+            "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": null,
+                "server_name": "www.apple.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "cVy14rseOu0oTTXUjxSTcedkkxEJfH9XCdxFW3fT92k",
-                    "short_id": "6fa3822e"
+                    "public_key": "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE",
+                    "short_id": "e8daed2d"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-111",
-            "server": "docs.asasin4.ir",
-            "server_port": 30940,
-            "uuid": "30dc547e-d790-46b9-999b-9600324aba1a",
+            "tag": "SC 💥Goodbaye-106",
+            "server": "156.252.229.136",
+            "server_port": 8443,
+            "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "dl.google.com",
+                "server_name": "play.googleapis.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "pu8u1rdI0UHQfAppyMwbKmKQjTIS0HXmGNUG3UzEdy0",
-                    "short_id": "d9cc6f4a"
+                    "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+                    "short_id": "974f7f8f"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-112",
-            "server": "213.108.198.158",
-            "server_port": 8442,
-            "uuid": "35352039-3820-4532-a031-303120313030",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "creativecommons.org",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA",
-                    "short_id": "59b75803"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-113",
-            "server": "gcore.com",
-            "server_port": 443,
-            "uuid": "3fccf1f5-dd4b-4527-a0e6-392719d6aa0d",
+            "tag": "SC 💥Goodbaye-107",
+            "server": "156.252.229.30",
+            "server_port": 8443,
+            "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "img.jsdelivr.com",
-                "reality": null
+                "server_name": "play.googleapis.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+                    "short_id": "974f7f8f"
+                }
             }
         },
         {
             "type": "vless",
-            "tag": "CY 💥Goodbaye-114",
+            "tag": "CY 💥Goodbaye-108",
             "server": "hydra.yokkastars.com",
             "server_port": 40443,
             "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
@@ -1514,14 +1436,14 @@
         },
         {
             "type": "vless",
-            "tag": "PL 💥Goodbaye-115",
-            "server": "pl.peregrine-sub.net",
-            "server_port": 1443,
+            "tag": "TR 💥Goodbaye-109",
+            "server": "tr.peregrine-sub.net",
+            "server_port": 8443,
             "uuid": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
-            "flow": "xtls-rprx-vision",
+            "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "pl.peregrine-sub.net",
+                "server_name": "tr.peregrine-sub.net",
                 "reality": {
                     "enabled": true,
                     "public_key": "PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI",
@@ -1531,25 +1453,8 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-116",
-            "server": "167.233.147.148",
-            "server_port": 443,
-            "uuid": "47e7e14d-2519-4146-aa2f-6eaa52c0a908",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "dynu.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0E-OTXVHsukKvwgwynrI49nTaT5m6rxdaFPg4D_UszI",
-                    "short_id": "9cc0"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-117",
-            "server": "51.158.206.12",
+            "tag": "NL 💥Goodbaye-110",
+            "server": "51.158.206.26",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
             "flow": "xtls-rprx-vision",
@@ -1565,24 +1470,7 @@
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-118",
-            "server": "51.158.206.25",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-119",
+            "tag": "NL 💥Goodbaye-111",
             "server": "51.158.206.29",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1599,75 +1487,7 @@
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-120",
-            "server": "51.158.206.34",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-121",
-            "server": "51.158.206.80",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-122",
-            "server": "51.158.206.86",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-123",
-            "server": "51.158.206.8",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-124",
+            "tag": "NL 💥Goodbaye-112",
             "server": "51.158.206.96",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1684,41 +1504,7 @@
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-125",
-            "server": "51.158.206.97",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-126",
-            "server": "51.158.206.98",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "FR 💥Goodbaye-127",
+            "tag": "FR 💥Goodbaye-113",
             "server": "62.210.91.2",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1735,7 +1521,7 @@
         },
         {
             "type": "vless",
-            "tag": "CH 💥Goodbaye-128",
+            "tag": "CH 💥Goodbaye-114",
             "server": "132.243.174.128",
             "server_port": 443,
             "uuid": "4917cc12-f947-4f2b-b250-a76893c056be",
@@ -1752,7 +1538,7 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-129",
+            "tag": "DE 💥Goodbaye-115",
             "server": "159.200.230.191",
             "server_port": 443,
             "uuid": "4917cc12-f947-4f2b-b250-a76893c056be",
@@ -1769,108 +1555,7 @@
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-130",
-            "server": "5.149.249.94",
-            "server_port": 443,
-            "uuid": "4a140c2f-5b0c-4524-950c-026de74fcf69",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "nlb.kosmosapp.net",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-                    "short_id": "27350908de933e09"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RU 💥Goodbaye-131",
-            "server": "45.9.12.110",
-            "server_port": 443,
-            "uuid": "4b1be712-774c-4b65-8491-a3339e124a70",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.letsconnectpoint.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myIjvlXZS0rm1eg4q2w5WsQBuj80i2rBA0HpRGCUg1w",
-                    "short_id": "86d1efde"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RU 💥Goodbaye-132",
-            "server": "ru.letsconnectpoint.com",
-            "server_port": 443,
-            "uuid": "4b1be712-774c-4b65-8491-a3339e124a70",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.letsconnectpoint.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myIjvlXZS0rm1eg4q2w5WsQBuj80i2rBA0HpRGCUg1w",
-                    "short_id": "86d1efde"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-133",
-            "server": "87.199.205.28",
-            "server_port": 443,
-            "uuid": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "vkvd754.okcdn.ru",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw",
-                    "short_id": "ef1d3554c652a436"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-134",
-            "server": "104.25.199.149",
-            "server_port": 80,
-            "uuid": "50414e45-4c5f-5a45-5553-5dd075c8ae9b",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/api/ws",
-                "headers": {
-                    "Host": "web-app-gjn19f.z0zxy6ehuwgs.workers.dev"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-135",
-            "server": "72.56.41.232",
-            "server_port": 443,
-            "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "usatimewebnew.space",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FFsBozg2vRN-wNNsv6Y97sbr4EF5aIHiYF7-xHa_9Fk",
-                    "short_id": null
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "CY 💥Goodbaye-136",
+            "tag": "CY 💥Goodbaye-116",
             "server": "5.253.30.99",
             "server_port": 40443,
             "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
@@ -1887,37 +1572,7 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-137",
-            "server": "gcore.com",
-            "server_port": 443,
-            "uuid": "5125b5f4-12a5-41a0-9437-1fba29381977",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "img.jsdelivr.com",
-                "reality": null
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "CH 💥Goodbaye-138",
-            "server": "138.124.39.251",
-            "server_port": 443,
-            "uuid": "5254c281-3bc1-40ee-ba89-1aaf8c251402",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "nl-modx-prime.storagedirectguide.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ",
-                    "short_id": null
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "GB 💥Goodbaye-139",
+            "tag": "GB 💥Goodbaye-117",
             "server": "191.44.108.30",
             "server_port": 443,
             "uuid": "558b26f6-061b-4079-9b84-ca13b3e90ae3",
@@ -1934,7 +1589,7 @@
         },
         {
             "type": "vless",
-            "tag": "HK 💥Goodbaye-140",
+            "tag": "HK 💥Goodbaye-118",
             "server": "154.21.203.106",
             "server_port": 51279,
             "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -1951,57 +1606,78 @@
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-141",
-            "server": "95.85.228.79",
-            "server_port": 443,
-            "uuid": "58647a59-0097-495e-9185-bc4be0390b32",
+            "tag": "FR 💥Goodbaye-119",
+            "server": "51.77.144.182",
+            "server_port": 8080,
+            "uuid": "58ec8bba-fb99-4840-805c-1871cbec26f3",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "necf01.sonicservice.digital",
+                "server_name": "icloud.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
-                    "short_id": null
+                    "public_key": "twCZ2ZSURqQA2oUep4h2aj_3yJEEagFSQByn26bWWkI",
+                    "short_id": "94d9456c33"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "IR 💥Goodbaye-142",
-            "server": "callme.restaurantcloud.ir",
-            "server_port": 6002,
-            "uuid": "5bd8679a-d15b-48b7-82f2-8b726d57701a",
+            "tag": "TR 💥Goodbaye-120",
+            "server": "206.1.101.85",
+            "server_port": 42654,
+            "uuid": "5a82be1c-ed6a-4f98-a767-05df0f7be3e7",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "callme.restaurantcloud.ir",
-                "reality": null
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-143",
-            "server": "saas.sin.fan",
-            "server_port": 2096,
-            "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "vp8.1145678.xyz",
+                "server_name": "206.1.101.85",
                 "reality": null
             },
             "transport": {
                 "type": "ws",
-                "path": "/p",
+                "path": "/",
                 "headers": {
-                    "Host": "vp8.1145678.xyz"
+                    "Host": "206.1.101.85"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-144",
+            "tag": "CY 💥Goodbaye-121",
+            "server": "2.56.126.184",
+            "server_port": 443,
+            "uuid": "5f53b921-2874-482a-b530-d3ee1d66cbc5",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "pl3.originmesh.online",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J3b34EpnsIoqiUXL9B4KX7uxcPJ4WXu4a5byt7tanTQ",
+                    "short_id": "eecfe76af97a6132"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "GB 💥Goodbaye-122",
+            "server": "57.129.138.142",
+            "server_port": 8080,
+            "uuid": "6228ee5b-fe07-4ee5-8300-386cd004eb84",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "itUb_lVoLPqG2cGs6vxsOaOImohnpXucmiaDm6_6iyU",
+                    "short_id": "fe57"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-123",
             "server": "185.121.179.122",
             "server_port": 443,
             "uuid": "63c5f8b3-3d3d-46a9-ae1f-58635cdaf891",
@@ -2018,7 +1694,7 @@
         },
         {
             "type": "vless",
-            "tag": "AT 💥Goodbaye-145",
+            "tag": "AT 💥Goodbaye-124",
             "server": "av.neuroniko.com",
             "server_port": 8443,
             "uuid": "69158986-cfae-4567-8391-0f96d9d985bd",
@@ -2035,7 +1711,7 @@
         },
         {
             "type": "vless",
-            "tag": "AE 💥Goodbaye-146",
+            "tag": "AE 💥Goodbaye-125",
             "server": "140.225.199.136",
             "server_port": 8443,
             "uuid": "6c713691-3ca2-002b-ad25-113d1bed6b03",
@@ -2052,78 +1728,156 @@
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-147",
-            "server": "radio.blog-forme.ru",
+            "tag": "DE 💥Goodbaye-126",
+            "server": "de-tls.fluxorvpn.net",
             "server_port": 443,
+            "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "mediatract.com",
+                "reality": null
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "IR 💥Goodbaye-127",
+            "server": "panel.forwards.win",
+            "server_port": 8443,
+            "uuid": "6d1af8c7-bc4c-4b2b-a4f2-533a037ff2f8",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.digikala.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-xZO-PotlcJD2lD5U9HncgFceKNQBQA8anviX3_0GCc",
+                    "short_id": "78a2a9ae612d7c9f"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "IQ 💥Goodbaye-128",
+            "server": "178.17.52.236",
+            "server_port": 2083,
             "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "radio.blog-forme.ru",
+                "server_name": "maps.blog-forme.ru",
                 "reality": {
                     "enabled": true,
-                    "public_key": "nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4",
-                    "short_id": "fb3a5f2d4ca346ed"
+                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+                    "short_id": "3258252d44113e23"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-148",
-            "server": "93.152.215.204",
-            "server_port": 443,
-            "uuid": "6db6b948-655f-4f68-a9e7-865050e05b31",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "remote.propaint.cl",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-zjl4KNE4PFeuthfmw_2JeCbiXAA2kaoYVHODPq-sXQ",
-                    "short_id": "11a2fc"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "SG 💥Goodbaye-149",
-            "server": "139.162.27.96",
+            "tag": "NL 💥Goodbaye-129",
+            "server": "195.63.146.10",
             "server_port": 2096,
-            "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
+            "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "free-server.techsonic.dev",
-                "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/free-server.techsonic.dev",
-                "headers": {
-                    "Host": "free-server.techsonic.dev"
+                "server_name": "www.apple.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2riaCWjnC6m96hid0WcL9BG4vwzh8NoW_ps8CrVo1mo",
+                    "short_id": "3649e084544949f1"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "RU 💥Goodbaye-150",
-            "server": "130.49.177.193",
+            "tag": "PL 💥Goodbaye-130",
+            "server": "177.1.192.117",
             "server_port": 443,
-            "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
+            "uuid": "706bce83-91db-4260-b175-cba29145cd56",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "de-2.ffpn.pro",
+                "server_name": "up7.uni-plan.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc",
-                    "short_id": "681fc2dd643bc2f3"
+                    "public_key": "Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ",
+                    "short_id": "3952a220c86628a8"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "FR 💥Goodbaye-151",
+            "tag": "PL 💥Goodbaye-131",
+            "server": "177.1.192.38",
+            "server_port": 8443,
+            "uuid": "706bce83-91db-4260-b175-cba29145cd56",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "upnl.giftsbattle.vip",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo",
+                    "short_id": "b3e515e37815559d"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "PL 💥Goodbaye-132",
+            "server": "177.1.192.67",
+            "server_port": 443,
+            "uuid": "706bce83-91db-4260-b175-cba29145cd56",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "up4.uni-plan.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5QmUszafz1gigUjf3R2GwZ9RVsEwZT-polu0l8zfNgA",
+                    "short_id": "830e615a39f4c811"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "AT 💥Goodbaye-133",
+            "server": "193.8.215.116",
+            "server_port": 8443,
+            "uuid": "706bce83-91db-4260-b175-cba29145cd56",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "aezau1.uni-plan.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY",
+                    "short_id": "8f0f92607e5b353c"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "FI 💥Goodbaye-134",
+            "server": "62.60.229.216",
+            "server_port": 443,
+            "uuid": "706bce83-91db-4260-b175-cba29145cd56",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "aezaf1.uni-plan.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eh8WqxaSUlfNmlGzFLYFYrJzk1novnvfU6qmaLLOiX4",
+                    "short_id": "72d410ce5f2036c9"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "FR 💥Goodbaye-135",
             "server": "152.228.139.33",
             "server_port": 51671,
             "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
@@ -2140,153 +1894,146 @@
         },
         {
             "type": "vless",
-            "tag": "CY 💥Goodbaye-152",
-            "server": "5.253.29.253",
-            "server_port": 443,
-            "uuid": "76ef5ab3-7075-4e23-b445-f3b1bd05d431",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "indi.qikbro.com",
-                "reality": null
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "GB 💥Goodbaye-153",
-            "server": "uk.2ul.top",
-            "server_port": 443,
-            "uuid": "77479eaf-c35e-4088-ae47-a2beb88a7272",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "C-e3vasFC42zQmJblol4foZozTe6j1c7TJMGqjvRm2U",
-                    "short_id": "77479eaf"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "FI 💥Goodbaye-154",
-            "server": "sw--nn.bntabriz.ir",
-            "server_port": 3389,
-            "uuid": "7754cb06-ca81-46c0-8d8d-801cf9e9d78c",
-            "flow": null,
-            "tls": null
-        },
-        {
-            "type": "vless",
-            "tag": "RU 💥Goodbaye-155",
-            "server": "186.246.9.101",
-            "server_port": 443,
-            "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+            "tag": "RU 💥Goodbaye-136",
+            "server": "159.194.229.161",
+            "server_port": 8475,
+            "uuid": "7a0348d6-55d3-4c23-b22f-6277fcb2264c",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "update-61.topp-con.xyz",
+                "server_name": "addons.mozilla.org",
                 "reality": {
                     "enabled": true,
-                    "public_key": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
-                    "short_id": "b9120cd53ffd7bba"
+                    "public_key": "utnaPfWs-8DrJIP5p0gaQ9ix9VfRvUvoR1ZSE25uTWY",
+                    "short_id": "10aff1a6"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-156",
-            "server": "ae.privatevip.ir",
-            "server_port": 450,
-            "uuid": "7c730089-1791-4828-89b2-86e7e1663063",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ae.privatevip.ir"
+            "tag": "RU 💥Goodbaye-137",
+            "server": "178.236.26.179",
+            "server_port": 8475,
+            "uuid": "7a0348d6-55d3-4c23-b22f-6277fcb2264c",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "utnaPfWs-8DrJIP5p0gaQ9ix9VfRvUvoR1ZSE25uTWY",
+                    "short_id": "10aff1a6"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-157",
-            "server": "de.privatevip.ir",
+            "tag": "EE 💥Goodbaye-138",
+            "server": "185.225.205.53",
             "server_port": 443,
-            "uuid": "7c730089-1791-4828-89b2-86e7e1663063",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "play.google.com"
+            "uuid": "7a0348d6-55d3-4c23-b22f-6277fcb2264c",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2XyUS3_ONl5REQ7NiwikdJphAe7oJ61-21zuqnN67y8",
+                    "short_id": "2e82d7ac"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "FI 💥Goodbaye-158",
-            "server": "gb.privatevip.ir",
-            "server_port": 449,
-            "uuid": "7c730089-1791-4828-89b2-86e7e1663063",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "gb.privatevip.ir"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-159",
-            "server": "nl.privatevip.ir",
-            "server_port": 447,
-            "uuid": "7c730089-1791-4828-89b2-86e7e1663063",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "nl.privatevip.ir"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-160",
-            "server": "84.32.184.218",
+            "tag": "US 💥Goodbaye-139",
+            "server": "31.77.68.36",
             "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+            "uuid": "7a0348d6-55d3-4c23-b22f-6277fcb2264c",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Daj7jHuHFEC_LV-Fv1fBSaTSQRM9vfgf_DtjMn9svl0",
+                    "short_id": "64e4efa1"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "DE 💥Goodbaye-140",
+            "server": "lvi.su",
+            "server_port": 443,
+            "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
+                "server_name": "lvi.su",
                 "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
+                "headers": {
+                    "Host": "lvi.su"
+                }
             }
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-161",
-            "server": "89.41.181.164",
+            "tag": "PL 💥Goodbaye-141",
+            "server": "222.167.245.16",
             "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+            "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "poland.biznes.lol",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
+                    "short_id": null
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "PL 💥Goodbaye-142",
+            "server": "poland.biznes.lol",
+            "server_port": 443,
+            "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "poland.biznes.lol",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
+                    "short_id": null
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "FR 💥Goodbaye-143",
+            "server": "152.228.139.33",
+            "server_port": 35108,
+            "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
-                "reality": null
+                "server_name": "www.nvidia.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg",
+                    "short_id": "52add08b86a5ccea"
+                }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-162",
+            "tag": "US 💥Goodbaye-144",
             "server": "199.232.78.159",
             "server_port": 443,
             "uuid": "85656e50-ee8d-4266-8b48-b99833c090dd",
@@ -2306,16 +2053,7 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-163",
-            "server": "216.24.57.1",
-            "server_port": 2095,
-            "uuid": "85656e50-ee8d-4266-8b48-b99833c090dd",
-            "flow": null,
-            "tls": null
-        },
-        {
-            "type": "vless",
-            "tag": "TR 💥Goodbaye-164",
+            "tag": "TR 💥Goodbaye-145",
             "server": "206.1.101.85",
             "server_port": 42654,
             "uuid": "893845c5-8e4a-48d5-8a85-622f5b7ea950",
@@ -2335,47 +2073,34 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-165",
-            "server": "91.107.191.188",
-            "server_port": 8443,
-            "uuid": "90c08c98-7ec8-4fab-da36-cf140d18c708",
+            "tag": "US 💥Goodbaye-146",
+            "server": "199.232.78.159",
+            "server_port": 443,
+            "uuid": "8a940430-555c-4047-928a-d896e0397b5f",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "host.taghvimtime.ir",
-                "reality": null
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-166",
-            "server": "n04.jinggai.online",
-            "server_port": 8443,
-            "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "n04.jinggai.online",
+                "server_name": "firefox.com",
                 "reality": null
             },
             "transport": {
                 "type": "ws",
-                "path": "/nvl-n04-ws/e0577fe8fd7c8823",
+                "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
                 "headers": {
-                    "Host": "n04.jinggai.online"
+                    "Host": "frenchji.global.ssl.fastly.net."
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "FI 💥Goodbaye-167",
-            "server": "hw3.divarkhaghazi.com",
+            "tag": "FI 💥Goodbaye-147",
+            "server": "hw3.divarkhaghazi.com.",
             "server_port": 465,
             "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "hw3.divarkhaghazi.com",
+                "server_name": "hw3.divarkhaghazi.com.",
                 "reality": null
             },
             "transport": {
@@ -2388,7 +2113,78 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-168",
+            "tag": "FI 💥Goodbaye-148",
+            "server": "hw3.divarkhaghazi.com",
+            "server_port": 465,
+            "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "hw3.divarkhaghazi.com.",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hw3.divarkhaghazi.com."
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "DE 💥Goodbaye-149",
+            "server": "gernode.barnikle1.me",
+            "server_port": 1412,
+            "uuid": "94c5a8a7-4296-400d-b413-639157be5224",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.dhl.de",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc",
+                    "short_id": "4ea6a183"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-150",
+            "server": "31.172.69.31",
+            "server_port": 8443,
+            "uuid": "9c6e83fc-b755-4ad4-9b0a-14b610153d8f",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "H43_itYl9CE0AJiCktUfriENFmixY_MTHgX8slCrN2Q",
+                    "short_id": "a4e32c324d86cfdf"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "DE 💥Goodbaye-151",
+            "server": "195.26.26.56",
+            "server_port": 443,
+            "uuid": "9def482a-ca29-4486-b5cb-c0cba2257078",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sony.no",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+                    "short_id": "b1"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-152",
             "server": "13.143.180.50",
             "server_port": 443,
             "uuid": "9ea8b000-58ce-4f71-b108-989dd4f248f1",
@@ -2405,7 +2201,7 @@
         },
         {
             "type": "vless",
-            "tag": "FR 💥Goodbaye-169",
+            "tag": "FR 💥Goodbaye-153",
             "server": "45.92.218.130",
             "server_port": 443,
             "uuid": "9ff5db63-88ff-4276-ab71-ac2b5cb2a740",
@@ -2422,113 +2218,46 @@
         },
         {
             "type": "vless",
-            "tag": "FR 💥Goodbaye-170",
-            "server": "155.117.5.208",
-            "server_port": 10000,
-            "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+            "tag": "FI 💥Goodbaye-154",
+            "server": "fl.private-ai.ir",
+            "server_port": 58300,
+            "uuid": "a6f263ad-2d3e-42c6-9584-ed80a5b1134d",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pv_PFRpAmvac9C9JtEoDiVAplQckvo6APb0H3DTFbF4",
+                    "short_id": "0eaccdda0679cf22"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "DE 💥Goodbaye-155",
+            "server": "tgr.private-ai.ir",
+            "server_port": 58302,
+            "uuid": "a6f263ad-2d3e-42c6-9584-ed80a5b1134d",
             "flow": null,
             "tls": null
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-171",
-            "server": "13.143.180.104",
-            "server_port": 443,
-            "uuid": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "s12.bsh-net.ru",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk",
-                    "short_id": "51079f144d661484"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RU 💥Goodbaye-172",
-            "server": "158.160.250.50",
-            "server_port": 443,
-            "uuid": "a5cf80a3-7ecb-4b5a-b080-1287417808fc",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "ya.ru",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cooQLh9lwNGHWaIVFcJlzqLjuQn7SbdYZVKoGnIv_XM",
-                    "short_id": "c3d4e5f60718293a"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-173",
-            "server": "f1.greewebservices.ir",
-            "server_port": 443,
-            "uuid": "a7e9fc98-25a2-4801-961c-7a6ed9d69328",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "default.ssl.fastly.net",
-                "reality": null
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "FR 💥Goodbaye-174",
-            "server": "137.74.16.237",
-            "server_port": 443,
-            "uuid": "aaec4e42-a095-44b6-a239-f16d234a0798",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.icloud.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I",
-                    "short_id": "b390e0a721d242b0"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "TR 💥Goodbaye-175",
-            "server": "206.1.101.85",
-            "server_port": 42654,
-            "uuid": "ab9e2cf5-b5f5-45d1-bddf-8ea9b6fcc48f",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "206.1.101.85",
-                "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "206.1.101.85"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "DE 💥Goodbaye-176",
-            "server": "144.31.217.28",
+            "tag": "US 💥Goodbaye-156",
+            "server": "883f1393.con.rasterparcel.tech",
             "server_port": 443,
             "uuid": "abca037b-bee5-41cc-a888-0668e4c66176",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "9187bd6f.con.fernarchive.online",
+                "server_name": "883f1393.con.rasterparcel.tech",
                 "reality": null
             }
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-177",
+            "tag": "DE 💥Goodbaye-157",
             "server": "91.107.179.0",
             "server_port": 10105,
             "uuid": "ad3f4a0a-a89f-498e-9869-a93c8fa185b1",
@@ -2545,41 +2274,27 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-178",
-            "server": "germany1.xorsand.eu",
-            "server_port": 10105,
-            "uuid": "ad3f4a0a-a89f-498e-9869-a93c8fa185b1",
-            "flow": "xtls-rprx-vision",
+            "tag": "US 💥Goodbaye-158",
+            "server": "188.114.96.198",
+            "server_port": 443,
+            "uuid": "b15f187e-9b34-437c-8243-8651a8ada76c",
+            "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "play.google.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es",
-                    "short_id": "12e321badd07906e"
+                "server_name": "tepar-k4j9.jounet.workers.dev",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/stream/DEVCOP/8651a8ada76c/loc-1",
+                "headers": {
+                    "Host": "tepar-k4j9.jounet.workers.dev"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "CY 💥Goodbaye-179",
-            "server": "dorado.yokkastars.com",
-            "server_port": 40443,
-            "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "deepl.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-                    "short_id": "68a8"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "NL 💥Goodbaye-180",
+            "tag": "NL 💥Goodbaye-159",
             "server": "31.77.13.22",
             "server_port": 2063,
             "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
@@ -2596,7 +2311,24 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-181",
+            "tag": "NL 💥Goodbaye-160",
+            "server": "pl-waw.dontblockmepls.com",
+            "server_port": 2063,
+            "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "rusbid.de",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
+                    "short_id": null
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-161",
             "server": "146.75.57.238",
             "server_port": 443,
             "uuid": "b59d913d-e686-4e89-b37b-00b56de6f7ba",
@@ -2609,7 +2341,7 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-182",
+            "tag": "US 💥Goodbaye-162",
             "server": "199.232.20.113",
             "server_port": 443,
             "uuid": "b59d913d-e686-4e89-b37b-00b56de6f7ba",
@@ -2622,24 +2354,24 @@
         },
         {
             "type": "vless",
-            "tag": "GB 💥Goodbaye-183",
-            "server": "webdisk.jaggyslawa.org",
+            "tag": "NL 💥Goodbaye-163",
+            "server": "2.27.21.15",
             "server_port": 443,
-            "uuid": "b62e3646-b84d-443c-9c94-718b646502e0",
+            "uuid": "b68bd590-010d-402c-9ffe-68a8ebbacebe",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "www.foxsports.com",
+                "server_name": "envs.net",
                 "reality": {
                     "enabled": true,
-                    "public_key": "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s",
-                    "short_id": "dda5f542d835"
+                    "public_key": "kGd24lfAZGfG38A65J6ghGNEKeUKqAB6TDR1G09pHEI",
+                    "short_id": "91079323f5151c91"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-184",
+            "tag": "DE 💥Goodbaye-164",
             "server": "edge.bookmai.com",
             "server_port": 443,
             "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
@@ -2656,37 +2388,28 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-185",
-            "server": "13.140.84.48",
+            "tag": "US 💥Goodbaye-165",
+            "server": "199.232.129.192",
             "server_port": 443,
-            "uuid": "bwcsain",
-            "flow": null,
-            "tls": null
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-186",
-            "server": "146.75.57.238",
-            "server_port": 443,
-            "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
+            "uuid": "bb3df091-daa3-4a7d-8394-8d7c115e8987",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.akamai.steamstatic.com",
+                "server_name": "www.firefox.com",
                 "reality": null
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "canadaboijji.global.ssl.fastly.net"
+                    "Host": "xmit-pakari-nanistam.global.ssl.fastly.net"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-187",
-            "server": "146.75.59.186",
+            "tag": "US 💥Goodbaye-166",
+            "server": "146.75.57.238",
             "server_port": 443,
             "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
             "flow": null,
@@ -2699,13 +2422,33 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "frenchanjaai.global.ssl.fastly.net"
+                    "Host": "usaaaaboijji.global.ssl.fastly.net"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-188",
+            "tag": "US 💥Goodbaye-167",
+            "server": "146.75.59.186",
+            "server_port": 443,
+            "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "firefox.com",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+                "headers": {
+                    "Host": "looabnetheroijji.global.ssl.fastly.net."
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-168",
             "server": "199.232.78.159",
             "server_port": 443,
             "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
@@ -2725,7 +2468,16 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-189",
+            "tag": "US 💥Goodbaye-169",
+            "server": "216.24.57.1",
+            "server_port": 2095,
+            "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
+            "flow": null,
+            "tls": null
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-170",
             "server": "wwww.qarvian.ir",
             "server_port": 443,
             "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
@@ -2745,27 +2497,20 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-190",
-            "server": "146.75.57.238",
+            "tag": "DE 💥Goodbaye-171",
+            "server": "91.107.247.173",
             "server_port": 443,
-            "uuid": "c48e280e-e85b-48a9-b5cf-c0572e1ae9bd",
+            "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "firefox.com",
+                "server_name": "kala.fortresshost.ir",
                 "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "looaloooibamoooijji.global.ssl.fastly.net."
-                }
             }
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-191",
+            "tag": "DE 💥Goodbaye-172",
             "server": "kala.fortresshost.ir",
             "server_port": 443,
             "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
@@ -2778,7 +2523,16 @@
         },
         {
             "type": "vless",
-            "tag": "RU 💥Goodbaye-192",
+            "tag": "DE 💥Goodbaye-173",
+            "server": "178.83.45.226",
+            "server_port": 10002,
+            "uuid": "c6362720-0931-4b91-b187-d8ecf3149734",
+            "flow": null,
+            "tls": null
+        },
+        {
+            "type": "vless",
+            "tag": "RU 💥Goodbaye-174",
             "server": "189.74.106.73",
             "server_port": 443,
             "uuid": "c6628db6-025d-40e8-b79d-033f4372a6b7",
@@ -2795,66 +2549,24 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-193",
-            "server": "joe75o62evcwqmt.global.ssl.fastly.net",
-            "server_port": 80,
-            "uuid": "c86558f9-6c76-466c-95ec-09eb3e6ffe50",
-            "flow": null,
-            "tls": null,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "icjucvsgoqjwmtw102020123.global.ssl.fastly.net"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "DE 💥Goodbaye-194",
-            "server": "static.84.151.104.178.clients.your-server.de",
-            "server_port": 41432,
-            "uuid": "c86558f9-6c76-466c-95ec-09eb3e6ffe50",
-            "flow": null,
-            "tls": null
-        },
-        {
-            "type": "vless",
-            "tag": "AL 💥Goodbaye-195",
-            "server": "188.208.125.102",
-            "server_port": 443,
-            "uuid": "ce8fbdea-c3c3-0008-9658-32599d1f853f",
+            "tag": "BR 💥Goodbaye-175",
+            "server": "177.7.51.29",
+            "server_port": 8443,
+            "uuid": "c6b1b2d0-ed5e-48ce-99e6-112ff330030d",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "nl.convert-flow.net",
+                "server_name": "www.apple.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
-                    "short_id": "aa51fd048bee93fe"
+                    "public_key": "laG5BxoSbdRozpauATNFBPPTwhuDuu0JFl_SCP2ZQlU",
+                    "short_id": "14fbf992"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "NL 💥Goodbaye-196",
-            "server": "45.152.192.229",
-            "server_port": 443,
-            "uuid": "ce8fbdea-c3c3-4fb1-9658-32599d1f853f",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "8a11e6a89110.j.cloudfront.hls.ttvnw.net",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
-                    "short_id": "61e21f9aa67aa1bf"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-197",
+            "tag": "US 💥Goodbaye-176",
             "server": "146.75.57.238",
             "server_port": 443,
             "uuid": "d0136cca-a5a5-4c70-87dd-ce2ef76b7f82",
@@ -2867,14 +2579,14 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-198",
-            "server": "hw7.divarkhaghazi.com",
+            "tag": "DE 💥Goodbaye-177",
+            "server": "91.107.180.176",
             "server_port": 465,
             "uuid": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "hw7.divarkhaghazi.com.",
+                "server_name": "hw7.divarkhaghazi.com",
                 "reality": null
             },
             "transport": {
@@ -2887,8 +2599,21 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-199",
-            "server": "104.21.221.158",
+            "tag": "US 💥Goodbaye-178",
+            "server": "gcore.com",
+            "server_port": 443,
+            "uuid": "d16adb04-d2f4-40c5-a573-19248b9b7662",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "gcore.com",
+                "reality": null
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-179",
+            "server": "104.18.35.15",
             "server_port": 443,
             "uuid": "d342d11e-d224-4463-b982-532309285094",
             "flow": null,
@@ -2899,7 +2624,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+                "path": "/fp=chrome",
                 "headers": {
                     "Host": "ccc.010304.xyz"
                 }
@@ -2907,7 +2632,47 @@
         },
         {
             "type": "vless",
-            "tag": "LT 💥Goodbaye-200",
+            "tag": "US 💥Goodbaye-180",
+            "server": "104.18.37.127",
+            "server_port": 443,
+            "uuid": "d342d11e-d224-4463-b982-532309285094",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "ccc.010304.xyz",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ccc.010304.xyz"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-181",
+            "server": "104.18.37.247",
+            "server_port": 443,
+            "uuid": "d342d11e-d224-4463-b982-532309285094",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "ccc.010304.xyz",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ccc.010304.xyz"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "LT 💥Goodbaye-182",
             "server": "88.216.69.253",
             "server_port": 443,
             "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -2919,7 +2684,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/fp?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+                "path": "/fp",
                 "headers": {
                     "Host": "ccc.010304.xyz"
                 }
@@ -2927,7 +2692,7 @@
         },
         {
             "type": "vless",
-            "tag": "IT 💥Goodbaye-201",
+            "tag": "IT 💥Goodbaye-183",
             "server": "57.131.38.163",
             "server_port": 2053,
             "uuid": "d4b08cd6-0903-411a-9dac-45dbdf5c9712",
@@ -2944,7 +2709,7 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-202",
+            "tag": "DE 💥Goodbaye-184",
             "server": "169.40.42.168",
             "server_port": 443,
             "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -2961,7 +2726,7 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-203",
+            "tag": "DE 💥Goodbaye-185",
             "server": "169.40.42.202",
             "server_port": 443,
             "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -2978,7 +2743,7 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-204",
+            "tag": "DE 💥Goodbaye-186",
             "server": "169.40.42.231",
             "server_port": 443,
             "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -2995,7 +2760,7 @@
         },
         {
             "type": "vless",
-            "tag": "CA 💥Goodbaye-205",
+            "tag": "CA 💥Goodbaye-187",
             "server": "66.70.179.198",
             "server_port": 2053,
             "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
@@ -3012,78 +2777,77 @@
         },
         {
             "type": "vless",
-            "tag": "PL 💥Goodbaye-206",
-            "server": "185.32.6.26",
+            "tag": "GB 💥Goodbaye-188",
+            "server": "89.125.11.57",
             "server_port": 443,
-            "uuid": "e0216964-ffa1-4d39-82c4-0e40879a470d",
+            "uuid": "ddbabbeb-fe47-45ef-b581-cac345ecf132",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "stable.nullo.pro",
+                "server_name": "de-room10.filesnap.tech",
                 "reality": {
                     "enabled": true,
-                    "public_key": "XYkuP_Keu-yL7EQ8xZc4RTmcVAfp06Z1onV2ZNrlsHM",
-                    "short_id": "c31f187b"
+                    "public_key": "ikLQ5dfCqs8QkJM7HJBhO9II6blBL9etrPx8-jD1MRc",
+                    "short_id": "6684cb92eab730e6"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "RU 💥Goodbaye-207",
-            "server": "45.132.176.198",
-            "server_port": 8443,
-            "uuid": "e0216964-ffa1-4d39-82c4-0e40879a470d",
+            "tag": "CA 💥Goodbaye-189",
+            "server": "198.100.154.175",
+            "server_port": 8080,
+            "uuid": "e17150a9-f949-467b-94ea-4d50e4c84186",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "kas1.nullo.pro",
+                "server_name": "icloud.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "CtQOFkZiV9yJeLrNubuok3tLTwYQWlyfHiiVYvOwtiU",
-                    "short_id": "26af87b8e3b518b5"
+                    "public_key": "2PYoIhSKvVE-DgFzPYGo4cD2b7_8Ul2Vm8QKGWH1sAo",
+                    "short_id": "4b"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "ES 💥Goodbaye-208",
-            "server": "83.97.79.93",
-            "server_port": 8443,
-            "uuid": "e0216964-ffa1-4d39-82c4-0e40879a470d",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger.nullo.pro",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "e8vusEkL9FTC7oxFCp8biOWMFH-e-1IN21V6YNynGDg",
-                    "short_id": "6350d1647a4880"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-209",
-            "server": "146.75.57.238",
-            "server_port": 443,
-            "uuid": "e18ae2bd-8588-4f6b-9886-a13ae53e3ad4",
+            "tag": "GB 💥Goodbaye-190",
+            "server": "13.43.164.49",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.akamai.steamstatic.com",
-                "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "looaloooibamoooijji.global.ssl.fastly.net."
-                }
-            }
+            "tls": null
         },
         {
             "type": "vless",
-            "tag": "FR 💥Goodbaye-210",
+            "tag": "FR 💥Goodbaye-191",
+            "server": "35.181.13.152",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": null,
+            "tls": null
+        },
+        {
+            "type": "vless",
+            "tag": "FR 💥Goodbaye-192",
+            "server": "35.181.13.152",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": null,
+            "tls": null
+        },
+        {
+            "type": "vless",
+            "tag": "FR 💥Goodbaye-193",
+            "server": "35.181.13.152",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": null,
+            "tls": null
+        },
+        {
+            "type": "vless",
+            "tag": "FR 💥Goodbaye-194",
             "server": "54.37.136.194",
             "server_port": 2053,
             "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
@@ -3100,44 +2864,27 @@
         },
         {
             "type": "vless",
-            "tag": "CY 💥Goodbaye-211",
-            "server": "5.253.42.164",
-            "server_port": 40443,
-            "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "deepl.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-                    "short_id": "68a8"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-212",
-            "server": "146.75.59.186",
+            "tag": "US 💥Goodbaye-195",
+            "server": "146.75.57.238",
             "server_port": 443,
             "uuid": "e9a9d2ba-8c33-4e5e-a903-efa595db2fff",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "firefox.com",
+                "server_name": "cdn.akamai.steamstatic.com",
                 "reality": null
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net."
+                    "Host": "copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net."
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-213",
+            "tag": "US 💥Goodbaye-196",
             "server": "199.232.78.160",
             "server_port": 443,
             "uuid": "e9a9d2ba-8c33-4e5e-a903-efa595db2fff",
@@ -3149,7 +2896,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
                 "headers": {
                     "Host": "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
                 }
@@ -3157,7 +2904,7 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-214",
+            "tag": "US 💥Goodbaye-197",
             "server": "wwww.qarvian.ir",
             "server_port": 443,
             "uuid": "e9a9d2ba-8c33-4e5e-a903-efa595db2fff",
@@ -3177,7 +2924,20 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-215",
+            "tag": "RU 💥Goodbaye-198",
+            "server": "185.178.208.140",
+            "server_port": 443,
+            "uuid": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "static.bakarova-top.ru",
+                "reality": null
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "DE 💥Goodbaye-199",
             "server": "217.216.218.108",
             "server_port": 443,
             "uuid": "eaa34d9f-662d-4378-8210-3508b5eee727",
@@ -3194,58 +2954,7 @@
         },
         {
             "type": "vless",
-            "tag": "DE 💥Goodbaye-216",
-            "server": "217.216.218.123",
-            "server_port": 443,
-            "uuid": "eaa34d9f-662d-4378-8210-3508b5eee727",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "savesafe.top",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B4gdMxfjdXtFuqg-Ek9CDKiJT6QQiKb-tV2VODt_ik0",
-                    "short_id": "def9b800fb6a3ddb"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "ES 💥Goodbaye-217",
-            "server": "212.227.235.66",
-            "server_port": 2053,
-            "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
-                    "short_id": "29e8dcd2b37aaa7f"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "DE 💥Goodbaye-218",
-            "server": "13.140.90.29",
-            "server_port": 49054,
-            "uuid": "eb6ba095-8184-4a85-992f-7a42049124cc",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "token.safebrowsing.apple",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4vWyTSLXJwt3k3nHFM7o6I5xzV8QijATPS_THsiUlQM",
-                    "short_id": "2c98412b4dc3fed0"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "RU 💥Goodbaye-219",
+            "tag": "RU 💥Goodbaye-200",
             "server": "tgfree.rush-server.com",
             "server_port": 443,
             "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
@@ -3262,98 +2971,64 @@
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-220",
-            "server": "104.18.40.60",
+            "tag": "US 💥Goodbaye-201",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "ee3b04d0-c000-4444-81bd-556ffb1d456f",
+            "uuid": "ec23f217-23a1-4f62-b98d-ba56070de89c",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "desal-fyhq.kdhfkdjrnckdjfjf698945.workers.dev",
-                "reality": null
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/stream/DEVCOP/556ffb1d456f",
-                "headers": {
-                    "Host": "desal-fyhq.kdhfkdjrnckdjfjf698945.workers.dev"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "IL 💥Goodbaye-221",
-            "server": "77.91.69.169",
-            "server_port": 19226,
-            "uuid": "f0b144bd-4c44-440d-b630-d79ec82cad3a",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk",
-                    "short_id": "7c"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "BG 💥Goodbaye-222",
-            "server": "p1real4.greewebservices.ir",
-            "server_port": 1260,
-            "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "play.googleapis.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-                    "short_id": "9b60d3"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "AM 💥Goodbaye-223",
-            "server": "77.91.68.70",
-            "server_port": 55983,
-            "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
-                    "short_id": "0e"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "US 💥Goodbaye-224",
-            "server": "turk.bettercallakbar.ir",
-            "server_port": 443,
-            "uuid": "f7dfc4cc-d3b1-4239-88d8-d982c241d05c",
-            "flow": null,
-            "tls": {
-                "enabled": true,
-                "server_name": "turk.bettercallakbar.ir",
+                "server_name": "wallweb4.pages.dev",
                 "reality": null
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "turk.bettercallakbar.ir"
+                    "Host": "wallweb4.pages.dev"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "US 💥Goodbaye-225",
+            "tag": "SC 💥Goodbaye-202",
+            "server": "155.212.240.10",
+            "server_port": 443,
+            "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "n.bitpulse.me",
+                "reality": null
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/019bcbad-3813-7cce-8786-3ac0e418f128?ed",
+                "headers": {
+                    "Host": "n.bitpulse.me"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "IR 💥Goodbaye-203",
+            "server": "tunell2027.crackerbinam.org",
+            "server_port": 48312,
+            "uuid": "f47057d5-120d-4b42-b6d6-30469aef6813",
+            "flow": null,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y",
+                    "short_id": "902c315efc"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "US 💥Goodbaye-204",
             "server": "167.82.76.31",
             "server_port": 443,
             "uuid": "f9991b8e-7d19-49e7-ae1d-70ce37d7ca16",
@@ -3366,20 +3041,34 @@
         },
         {
             "type": "vless",
-            "tag": "FR 💥Goodbaye-226",
-            "server": "w.geogame.ir",
-            "server_port": 2053,
-            "uuid": "fbda2834-b1e7-4148-afb9-deda31036a30",
+            "tag": "RU 💥Goodbaye-205",
+            "server": "c3f630g.es4.h1clayd.click",
+            "server_port": 443,
+            "uuid": "fafc7c16-f890-45ee-a856-02df225172dd",
             "flow": null,
             "tls": {
                 "enabled": true,
-                "server_name": "w.geogame.ir",
-                "reality": null
+                "server_name": "c3f630g.es4.h1clayd.click",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BzM-6A4DGbjpquuwUmotiamNZlamur11IXX5Xyh_wBg",
+                    "short_id": "2d2d5faf568b584d"
+                }
             }
         },
         {
             "type": "vmess",
-            "tag": "US 💥Goodbaye-227",
+            "tag": "CA 💥Goodbaye-206",
+            "server": "134.195.196.211",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+            "alter_id": 0,
+            "security": "auto",
+            "tls": null
+        },
+        {
+            "type": "vmess",
+            "tag": "US 💥Goodbaye-207",
             "server": "67.220.85.46",
             "server_port": 18000,
             "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -3389,37 +3078,74 @@
         },
         {
             "type": "vmess",
-            "tag": "NL 💥Goodbaye-228",
-            "server": "185.19.33.135",
-            "server_port": 14019,
-            "uuid": "3b4abc9a-56e5-4dc8-bdae-829fa3a16f52",
+            "tag": "DE 💥Goodbaye-208",
+            "server": "xIvYT9T3GrgoRgc5.v.3dns.vip",
+            "server_port": 443,
+            "uuid": "260d52aa163546b5a6cca8a13462f0dd",
+            "alter_id": 0,
+            "security": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "xIvYT9T3GrgoRgc5.v.3dns.vip"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws-vmess",
+                "headers": {
+                    "Host": "xIvYT9T3GrgoRgc5.v.3dns.vip"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "FR 💥Goodbaye-209",
+            "server": "147.135.213.72",
+            "server_port": 20236,
+            "uuid": "2225ad93-b018-464c-8ec3-b33022668c80",
+            "alter_id": 0,
+            "security": "auto",
+            "tls": null,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess-3",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "IR 💥Goodbaye-210",
+            "server": "dashboard.ojedata.top",
+            "server_port": 5382,
+            "uuid": "9658a9bf-3c31-43a3-beaa-559d3936b6f6",
             "alter_id": 0,
             "security": "auto",
             "tls": null
         },
         {
             "type": "vmess",
-            "tag": "NL 💥Goodbaye-229",
-            "server": "185.19.33.135",
-            "server_port": 14019,
-            "uuid": "db01768e-d532-40eb-a9eb-6d9e59cc79dd",
+            "tag": "IR 💥Goodbaye-211",
+            "server": "dashboard.ojestore.top",
+            "server_port": 5381,
+            "uuid": "9658a9bf-3c31-43a3-beaa-559d3936b6f6",
             "alter_id": 0,
             "security": "auto",
             "tls": null
         },
         {
             "type": "vmess",
-            "tag": "KR 💥Goodbaye-230",
-            "server": "217.142.138.61",
-            "server_port": 80,
-            "uuid": "ac1b933d-afff-4487-93ef-f57130a55dff",
+            "tag": "IR 💥Goodbaye-212",
+            "server": "dashboard.ojeshop.top",
+            "server_port": 5380,
+            "uuid": "9658a9bf-3c31-43a3-beaa-559d3936b6f6",
             "alter_id": 0,
             "security": "auto",
             "tls": null
         },
         {
             "type": "vmess",
-            "tag": "FR 💥Goodbaye-231",
+            "tag": "FR 💥Goodbaye-213",
             "server": "54.37.131.126",
             "server_port": 80,
             "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
@@ -3436,17 +3162,34 @@
         },
         {
             "type": "vmess",
-            "tag": "US 💥Goodbaye-232",
+            "tag": "GB 💥Goodbaye-214",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "alter_id": 0,
+            "security": "auto",
+            "tls": null,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": "google.com"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "US 💥Goodbaye-215",
             "server": "67.220.95.3",
             "server_port": 18000,
             "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
             "alter_id": 0,
-            "security": "aes-128-gcm",
+            "security": "auto",
             "tls": null
         },
         {
             "type": "vmess",
-            "tag": "US 💥Goodbaye-233",
+            "tag": "US 💥Goodbaye-216",
             "server": "67.220.95.3",
             "server_port": 443,
             "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -3456,7 +3199,17 @@
         },
         {
             "type": "vmess",
-            "tag": "FR 💥Goodbaye-234",
+            "tag": "DE 💥Goodbaye-217",
+            "server": "91.107.169.224",
+            "server_port": 80,
+            "uuid": "d4b69108-f756-48af-a331-e8356bc95eb4",
+            "alter_id": 0,
+            "security": "auto",
+            "tls": null
+        },
+        {
+            "type": "vmess",
+            "tag": "FR 💥Goodbaye-218",
             "server": "145.239.55.210",
             "server_port": 80,
             "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
@@ -3473,7 +3226,7 @@
         },
         {
             "type": "vmess",
-            "tag": "SG 💥Goodbaye-235",
+            "tag": "SG 💥Goodbaye-219",
             "server": "149.88.23.207",
             "server_port": 18000,
             "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -3483,27 +3236,20 @@
         },
         {
             "type": "vmess",
-            "tag": "SG 💥Goodbaye-236",
-            "server": "149.88.23.202",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+            "tag": "RU 💥Goodbaye-220",
+            "server": "158.160.180.165",
+            "server_port": 24212,
+            "uuid": "c58c1205-b308-416f-8503-c04557abf93d",
             "alter_id": 0,
             "security": "auto",
-            "tls": null
+            "tls": {
+                "enabled": true,
+                "server_name": "158.160.180.165"
+            }
         },
         {
             "type": "vmess",
-            "tag": "US 💥Goodbaye-237",
-            "server": "169.197.142.22",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-            "alter_id": 0,
-            "security": "auto",
-            "tls": null
-        },
-        {
-            "type": "vmess",
-            "tag": "US 💥Goodbaye-238",
+            "tag": "US 💥Goodbaye-221",
             "server": "38.110.1.246",
             "server_port": 18000,
             "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -3513,21 +3259,21 @@
         },
         {
             "type": "vmess",
-            "tag": "US 💥Goodbaye-239",
-            "server": "www.ubuntuupdates.com",
+            "tag": "US 💥Goodbaye-222",
+            "server": "www.windowsmsidownloads.com",
             "server_port": 443,
-            "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+            "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
             "alter_id": 0,
             "security": "auto",
             "tls": {
                 "enabled": true,
-                "server_name": "www.ubuntuupdates.com"
+                "server_name": "www.windowsmsidownloads.com"
             },
             "transport": {
                 "type": "ws",
                 "path": "/truth",
                 "headers": {
-                    "Host": "www.ubuntuupdates.com"
+                    "Host": "www.windowsmsidownloads.com"
                 }
             }
         },
@@ -3536,490 +3282,456 @@
             "tag": "PROXY",
             "outbounds": [
                 "auto",
-                "BG 💥Goodbaye-01",
+                "GB 💥Goodbaye-01",
                 "US 💥Goodbaye-02",
                 "NL 💥Goodbaye-03",
                 "NL 💥Goodbaye-04",
                 "NL 💥Goodbaye-05",
-                "NL 💥Goodbaye-06",
+                "DE 💥Goodbaye-06",
                 "NL 💥Goodbaye-07",
-                "NL 💥Goodbaye-08",
-                "NL 💥Goodbaye-09",
-                "DE 💥Goodbaye-10",
-                "US 💥Goodbaye-11",
-                "RU 💥Goodbaye-12",
+                "DE 💥Goodbaye-08",
+                "US 💥Goodbaye-09",
+                "NL 💥Goodbaye-10",
+                "GB 💥Goodbaye-11",
+                "GB 💥Goodbaye-12",
                 "GB 💥Goodbaye-13",
                 "GB 💥Goodbaye-14",
                 "GB 💥Goodbaye-15",
-                "GB 💥Goodbaye-16",
-                "GB 💥Goodbaye-17",
-                "GB 💥Goodbaye-18",
+                "NL 💥Goodbaye-16",
+                "NL 💥Goodbaye-17",
+                "NL 💥Goodbaye-18",
                 "GB 💥Goodbaye-19",
-                "NL 💥Goodbaye-20",
-                "NL 💥Goodbaye-21",
+                "GB 💥Goodbaye-20",
+                "GB 💥Goodbaye-21",
                 "GB 💥Goodbaye-22",
                 "GB 💥Goodbaye-23",
-                "GB 💥Goodbaye-24",
-                "GB 💥Goodbaye-25",
-                "GB 💥Goodbaye-26",
-                "GB 💥Goodbaye-27",
-                "GB 💥Goodbaye-28",
-                "GB 💥Goodbaye-29",
-                "GB 💥Goodbaye-30",
-                "GB 💥Goodbaye-31",
-                "GB 💥Goodbaye-32",
-                "TR 💥Goodbaye-33",
-                "FI 💥Goodbaye-34",
-                "DE 💥Goodbaye-35",
-                "DE 💥Goodbaye-36",
-                "US 💥Goodbaye-37",
-                "IT 💥Goodbaye-38",
-                "IT 💥Goodbaye-39",
-                "IT 💥Goodbaye-40",
-                "IT 💥Goodbaye-41",
-                "IT 💥Goodbaye-42",
+                "JP 💥Goodbaye-24",
+                "JP 💥Goodbaye-25",
+                "DE 💥Goodbaye-26",
+                "DE 💥Goodbaye-27",
+                "DE 💥Goodbaye-28",
+                "US 💥Goodbaye-29",
+                "US 💥Goodbaye-30",
+                "IT 💥Goodbaye-31",
+                "IT 💥Goodbaye-32",
+                "IT 💥Goodbaye-33",
+                "IT 💥Goodbaye-34",
+                "IT 💥Goodbaye-35",
+                "IT 💥Goodbaye-36",
+                "IT 💥Goodbaye-37",
+                "US 💥Goodbaye-38",
+                "US 💥Goodbaye-39",
+                "US 💥Goodbaye-40",
+                "US 💥Goodbaye-41",
+                "US 💥Goodbaye-42",
                 "US 💥Goodbaye-43",
-                "FR 💥Goodbaye-44",
-                "FR 💥Goodbaye-45",
+                "US 💥Goodbaye-44",
+                "US 💥Goodbaye-45",
                 "US 💥Goodbaye-46",
                 "US 💥Goodbaye-47",
                 "US 💥Goodbaye-48",
-                "US 💥Goodbaye-49",
-                "US 💥Goodbaye-50",
-                "US 💥Goodbaye-51",
-                "DE 💥Goodbaye-52",
-                "DE 💥Goodbaye-53",
-                "CH 💥Goodbaye-54",
-                "CH 💥Goodbaye-55",
-                "CA 💥Goodbaye-56",
+                "CA 💥Goodbaye-49",
+                "CA 💥Goodbaye-50",
+                "CA 💥Goodbaye-51",
+                "CA 💥Goodbaye-52",
+                "US 💥Goodbaye-53",
+                "US 💥Goodbaye-54",
+                "US 💥Goodbaye-55",
+                "US 💥Goodbaye-56",
                 "US 💥Goodbaye-57",
                 "US 💥Goodbaye-58",
                 "US 💥Goodbaye-59",
-                "US 💥Goodbaye-60",
+                "CL 💥Goodbaye-60",
                 "US 💥Goodbaye-61",
-                "US 💥Goodbaye-62",
-                "US 💥Goodbaye-63",
-                "SE 💥Goodbaye-64",
-                "US 💥Goodbaye-65",
+                "ES 💥Goodbaye-62",
+                "ES 💥Goodbaye-63",
+                "US 💥Goodbaye-64",
+                "SE 💥Goodbaye-65",
                 "US 💥Goodbaye-66",
                 "US 💥Goodbaye-67",
                 "US 💥Goodbaye-68",
                 "US 💥Goodbaye-69",
                 "US 💥Goodbaye-70",
-                "CH 💥Goodbaye-71",
+                "US 💥Goodbaye-71",
                 "US 💥Goodbaye-72",
                 "US 💥Goodbaye-73",
-                "BG 💥Goodbaye-74",
-                "LT 💥Goodbaye-75",
-                "ES 💥Goodbaye-76",
-                "SC 💥Goodbaye-77",
-                "SC 💥Goodbaye-78",
-                "DE 💥Goodbaye-79",
-                "US 💥Goodbaye-80",
+                "ES 💥Goodbaye-74",
+                "US 💥Goodbaye-75",
+                "US 💥Goodbaye-76",
+                "US 💥Goodbaye-77",
+                "US 💥Goodbaye-78",
+                "US 💥Goodbaye-79",
+                "CH 💥Goodbaye-80",
                 "US 💥Goodbaye-81",
-                "LV 💥Goodbaye-82",
-                "US 💥Goodbaye-83",
-                "FI 💥Goodbaye-84",
-                "IR 💥Goodbaye-85",
-                "SG 💥Goodbaye-86",
-                "SG 💥Goodbaye-87",
-                "LV 💥Goodbaye-88",
-                "US 💥Goodbaye-89",
-                "FR 💥Goodbaye-90",
-                "FI 💥Goodbaye-91",
-                "IR 💥Goodbaye-92",
-                "RU 💥Goodbaye-93",
-                "FI 💥Goodbaye-94",
+                "US 💥Goodbaye-82",
+                "BG 💥Goodbaye-83",
+                "SC 💥Goodbaye-84",
+                "DE 💥Goodbaye-85",
+                "US 💥Goodbaye-86",
+                "US 💥Goodbaye-87",
+                "US 💥Goodbaye-88",
+                "SG 💥Goodbaye-89",
+                "LV 💥Goodbaye-90",
+                "IL 💥Goodbaye-91",
+                "FR 💥Goodbaye-92",
+                "FI 💥Goodbaye-93",
+                "DE 💥Goodbaye-94",
                 "US 💥Goodbaye-95",
-                "KZ 💥Goodbaye-96",
-                "NL 💥Goodbaye-97",
-                "DE 💥Goodbaye-98",
-                "US 💥Goodbaye-99",
-                "US 💥Goodbaye-100",
+                "US 💥Goodbaye-96",
+                "US 💥Goodbaye-97",
+                "NL 💥Goodbaye-98",
+                "SG 💥Goodbaye-99",
+                "RS 💥Goodbaye-100",
                 "RS 💥Goodbaye-101",
                 "BG 💥Goodbaye-102",
                 "BG 💥Goodbaye-103",
                 "BG 💥Goodbaye-104",
-                "BG 💥Goodbaye-105",
-                "MD 💥Goodbaye-106",
-                "RS 💥Goodbaye-107",
-                "RS 💥Goodbaye-108",
-                "RS 💥Goodbaye-109",
-                "DE 💥Goodbaye-110",
-                "DE 💥Goodbaye-111",
-                "DE 💥Goodbaye-112",
-                "US 💥Goodbaye-113",
-                "CY 💥Goodbaye-114",
-                "PL 💥Goodbaye-115",
-                "DE 💥Goodbaye-116",
-                "NL 💥Goodbaye-117",
-                "NL 💥Goodbaye-118",
-                "NL 💥Goodbaye-119",
-                "NL 💥Goodbaye-120",
-                "NL 💥Goodbaye-121",
-                "NL 💥Goodbaye-122",
-                "NL 💥Goodbaye-123",
-                "NL 💥Goodbaye-124",
-                "NL 💥Goodbaye-125",
-                "NL 💥Goodbaye-126",
-                "FR 💥Goodbaye-127",
-                "CH 💥Goodbaye-128",
-                "DE 💥Goodbaye-129",
-                "NL 💥Goodbaye-130",
-                "RU 💥Goodbaye-131",
-                "RU 💥Goodbaye-132",
-                "NL 💥Goodbaye-133",
-                "US 💥Goodbaye-134",
-                "US 💥Goodbaye-135",
-                "CY 💥Goodbaye-136",
-                "US 💥Goodbaye-137",
-                "CH 💥Goodbaye-138",
-                "GB 💥Goodbaye-139",
-                "HK 💥Goodbaye-140",
-                "NL 💥Goodbaye-141",
-                "IR 💥Goodbaye-142",
-                "US 💥Goodbaye-143",
+                "SC 💥Goodbaye-105",
+                "SC 💥Goodbaye-106",
+                "SC 💥Goodbaye-107",
+                "CY 💥Goodbaye-108",
+                "TR 💥Goodbaye-109",
+                "NL 💥Goodbaye-110",
+                "NL 💥Goodbaye-111",
+                "NL 💥Goodbaye-112",
+                "FR 💥Goodbaye-113",
+                "CH 💥Goodbaye-114",
+                "DE 💥Goodbaye-115",
+                "CY 💥Goodbaye-116",
+                "GB 💥Goodbaye-117",
+                "HK 💥Goodbaye-118",
+                "FR 💥Goodbaye-119",
+                "TR 💥Goodbaye-120",
+                "CY 💥Goodbaye-121",
+                "GB 💥Goodbaye-122",
+                "US 💥Goodbaye-123",
+                "AT 💥Goodbaye-124",
+                "AE 💥Goodbaye-125",
+                "DE 💥Goodbaye-126",
+                "IR 💥Goodbaye-127",
+                "IQ 💥Goodbaye-128",
+                "NL 💥Goodbaye-129",
+                "PL 💥Goodbaye-130",
+                "PL 💥Goodbaye-131",
+                "PL 💥Goodbaye-132",
+                "AT 💥Goodbaye-133",
+                "FI 💥Goodbaye-134",
+                "FR 💥Goodbaye-135",
+                "RU 💥Goodbaye-136",
+                "RU 💥Goodbaye-137",
+                "EE 💥Goodbaye-138",
+                "US 💥Goodbaye-139",
+                "DE 💥Goodbaye-140",
+                "PL 💥Goodbaye-141",
+                "PL 💥Goodbaye-142",
+                "FR 💥Goodbaye-143",
                 "US 💥Goodbaye-144",
-                "AT 💥Goodbaye-145",
-                "AE 💥Goodbaye-146",
-                "NL 💥Goodbaye-147",
-                "NL 💥Goodbaye-148",
-                "SG 💥Goodbaye-149",
-                "RU 💥Goodbaye-150",
-                "FR 💥Goodbaye-151",
-                "CY 💥Goodbaye-152",
-                "GB 💥Goodbaye-153",
+                "TR 💥Goodbaye-145",
+                "US 💥Goodbaye-146",
+                "FI 💥Goodbaye-147",
+                "FI 💥Goodbaye-148",
+                "DE 💥Goodbaye-149",
+                "US 💥Goodbaye-150",
+                "DE 💥Goodbaye-151",
+                "US 💥Goodbaye-152",
+                "FR 💥Goodbaye-153",
                 "FI 💥Goodbaye-154",
-                "RU 💥Goodbaye-155",
+                "DE 💥Goodbaye-155",
                 "US 💥Goodbaye-156",
-                "US 💥Goodbaye-157",
-                "FI 💥Goodbaye-158",
+                "DE 💥Goodbaye-157",
+                "US 💥Goodbaye-158",
                 "NL 💥Goodbaye-159",
                 "NL 💥Goodbaye-160",
-                "NL 💥Goodbaye-161",
+                "US 💥Goodbaye-161",
                 "US 💥Goodbaye-162",
-                "US 💥Goodbaye-163",
-                "TR 💥Goodbaye-164",
-                "DE 💥Goodbaye-165",
+                "NL 💥Goodbaye-163",
+                "DE 💥Goodbaye-164",
+                "US 💥Goodbaye-165",
                 "US 💥Goodbaye-166",
-                "FI 💥Goodbaye-167",
+                "US 💥Goodbaye-167",
                 "US 💥Goodbaye-168",
-                "FR 💥Goodbaye-169",
-                "FR 💥Goodbaye-170",
-                "US 💥Goodbaye-171",
-                "RU 💥Goodbaye-172",
-                "US 💥Goodbaye-173",
-                "FR 💥Goodbaye-174",
-                "TR 💥Goodbaye-175",
-                "DE 💥Goodbaye-176",
+                "US 💥Goodbaye-169",
+                "US 💥Goodbaye-170",
+                "DE 💥Goodbaye-171",
+                "DE 💥Goodbaye-172",
+                "DE 💥Goodbaye-173",
+                "RU 💥Goodbaye-174",
+                "BR 💥Goodbaye-175",
+                "US 💥Goodbaye-176",
                 "DE 💥Goodbaye-177",
-                "DE 💥Goodbaye-178",
-                "CY 💥Goodbaye-179",
-                "NL 💥Goodbaye-180",
+                "US 💥Goodbaye-178",
+                "US 💥Goodbaye-179",
+                "US 💥Goodbaye-180",
                 "US 💥Goodbaye-181",
-                "US 💥Goodbaye-182",
-                "GB 💥Goodbaye-183",
+                "LT 💥Goodbaye-182",
+                "IT 💥Goodbaye-183",
                 "DE 💥Goodbaye-184",
                 "DE 💥Goodbaye-185",
-                "US 💥Goodbaye-186",
-                "US 💥Goodbaye-187",
-                "US 💥Goodbaye-188",
-                "US 💥Goodbaye-189",
-                "US 💥Goodbaye-190",
-                "DE 💥Goodbaye-191",
-                "RU 💥Goodbaye-192",
-                "US 💥Goodbaye-193",
-                "DE 💥Goodbaye-194",
-                "AL 💥Goodbaye-195",
-                "NL 💥Goodbaye-196",
+                "DE 💥Goodbaye-186",
+                "CA 💥Goodbaye-187",
+                "GB 💥Goodbaye-188",
+                "CA 💥Goodbaye-189",
+                "GB 💥Goodbaye-190",
+                "FR 💥Goodbaye-191",
+                "FR 💥Goodbaye-192",
+                "FR 💥Goodbaye-193",
+                "FR 💥Goodbaye-194",
+                "US 💥Goodbaye-195",
+                "US 💥Goodbaye-196",
                 "US 💥Goodbaye-197",
-                "DE 💥Goodbaye-198",
-                "US 💥Goodbaye-199",
-                "LT 💥Goodbaye-200",
-                "IT 💥Goodbaye-201",
-                "DE 💥Goodbaye-202",
-                "DE 💥Goodbaye-203",
-                "DE 💥Goodbaye-204",
-                "CA 💥Goodbaye-205",
-                "PL 💥Goodbaye-206",
-                "RU 💥Goodbaye-207",
-                "ES 💥Goodbaye-208",
-                "US 💥Goodbaye-209",
-                "FR 💥Goodbaye-210",
-                "CY 💥Goodbaye-211",
-                "US 💥Goodbaye-212",
-                "US 💥Goodbaye-213",
-                "US 💥Goodbaye-214",
-                "DE 💥Goodbaye-215",
-                "DE 💥Goodbaye-216",
-                "ES 💥Goodbaye-217",
-                "DE 💥Goodbaye-218",
-                "RU 💥Goodbaye-219",
-                "US 💥Goodbaye-220",
-                "IL 💥Goodbaye-221",
-                "BG 💥Goodbaye-222",
-                "AM 💥Goodbaye-223",
-                "US 💥Goodbaye-224",
-                "US 💥Goodbaye-225",
-                "FR 💥Goodbaye-226",
-                "US 💥Goodbaye-227",
-                "NL 💥Goodbaye-228",
-                "NL 💥Goodbaye-229",
-                "KR 💥Goodbaye-230",
-                "FR 💥Goodbaye-231",
-                "US 💥Goodbaye-232",
-                "US 💥Goodbaye-233",
-                "FR 💥Goodbaye-234",
-                "SG 💥Goodbaye-235",
-                "SG 💥Goodbaye-236",
-                "US 💥Goodbaye-237",
-                "US 💥Goodbaye-238",
-                "US 💥Goodbaye-239"
+                "RU 💥Goodbaye-198",
+                "DE 💥Goodbaye-199",
+                "RU 💥Goodbaye-200",
+                "US 💥Goodbaye-201",
+                "SC 💥Goodbaye-202",
+                "IR 💥Goodbaye-203",
+                "US 💥Goodbaye-204",
+                "RU 💥Goodbaye-205",
+                "CA 💥Goodbaye-206",
+                "US 💥Goodbaye-207",
+                "DE 💥Goodbaye-208",
+                "FR 💥Goodbaye-209",
+                "IR 💥Goodbaye-210",
+                "IR 💥Goodbaye-211",
+                "IR 💥Goodbaye-212",
+                "FR 💥Goodbaye-213",
+                "GB 💥Goodbaye-214",
+                "US 💥Goodbaye-215",
+                "US 💥Goodbaye-216",
+                "DE 💥Goodbaye-217",
+                "FR 💥Goodbaye-218",
+                "SG 💥Goodbaye-219",
+                "RU 💥Goodbaye-220",
+                "US 💥Goodbaye-221",
+                "US 💥Goodbaye-222"
             ]
         },
         {
             "type": "urltest",
             "tag": "auto",
             "outbounds": [
-                "BG 💥Goodbaye-01",
+                "GB 💥Goodbaye-01",
                 "US 💥Goodbaye-02",
                 "NL 💥Goodbaye-03",
                 "NL 💥Goodbaye-04",
                 "NL 💥Goodbaye-05",
-                "NL 💥Goodbaye-06",
+                "DE 💥Goodbaye-06",
                 "NL 💥Goodbaye-07",
-                "NL 💥Goodbaye-08",
-                "NL 💥Goodbaye-09",
-                "DE 💥Goodbaye-10",
-                "US 💥Goodbaye-11",
-                "RU 💥Goodbaye-12",
+                "DE 💥Goodbaye-08",
+                "US 💥Goodbaye-09",
+                "NL 💥Goodbaye-10",
+                "GB 💥Goodbaye-11",
+                "GB 💥Goodbaye-12",
                 "GB 💥Goodbaye-13",
                 "GB 💥Goodbaye-14",
                 "GB 💥Goodbaye-15",
-                "GB 💥Goodbaye-16",
-                "GB 💥Goodbaye-17",
-                "GB 💥Goodbaye-18",
+                "NL 💥Goodbaye-16",
+                "NL 💥Goodbaye-17",
+                "NL 💥Goodbaye-18",
                 "GB 💥Goodbaye-19",
-                "NL 💥Goodbaye-20",
-                "NL 💥Goodbaye-21",
+                "GB 💥Goodbaye-20",
+                "GB 💥Goodbaye-21",
                 "GB 💥Goodbaye-22",
                 "GB 💥Goodbaye-23",
-                "GB 💥Goodbaye-24",
-                "GB 💥Goodbaye-25",
-                "GB 💥Goodbaye-26",
-                "GB 💥Goodbaye-27",
-                "GB 💥Goodbaye-28",
-                "GB 💥Goodbaye-29",
-                "GB 💥Goodbaye-30",
-                "GB 💥Goodbaye-31",
-                "GB 💥Goodbaye-32",
-                "TR 💥Goodbaye-33",
-                "FI 💥Goodbaye-34",
-                "DE 💥Goodbaye-35",
-                "DE 💥Goodbaye-36",
-                "US 💥Goodbaye-37",
-                "IT 💥Goodbaye-38",
-                "IT 💥Goodbaye-39",
-                "IT 💥Goodbaye-40",
-                "IT 💥Goodbaye-41",
-                "IT 💥Goodbaye-42",
+                "JP 💥Goodbaye-24",
+                "JP 💥Goodbaye-25",
+                "DE 💥Goodbaye-26",
+                "DE 💥Goodbaye-27",
+                "DE 💥Goodbaye-28",
+                "US 💥Goodbaye-29",
+                "US 💥Goodbaye-30",
+                "IT 💥Goodbaye-31",
+                "IT 💥Goodbaye-32",
+                "IT 💥Goodbaye-33",
+                "IT 💥Goodbaye-34",
+                "IT 💥Goodbaye-35",
+                "IT 💥Goodbaye-36",
+                "IT 💥Goodbaye-37",
+                "US 💥Goodbaye-38",
+                "US 💥Goodbaye-39",
+                "US 💥Goodbaye-40",
+                "US 💥Goodbaye-41",
+                "US 💥Goodbaye-42",
                 "US 💥Goodbaye-43",
-                "FR 💥Goodbaye-44",
-                "FR 💥Goodbaye-45",
+                "US 💥Goodbaye-44",
+                "US 💥Goodbaye-45",
                 "US 💥Goodbaye-46",
                 "US 💥Goodbaye-47",
                 "US 💥Goodbaye-48",
-                "US 💥Goodbaye-49",
-                "US 💥Goodbaye-50",
-                "US 💥Goodbaye-51",
-                "DE 💥Goodbaye-52",
-                "DE 💥Goodbaye-53",
-                "CH 💥Goodbaye-54",
-                "CH 💥Goodbaye-55",
-                "CA 💥Goodbaye-56",
+                "CA 💥Goodbaye-49",
+                "CA 💥Goodbaye-50",
+                "CA 💥Goodbaye-51",
+                "CA 💥Goodbaye-52",
+                "US 💥Goodbaye-53",
+                "US 💥Goodbaye-54",
+                "US 💥Goodbaye-55",
+                "US 💥Goodbaye-56",
                 "US 💥Goodbaye-57",
                 "US 💥Goodbaye-58",
                 "US 💥Goodbaye-59",
-                "US 💥Goodbaye-60",
+                "CL 💥Goodbaye-60",
                 "US 💥Goodbaye-61",
-                "US 💥Goodbaye-62",
-                "US 💥Goodbaye-63",
-                "SE 💥Goodbaye-64",
-                "US 💥Goodbaye-65",
+                "ES 💥Goodbaye-62",
+                "ES 💥Goodbaye-63",
+                "US 💥Goodbaye-64",
+                "SE 💥Goodbaye-65",
                 "US 💥Goodbaye-66",
                 "US 💥Goodbaye-67",
                 "US 💥Goodbaye-68",
                 "US 💥Goodbaye-69",
                 "US 💥Goodbaye-70",
-                "CH 💥Goodbaye-71",
+                "US 💥Goodbaye-71",
                 "US 💥Goodbaye-72",
                 "US 💥Goodbaye-73",
-                "BG 💥Goodbaye-74",
-                "LT 💥Goodbaye-75",
-                "ES 💥Goodbaye-76",
-                "SC 💥Goodbaye-77",
-                "SC 💥Goodbaye-78",
-                "DE 💥Goodbaye-79",
-                "US 💥Goodbaye-80",
+                "ES 💥Goodbaye-74",
+                "US 💥Goodbaye-75",
+                "US 💥Goodbaye-76",
+                "US 💥Goodbaye-77",
+                "US 💥Goodbaye-78",
+                "US 💥Goodbaye-79",
+                "CH 💥Goodbaye-80",
                 "US 💥Goodbaye-81",
-                "LV 💥Goodbaye-82",
-                "US 💥Goodbaye-83",
-                "FI 💥Goodbaye-84",
-                "IR 💥Goodbaye-85",
-                "SG 💥Goodbaye-86",
-                "SG 💥Goodbaye-87",
-                "LV 💥Goodbaye-88",
-                "US 💥Goodbaye-89",
-                "FR 💥Goodbaye-90",
-                "FI 💥Goodbaye-91",
-                "IR 💥Goodbaye-92",
-                "RU 💥Goodbaye-93",
-                "FI 💥Goodbaye-94",
+                "US 💥Goodbaye-82",
+                "BG 💥Goodbaye-83",
+                "SC 💥Goodbaye-84",
+                "DE 💥Goodbaye-85",
+                "US 💥Goodbaye-86",
+                "US 💥Goodbaye-87",
+                "US 💥Goodbaye-88",
+                "SG 💥Goodbaye-89",
+                "LV 💥Goodbaye-90",
+                "IL 💥Goodbaye-91",
+                "FR 💥Goodbaye-92",
+                "FI 💥Goodbaye-93",
+                "DE 💥Goodbaye-94",
                 "US 💥Goodbaye-95",
-                "KZ 💥Goodbaye-96",
-                "NL 💥Goodbaye-97",
-                "DE 💥Goodbaye-98",
-                "US 💥Goodbaye-99",
-                "US 💥Goodbaye-100",
+                "US 💥Goodbaye-96",
+                "US 💥Goodbaye-97",
+                "NL 💥Goodbaye-98",
+                "SG 💥Goodbaye-99",
+                "RS 💥Goodbaye-100",
                 "RS 💥Goodbaye-101",
                 "BG 💥Goodbaye-102",
                 "BG 💥Goodbaye-103",
                 "BG 💥Goodbaye-104",
-                "BG 💥Goodbaye-105",
-                "MD 💥Goodbaye-106",
-                "RS 💥Goodbaye-107",
-                "RS 💥Goodbaye-108",
-                "RS 💥Goodbaye-109",
-                "DE 💥Goodbaye-110",
-                "DE 💥Goodbaye-111",
-                "DE 💥Goodbaye-112",
-                "US 💥Goodbaye-113",
-                "CY 💥Goodbaye-114",
-                "PL 💥Goodbaye-115",
-                "DE 💥Goodbaye-116",
-                "NL 💥Goodbaye-117",
-                "NL 💥Goodbaye-118",
-                "NL 💥Goodbaye-119",
-                "NL 💥Goodbaye-120",
-                "NL 💥Goodbaye-121",
-                "NL 💥Goodbaye-122",
-                "NL 💥Goodbaye-123",
-                "NL 💥Goodbaye-124",
-                "NL 💥Goodbaye-125",
-                "NL 💥Goodbaye-126",
-                "FR 💥Goodbaye-127",
-                "CH 💥Goodbaye-128",
-                "DE 💥Goodbaye-129",
-                "NL 💥Goodbaye-130",
-                "RU 💥Goodbaye-131",
-                "RU 💥Goodbaye-132",
-                "NL 💥Goodbaye-133",
-                "US 💥Goodbaye-134",
-                "US 💥Goodbaye-135",
-                "CY 💥Goodbaye-136",
-                "US 💥Goodbaye-137",
-                "CH 💥Goodbaye-138",
-                "GB 💥Goodbaye-139",
-                "HK 💥Goodbaye-140",
-                "NL 💥Goodbaye-141",
-                "IR 💥Goodbaye-142",
-                "US 💥Goodbaye-143",
+                "SC 💥Goodbaye-105",
+                "SC 💥Goodbaye-106",
+                "SC 💥Goodbaye-107",
+                "CY 💥Goodbaye-108",
+                "TR 💥Goodbaye-109",
+                "NL 💥Goodbaye-110",
+                "NL 💥Goodbaye-111",
+                "NL 💥Goodbaye-112",
+                "FR 💥Goodbaye-113",
+                "CH 💥Goodbaye-114",
+                "DE 💥Goodbaye-115",
+                "CY 💥Goodbaye-116",
+                "GB 💥Goodbaye-117",
+                "HK 💥Goodbaye-118",
+                "FR 💥Goodbaye-119",
+                "TR 💥Goodbaye-120",
+                "CY 💥Goodbaye-121",
+                "GB 💥Goodbaye-122",
+                "US 💥Goodbaye-123",
+                "AT 💥Goodbaye-124",
+                "AE 💥Goodbaye-125",
+                "DE 💥Goodbaye-126",
+                "IR 💥Goodbaye-127",
+                "IQ 💥Goodbaye-128",
+                "NL 💥Goodbaye-129",
+                "PL 💥Goodbaye-130",
+                "PL 💥Goodbaye-131",
+                "PL 💥Goodbaye-132",
+                "AT 💥Goodbaye-133",
+                "FI 💥Goodbaye-134",
+                "FR 💥Goodbaye-135",
+                "RU 💥Goodbaye-136",
+                "RU 💥Goodbaye-137",
+                "EE 💥Goodbaye-138",
+                "US 💥Goodbaye-139",
+                "DE 💥Goodbaye-140",
+                "PL 💥Goodbaye-141",
+                "PL 💥Goodbaye-142",
+                "FR 💥Goodbaye-143",
                 "US 💥Goodbaye-144",
-                "AT 💥Goodbaye-145",
-                "AE 💥Goodbaye-146",
-                "NL 💥Goodbaye-147",
-                "NL 💥Goodbaye-148",
-                "SG 💥Goodbaye-149",
-                "RU 💥Goodbaye-150",
-                "FR 💥Goodbaye-151",
-                "CY 💥Goodbaye-152",
-                "GB 💥Goodbaye-153",
+                "TR 💥Goodbaye-145",
+                "US 💥Goodbaye-146",
+                "FI 💥Goodbaye-147",
+                "FI 💥Goodbaye-148",
+                "DE 💥Goodbaye-149",
+                "US 💥Goodbaye-150",
+                "DE 💥Goodbaye-151",
+                "US 💥Goodbaye-152",
+                "FR 💥Goodbaye-153",
                 "FI 💥Goodbaye-154",
-                "RU 💥Goodbaye-155",
+                "DE 💥Goodbaye-155",
                 "US 💥Goodbaye-156",
-                "US 💥Goodbaye-157",
-                "FI 💥Goodbaye-158",
+                "DE 💥Goodbaye-157",
+                "US 💥Goodbaye-158",
                 "NL 💥Goodbaye-159",
                 "NL 💥Goodbaye-160",
-                "NL 💥Goodbaye-161",
+                "US 💥Goodbaye-161",
                 "US 💥Goodbaye-162",
-                "US 💥Goodbaye-163",
-                "TR 💥Goodbaye-164",
-                "DE 💥Goodbaye-165",
+                "NL 💥Goodbaye-163",
+                "DE 💥Goodbaye-164",
+                "US 💥Goodbaye-165",
                 "US 💥Goodbaye-166",
-                "FI 💥Goodbaye-167",
+                "US 💥Goodbaye-167",
                 "US 💥Goodbaye-168",
-                "FR 💥Goodbaye-169",
-                "FR 💥Goodbaye-170",
-                "US 💥Goodbaye-171",
-                "RU 💥Goodbaye-172",
-                "US 💥Goodbaye-173",
-                "FR 💥Goodbaye-174",
-                "TR 💥Goodbaye-175",
-                "DE 💥Goodbaye-176",
+                "US 💥Goodbaye-169",
+                "US 💥Goodbaye-170",
+                "DE 💥Goodbaye-171",
+                "DE 💥Goodbaye-172",
+                "DE 💥Goodbaye-173",
+                "RU 💥Goodbaye-174",
+                "BR 💥Goodbaye-175",
+                "US 💥Goodbaye-176",
                 "DE 💥Goodbaye-177",
-                "DE 💥Goodbaye-178",
-                "CY 💥Goodbaye-179",
-                "NL 💥Goodbaye-180",
+                "US 💥Goodbaye-178",
+                "US 💥Goodbaye-179",
+                "US 💥Goodbaye-180",
                 "US 💥Goodbaye-181",
-                "US 💥Goodbaye-182",
-                "GB 💥Goodbaye-183",
+                "LT 💥Goodbaye-182",
+                "IT 💥Goodbaye-183",
                 "DE 💥Goodbaye-184",
                 "DE 💥Goodbaye-185",
-                "US 💥Goodbaye-186",
-                "US 💥Goodbaye-187",
-                "US 💥Goodbaye-188",
-                "US 💥Goodbaye-189",
-                "US 💥Goodbaye-190",
-                "DE 💥Goodbaye-191",
-                "RU 💥Goodbaye-192",
-                "US 💥Goodbaye-193",
-                "DE 💥Goodbaye-194",
-                "AL 💥Goodbaye-195",
-                "NL 💥Goodbaye-196",
+                "DE 💥Goodbaye-186",
+                "CA 💥Goodbaye-187",
+                "GB 💥Goodbaye-188",
+                "CA 💥Goodbaye-189",
+                "GB 💥Goodbaye-190",
+                "FR 💥Goodbaye-191",
+                "FR 💥Goodbaye-192",
+                "FR 💥Goodbaye-193",
+                "FR 💥Goodbaye-194",
+                "US 💥Goodbaye-195",
+                "US 💥Goodbaye-196",
                 "US 💥Goodbaye-197",
-                "DE 💥Goodbaye-198",
-                "US 💥Goodbaye-199",
-                "LT 💥Goodbaye-200",
-                "IT 💥Goodbaye-201",
-                "DE 💥Goodbaye-202",
-                "DE 💥Goodbaye-203",
-                "DE 💥Goodbaye-204",
-                "CA 💥Goodbaye-205",
-                "PL 💥Goodbaye-206",
-                "RU 💥Goodbaye-207",
-                "ES 💥Goodbaye-208",
-                "US 💥Goodbaye-209",
-                "FR 💥Goodbaye-210",
-                "CY 💥Goodbaye-211",
-                "US 💥Goodbaye-212",
-                "US 💥Goodbaye-213",
-                "US 💥Goodbaye-214",
-                "DE 💥Goodbaye-215",
-                "DE 💥Goodbaye-216",
-                "ES 💥Goodbaye-217",
-                "DE 💥Goodbaye-218",
-                "RU 💥Goodbaye-219",
-                "US 💥Goodbaye-220",
-                "IL 💥Goodbaye-221",
-                "BG 💥Goodbaye-222",
-                "AM 💥Goodbaye-223",
-                "US 💥Goodbaye-224",
-                "US 💥Goodbaye-225",
-                "FR 💥Goodbaye-226",
-                "US 💥Goodbaye-227",
-                "NL 💥Goodbaye-228",
-                "NL 💥Goodbaye-229",
-                "KR 💥Goodbaye-230",
-                "FR 💥Goodbaye-231",
-                "US 💥Goodbaye-232",
-                "US 💥Goodbaye-233",
-                "FR 💥Goodbaye-234",
-                "SG 💥Goodbaye-235",
-                "SG 💥Goodbaye-236",
-                "US 💥Goodbaye-237",
-                "US 💥Goodbaye-238",
-                "US 💥Goodbaye-239"
+                "RU 💥Goodbaye-198",
+                "DE 💥Goodbaye-199",
+                "RU 💥Goodbaye-200",
+                "US 💥Goodbaye-201",
+                "SC 💥Goodbaye-202",
+                "IR 💥Goodbaye-203",
+                "US 💥Goodbaye-204",
+                "RU 💥Goodbaye-205",
+                "CA 💥Goodbaye-206",
+                "US 💥Goodbaye-207",
+                "DE 💥Goodbaye-208",
+                "FR 💥Goodbaye-209",
+                "IR 💥Goodbaye-210",
+                "IR 💥Goodbaye-211",
+                "IR 💥Goodbaye-212",
+                "FR 💥Goodbaye-213",
+                "GB 💥Goodbaye-214",
+                "US 💥Goodbaye-215",
+                "US 💥Goodbaye-216",
+                "DE 💥Goodbaye-217",
+                "FR 💥Goodbaye-218",
+                "SG 💥Goodbaye-219",
+                "RU 💥Goodbaye-220",
+                "US 💥Goodbaye-221",
+                "US 💥Goodbaye-222"
             ],
             "url": "http://www.gstatic.com/generate_204",
             "interval": "5m"
